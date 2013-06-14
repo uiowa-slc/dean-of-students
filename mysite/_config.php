@@ -9,7 +9,7 @@ $databaseConfig = array(
 	"server" => 'localhost',
 	"username" => 'root',
 	"password" => 'omega',
-	"database" => 'SS_mysite',
+	"database" => 'vp',
 	"path" => '',
 );
 
