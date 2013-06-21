@@ -19,11 +19,11 @@
 	          </div>
          <% end_if %>
 	        <div class="hero-text">
-                <h2 class="blocktext">We offer a variety of counseling services, outreach, and training for University of Iowa students.</h2>
+                <h2 class="blocktext">Fostoring studnet success by creating and promoting inclusive educationally purposeful services and activities.</h2>
                 <ul>
-                    <li><a href="services/individual-counseling-and-psychotherapy/">Counseling</a></li>
-                    <li><a href="services/outreach">Outreach</a></li>
-                    <li><a href="services/training">Training</a></li>
+                    <li><a href="/vp-for-student-life/about/">Meet Tom</a></li>
+                    <li><a href="#">Staff</a></li>
+                    <li><a href="#">Give Now</a></li>
                 </ul>
             </div>
         </div>
