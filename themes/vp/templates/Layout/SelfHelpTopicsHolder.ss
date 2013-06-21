@@ -3,10 +3,11 @@
 <section class="container content-wrapper clearfix">
     $Breadcrumbs
     <section class="main-content">
+    	$Content
 		<% if SelectedTag %>
-			<h1>Self-Help/$SelectedTag</h1>
+			<h2>Self-Help/$SelectedTag</h2>
 		<% else %>
-			<h1>$Title</h1>
+			<h2>$Title</h2>
 		<% end_if %>
 			
 		<% if BlogEntries %>
