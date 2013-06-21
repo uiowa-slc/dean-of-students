@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="shortcut icon" href="{$ThemeDir}/images/favicon.ico" />
 	
-	<title>$Title - University of Iowa Counseling Services</title>
+	<title>$Title - Vice President For Student Life</title>
 	<link rel="stylesheet" href="{$ThemeDir}/css/master.css" />
 	<link rel="stylesheet" href="{$BaseHref}/division-bar/css/_division-bar.css" />
 	<!--[if lt IE 9]>
