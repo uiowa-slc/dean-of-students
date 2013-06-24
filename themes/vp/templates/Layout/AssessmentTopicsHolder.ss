@@ -3,11 +3,10 @@
 <section class="container content-wrapper clearfix">
     $Breadcrumbs
     <section class="main-content">
-    	$Content
 		<% if SelectedTag %>
-			<h2>Self-Help/$SelectedTag</h2>
+			<h1>Self-Help/$SelectedTag</h1>
 		<% else %>
-			<h2>$Title</h2>
+			<h1>$Title</h1>
 		<% end_if %>
 			
 		<% if BlogEntries %>
@@ -20,16 +19,16 @@
 		
 		<% include BlogPagination %>
     </section>
-    <section class="sec-content hide-print">
-    	<!--
+    <section class="sec-content">
+    	
     	<% with $SearchForm %>
-	    	<form $FormAttributes>
-	            <label>Search</label>
-	            <input type="search" placeholder="Search" results="5" name="Search" class="">
-	            <input type="submit" class="">
-	        </form>
+    	 <form $FormAttributes>
+            <label>Search</label>
+            <input type="search" placeholder="Search" results="5" name="Search" class="">
+            <input type="submit" class="">
+        </form>
         <% end_with %>
-		-->
+
     	
     	<% include BlogSideBar %>
     </section>
