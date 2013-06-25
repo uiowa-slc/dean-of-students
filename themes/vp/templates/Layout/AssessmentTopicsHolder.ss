@@ -11,7 +11,7 @@
 			
 		<% if BlogEntries %>
 			<% loop BlogEntries %>
-				<% include SelfHelpTopicSummary %>
+				<% include TopicSummary %>
 			<% end_loop %>
 		<% else %>
 			<h2><% _t('NOENTRIES', 'There are no entries with this tag.') %></h2>
