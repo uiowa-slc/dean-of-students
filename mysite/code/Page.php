@@ -45,16 +45,17 @@ class Page extends SiteTree {
 		$f = parent::getCMSFields();
 
 		$gridFieldConfig = GridFieldConfig_RelationEditor::create();
-		$gridFieldConfig->addComponent(new GridFieldManyRelationHandler(), 'GridFieldPaginator');
+		
 		$row = "SortOrder";
 		$gridFieldConfig->addComponent($sort = new GridFieldSortableRows(stripslashes($row))); 
-		
+		//$gridFieldConfig->addComponent(new GridFieldManyRelationHandler(), 'GridFieldPaginator');
 		$sort->table = 'Page_SidebarItems'; 
 		$sort->parentField = 'PageID'; 
 		$sort->componentField = 'SidebarItemID'; 
 
 		$gridField = new GridField("SidebarItems", "Sidebar Items", $this->SidebarItems(), $gridFieldConfig);
 		$f->addFieldToTab("Root.Sidebar", new LabelField("SidebarLabel", "<h2>Add sidebar items below</h2>"));
+		$f->addFieldToTab("Root.Sidebar", new LiteralField("SidebarManageLabel", '<p><a href="admin/sidebar-items" target="_blank">View and Manage Sidebar Items &raquo;</a></p>'));
 		$f->addFieldToTab("Root.Sidebar", $gridField); // add the grid field to a tab in the CMS
 
 		return $f;
@@ -124,7 +125,9 @@ class Page_Controller extends ContentController {
 			$customise = array();
 			/*** SET DEFAULTS ***/
 			$customise['BlogPage'] = $page;
-			$customise['Tag'] = $arguments['tag'];
+			if(isset($arguments['tag'])){
+				$customise['Tag'] = $arguments['tag'];
+			}
 			//$customise['Title'] = $title ? Convert::raw2xml($title) : false;
 			 
 			//overide the defaults with the arguments supplied

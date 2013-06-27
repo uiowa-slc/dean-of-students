@@ -64,8 +64,6 @@
 				return $link;
 			}
 			
-			echo "Link: ".$link;
-			
 			return false;
 			
 		}
