@@ -1,5 +1,5 @@
 <?php
-class AssessmentTopicsHolder extends BlogHolder {
+class ReportsHolder extends BlogHolder {
 
 	public static $db = array(
 	);
@@ -11,11 +11,11 @@ class AssessmentTopicsHolder extends BlogHolder {
 	public static $has_many = array(
 	);
 	
-	static $singular_name = 'Assessment Topic Holder';
+	static $singular_name = 'Report Holder';
 	
-	static $plural_name = 'Assessment Topic Holders';
+	static $plural_name = 'Report Holders';
 
-	public static $allowed_children = array("AssessmentTopic","BlogEntry");
+	public static $allowed_children = array("ReportPage");
 	
 	public function getCMSFields(){
 		$f = parent::getCMSFields();
@@ -29,7 +29,7 @@ class AssessmentTopicsHolder extends BlogHolder {
 		return $f;
 	}
 }
-class AssessmentTopicsHolder_Controller extends BlogHolder_Controller {
+class ReportsHolder_Controller extends BlogHolder_Controller {
 
 	/**
 	 * An array of actions that can be accessed via a request. Each array element should be an action name, and the

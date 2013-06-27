@@ -1,5 +1,5 @@
 <?php
-class TopicsHolder extends BlogHolder {
+class ReportPage extends BlogEntry {
 
 	public static $db = array(
 	);
@@ -11,11 +11,10 @@ class TopicsHolder extends BlogHolder {
 	public static $has_many = array(
 	);
 	
-	static $singular_name = 'Topic Holder';
+	static $singular_name = 'Report';
 	
-	static $plural_name = 'Topic Holders';
-
-	public static $allowed_children = array("Topic","BlogEntry");
+	static $plural_name = 'Reports';
+	/* This is a GLOBAL change that should happen on all CISL sites */
 	
 	public function getCMSFields(){
 		$f = parent::getCMSFields();
@@ -29,7 +28,7 @@ class TopicsHolder extends BlogHolder {
 		return $f;
 	}
 }
-class TopicsHolder_Controller extends BlogHolder_Controller {
+class ReportPage_Controller extends BlogEntry_Controller {
 
 	/**
 	 * An array of actions that can be accessed via a request. Each array element should be an action name, and the
