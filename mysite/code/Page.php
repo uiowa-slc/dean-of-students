@@ -109,5 +109,34 @@ class Page_Controller extends ContentController {
 		$ret->setBody($temp);
 		return $ret;
 	} */
+	public static function BlogFeedHandler($arguments){
+		//example: [blogfeed page="news" tags="assessment"]Assessment News[/blogfeed]
+		
+		if (empty($arguments['page'])) {
+		    return;
+		}
+		
+		$pageURLSegment = $arguments['page'];
+		$page = DataObject::get("Page")->filter("URLSegment", $pageURLSegment)->first();
+		//print_r($page);
+		if($page){
+		 
+			$customise = array();
+			/*** SET DEFAULTS ***/
+			$customise['BlogPage'] = $page;
+			$customise['Tag'] = $arguments['tag'];
+			//$customise['Title'] = $title ? Convert::raw2xml($title) : false;
+			 
+			//overide the defaults with the arguments supplied
+			$customise = array_merge($customise,$arguments);
+			 
+			//get our YouTube template
+			$template = new SSViewer('SidebarBlogFeed');
+			 
+			//return the customised template
+			return $template->process(new ArrayData($customise));	
+		}	
+		
+	}
 
 }
