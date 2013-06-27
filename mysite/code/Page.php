@@ -100,6 +100,7 @@ class Page_Controller extends ContentController {
     Requirements::block('division-bar/css/_division-bar.css');
 	}
 
+
 	/* Clear Out Empty Lines from SS Template Indents */
 	/*public function handleRequest(SS_HTTPRequest $request, DataModel $model) {
 		$ret = parent::handleRequest($request, $model);

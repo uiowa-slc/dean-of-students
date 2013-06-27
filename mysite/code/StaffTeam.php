@@ -7,7 +7,7 @@ class StaffTeam extends DataObject {
 	
 	);
 
-	public static $has_many = array(
+	public static $many_many = array(
 		"StaffPages" => "StaffPage"
 	);
 	
@@ -19,5 +19,13 @@ class StaffTeam extends DataObject {
    public static $default_sort = array(
    		"SortOrder"
    );
+   
+      public function getCMSFields() {
+		$f = parent::getCMSFields();
+		
+		$f->addFieldToTab('Root.Main', new CheckboxSetField("StaffPages", 'Team <a href="admin/pages/edit/show/14" target="_blank">(Manage Teams)</a>', StaffPage::get()->map('ID', 'Title')));
+		return $f;
+		
+     }
 
 }
