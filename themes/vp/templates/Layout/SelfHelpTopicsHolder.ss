@@ -5,7 +5,7 @@
     <section class="main-content">
     	$Content
 		<% if SelectedTag %>
-			<h2>Self-Help/$SelectedTag</h2>
+			<h2>$SelectedTag</h2>
 		<% else %>
 			<h2>$Title</h2>
 		<% end_if %>

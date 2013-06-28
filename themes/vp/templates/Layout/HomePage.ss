@@ -29,7 +29,7 @@
         </div>
 
     </div>
-	<section class="home-highlights padding">
+	<section class="home-highlights">
         <div class="container clearfix">
 	        <% loop HomePageFeatures %>
 	            <div class="module">

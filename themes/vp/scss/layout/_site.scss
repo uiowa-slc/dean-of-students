@@ -64,6 +64,7 @@ body {
 	@media screen and (min-width: $break-medium) {
 		border-right: 1px solid #ddd;
 		padding-right: 1.5em;
+		padding-bottom: 2em;
 		width: 72%;
 	}
 	
@@ -75,7 +76,11 @@ body {
 		width: 28%;
 	}
 }
-.padding {padding: 3em 0;}
+.topics {
+	background: #fafafa;
+	border-top: 1px solid #ddd;
+	padding: 3em 0;
+}
 
 
 /* Header
@@ -140,7 +145,6 @@ body {
 	margin-bottom: 1em;
 }
 .mod h3 {
-	border-bottom: 1px solid #ddd;
 	@include rem(21);
 	margin-bottom: .8em;
 	padding-bottom: 5px;
