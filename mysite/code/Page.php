@@ -45,17 +45,18 @@ class Page extends SiteTree {
 		$f = parent::getCMSFields();
 
 		$gridFieldConfig = GridFieldConfig_RelationEditor::create();
-		$gridFieldConfig->addComponent(new GridFieldManyRelationHandler(), 'GridFieldPaginator');
+		
+		$row = "SortOrder";
+		$gridFieldConfig->addComponent($sort = new GridFieldSortableRows(stripslashes($row))); 
+		//$gridFieldConfig->addComponent(new GridFieldManyRelationHandler(), 'GridFieldPaginator');
+		$sort->table = 'Page_SidebarItems'; 
+		$sort->parentField = 'PageID'; 
+		$sort->componentField = 'SidebarItemID'; 
 
 		$gridField = new GridField("SidebarItems", "Sidebar Items", $this->SidebarItems(), $gridFieldConfig);
 		$f->addFieldToTab("Root.Sidebar", new LabelField("SidebarLabel", "<h2>Add sidebar items below</h2>"));
+		$f->addFieldToTab("Root.Sidebar", new LiteralField("SidebarManageLabel", '<p><a href="admin/sidebar-items" target="_blank">View and Manage Sidebar Items &raquo;</a></p>'));
 		$f->addFieldToTab("Root.Sidebar", $gridField); // add the grid field to a tab in the CMS
-
-		/*$gridFieldConfig2 = GridFieldConfig_RelationEditor::create();
-		$gridFieldConfig2->addComponent(new GridFieldSortableRows('SortOrder'));
-		$gridField2 = new GridField("CurrentSidebarItems", "Sidebar Items", $this->SidebarItems(), $gridFieldConfig2);
-		$f->addFieldToTab("Root.Sidebar", new LabelField("SidebarLabel", "<h2>Sort the Sidebar Items Below</h2>"));
-		$f->addFieldToTab("Root.Sidebar", $gridField2); // add the grid field to a tab in the CMS*/
 
 		return $f;
 	}
@@ -100,6 +101,7 @@ class Page_Controller extends ContentController {
     Requirements::block('division-bar/css/_division-bar.css');
 	}
 
+
 	/* Clear Out Empty Lines from SS Template Indents */
 	/*public function handleRequest(SS_HTTPRequest $request, DataModel $model) {
 		$ret = parent::handleRequest($request, $model);
@@ -108,5 +110,36 @@ class Page_Controller extends ContentController {
 		$ret->setBody($temp);
 		return $ret;
 	} */
+	public static function BlogFeedHandler($arguments){
+		//example: [blogfeed page="news" tags="assessment"]Assessment News[/blogfeed]
+		
+		if (empty($arguments['page'])) {
+		    return;
+		}
+		
+		$pageURLSegment = $arguments['page'];
+		$page = DataObject::get("Page")->filter("URLSegment", $pageURLSegment)->first();
+		//print_r($page);
+		if($page){
+		 
+			$customise = array();
+			/*** SET DEFAULTS ***/
+			$customise['BlogPage'] = $page;
+			if(isset($arguments['tag'])){
+				$customise['Tag'] = $arguments['tag'];
+			}
+			//$customise['Title'] = $title ? Convert::raw2xml($title) : false;
+			 
+			//overide the defaults with the arguments supplied
+			$customise = array_merge($customise,$arguments);
+			 
+			//get our YouTube template
+			$template = new SSViewer('SidebarBlogFeed');
+			 
+			//return the customised template
+			return $template->process(new ArrayData($customise));	
+		}	
+		
+	}
 
 }
