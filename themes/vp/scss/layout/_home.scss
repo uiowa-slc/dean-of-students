@@ -51,10 +51,7 @@
 		background: rgba(0,0,0,.8);
 		color: #fff;
 		display: inline;
-		@include rem(36);
-	}
-	@media screen and (min-width: $break-medium) {
-		@include rem(42);
+		@include rem(35);
 	}
 }
 .hero-text ul {
