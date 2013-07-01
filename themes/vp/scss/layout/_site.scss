@@ -312,4 +312,23 @@ aside .mod {
 .pagination .disabled a:hover {
 	background: #fff;
 }
+/* Sidebar Blog Feeds */
+.feed-nav ul {
+	margin: 0;
+	
+}
+.feed-nav li{
+	list-style-type: none;
+	border-bottom: 1px solid #ddd;
+	padding: 0.5em 0;
+}
 
+.feed-nav .read-more{
+	display: block;
+	float: right;
+	margin-top: 1em;
+}
+
+.feed-nav .read-more:after{
+	clear: both;
+}
