@@ -1,5 +1,5 @@
 <div class="img-container" style="background: #000 url({$ThemeDir}/images/img-test.jpg) no-repeat center top;"></div>
-<div style="position: relative;">
+<div style="background: #fafafa;position: relative;">
 	<div class="img-fifty"></div>
 	<section class="container content-wrapper clearfix">
 	    <!-- $Breadcrumbs -->
