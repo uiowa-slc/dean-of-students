@@ -1,7 +1,10 @@
-    <div class="main-bg"></div>
-        
+    <!-- <div class="main-bg"></div> -->
+
+<div class="img-container" style="background: #000 url({$ThemeDir}/images/img-test.jpg) no-repeat center top;"></div>
+<div style="position: relative;">
+	<div class="img-fifty"></div>
     <section class="container content-wrapper clearfix">
-        $Breadcrumbs
+        <!-- $Breadcrumbs -->
         <section class="main-content">
         <h1>$Title</h1>
 				<% if SelectedTag %>
@@ -33,6 +36,7 @@
         	<% include BlogSideBar %>
         </section>
     </section>
-    <% include TopicsAndNews %>
+</div>
+<% include TopicsAndNews %>
         
     

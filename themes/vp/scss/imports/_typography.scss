@@ -20,10 +20,12 @@ h1,h2,h3,h4,h5,h6 {
     text-rendering: optimizelegibility;
 }
 h1 {
-    @include rem(40);
-    margin: .75em 0 .5em;
+    @include rem(60);
+    font-weight: 300;
+    line-height: 1.2;
+    margin: .25em 0;
     text-transform: uppercase;
-	border-bottom: 5px solid #333;
+	xborder-bottom: 5px solid #333;
 	padding-bottom: 10px;
 }
 h2 {
