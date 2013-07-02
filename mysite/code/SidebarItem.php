@@ -5,6 +5,8 @@
 		public static $db = array(
 			"Title" => "Text",
 			"Content" => "HTMLText",
+			"UseExternalLink" => "Boolean",
+			"ExternalLink" => "Text"
 			
 		);
 		
@@ -32,7 +34,9 @@
 			
 			$fields->push( new TextField( 'Title', 'Title' ));
 			//$fields->push( new TextField( 'SortOrder', 'SortOrder' ));
-			$fields->push( new TreeDropdownField("AssociatedPageID", "Link to this page", "SiteTree"));			
+			$fields->push( new TreeDropdownField("AssociatedPageID", "Link to this page", "SiteTree"));
+			$fields->push( new CheckboxField( 'UseExternalLink', 'Use an external link instead (below)' ));
+			$fields->push( new TextField( 'ExternalLink', 'External Link' ));			
 			$fields->push( new HTMLEditorField( 'Content', 'Content' ));
 			$fields->push( new UploadField( 'Image', 'Image' ));
 			
@@ -47,6 +51,21 @@
 
 
 			return $fields; 
+		}
+		
+		public function Link(){
+			
+			if($this->UseExternalLink){
+				$link = $this->ExternalLink;
+				return $link;
+			}else{
+				$associatedPage = $this->AssociatedPage();
+				$link = $associatedPage->Link();
+				return $link;
+			}
+			
+			return false;
+			
 		}
 		
 	}

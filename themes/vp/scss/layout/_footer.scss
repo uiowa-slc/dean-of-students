@@ -9,7 +9,7 @@
 }
 .footer p {
 	@media screen and (min-width: $break-small) {
-		@include rem(12);
+		@include rem(13);
 	}
 	
 }
@@ -48,7 +48,7 @@
 	}
 	@media screen and (min-width: $break-small) {
 		border-left: 1px solid #2e2e2e;
-		@include rem(12);
+		@include rem(13);
 		padding: 5px 0 5px 10px;
 	}
 }
