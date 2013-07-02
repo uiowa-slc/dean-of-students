@@ -6,6 +6,7 @@ class Page extends SiteTree {
 	);
 
 	public static $has_one = array(
+		"BackgroundImage" => "Image"
 	);
 
 
@@ -43,6 +44,8 @@ class Page extends SiteTree {
 
 	public function getCMSFields(){
 		$f = parent::getCMSFields();
+		$f->addFieldToTab("Root.Main", new UploadField("BackgroundImage", "Background Image"));
+		
 
 		$gridFieldConfig = GridFieldConfig_RelationEditor::create();
 		
