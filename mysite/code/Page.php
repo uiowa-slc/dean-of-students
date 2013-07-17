@@ -44,7 +44,7 @@ class Page extends SiteTree {
 
 	public function getCMSFields(){
 		$f = parent::getCMSFields();
-		$f->addFieldToTab("Root.Main", new UploadField("BackgroundImage", "Background Image"));
+		$f->addFieldToTab("Root.Main", new UploadField("BackgroundImage", "Background Image"), "Content");
 		
 
 		$gridFieldConfig = GridFieldConfig_RelationEditor::create();
@@ -113,6 +113,36 @@ class Page_Controller extends ContentController {
 		$ret->setBody($temp);
 		return $ret;
 	} */
+	
+	public static function StaffSpotlightHandler($arguments, $content){
+		//example: [spotlight]Faces behind the scenes focuses on a person in the Division every month.[/spotlight]
+		
+		$blogHolder = DataObject::get_by_id('BlogHolder', 133);
+		
+		$latestStaffSpotlight = $blogHolder->Entries(1, 'faces')->first();
+		
+		//print_r($blogHolder);
+		//$latestStaffSpotlight = BlogEntry::get()->
+		if($latestStaffSpotlight){
+		 
+			$customise = array();
+			/*** SET DEFAULTS ***/
+			$customise['BlogPage'] = $latestStaffSpotlight;
+			$customise['SidebarContent'] = $content;
+			 
+			//overide the defaults with the arguments supplied
+			$customise = array_merge($customise,$arguments);
+			 
+			//get our YouTube template
+			$template = new SSViewer('SidebarSpotlight');
+			 
+			//return the customised template
+			return $template->process(new ArrayData($customise));	
+		}	
+		
+		
+		
+	}
 	public static function BlogFeedHandler($arguments){
 		//example: [blogfeed page="news" tags="assessment"]Assessment News[/blogfeed]
 		
