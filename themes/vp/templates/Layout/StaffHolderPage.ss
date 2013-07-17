@@ -23,6 +23,11 @@
                                           
                                           <img src="$Photo.SetWidth(350).URL" alt="$FirstName $LastName" class="staff-img">
                                     </a>
+                                    <% else %>
+                                    <a href="$Link" class="staff-link">
+                                          
+                                          <img src="{$ThemeDir}/images/dosl.png" alt="$FirstName $LastName" class="staff-img">
+                                    </a>
                                     <% end_if %>
                                     <p class="staff-name">
                                           <a href="$Link">$FirstName $LastName</a>
