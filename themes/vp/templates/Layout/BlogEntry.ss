@@ -1,15 +1,8 @@
-<!-- <div class="main-bg"></div> -->
-<% if $BackgroundImage %>
-    <div class="img-container" style="background: #000 url($BackgroundImage.URL) no-repeat center top;"></div>
-<% else %>
-    <div class="img-container" style="background: #000 url({$ThemeDir}/images/img-test.jpg) no-repeat center top;"></div>
-<% end_if %>
-<div style="background: #fafafa;position: relative;">
+<div style="background: #fafafa;position: relative;" class="news">
     <div class="img-fifty"></div>
     <section class="container content-wrapper clearfix">
         <!-- $Breadcrumbs -->
         <section class="main-content">
-
             <article>
                 <h1 class="postTitle">$Title</h1>
                 <!-- <p class="authorDate"><% _t('POSTEDBY', 'Posted by') %> $Author.XML <% _t('POSTEDON', 'on') %> $Date.Long</p> -->

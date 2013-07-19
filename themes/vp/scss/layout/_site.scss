@@ -44,7 +44,11 @@ body {
 	}
 }
 .content-wrapper {
-	xbackground: #fff;
+	background: #fff;
+	padding: 0;
+	@media screen and (min-width: $break-medium) {
+		background: #fafafa;
+	}
 	@media screen and (min-width: $break-xlarge) {
 		margin-left: auto;
 		margin-right: auto;
@@ -56,31 +60,40 @@ body {
 	}
 }
 .main-content {
+	padding: 0 1em;
 	@media screen and (min-width: $break-medium) {
 		background: #fff;
 		border-right: 1px solid #ddd;
-		min-height: 700px;
+		min-height: 1100px;
 		padding-right: 1.5em;
-		padding-bottom: 3em;
+		xpadding-bottom: 3em;
 		width: 72%;
 		position: relative;
 		margin-top: -85px;
 		padding-top: 2em;
+		
 	}
-	
+}
+.news .main-content {
+	margin-top: 0;
 }
 .sec-content {
+	padding: 0 1em;
 	@media screen and (min-width: $break-medium) {
+		background: #fafafa;
 		border-left: 1px solid #ddd;
 		margin-left: -1px;
-		padding-bottom: 3em;
+		xpadding-bottom: 3em;
 		width: 28%;
+		padding-left: 0;
+
 	}
 }
 .topics {
 	xbackground: #fafafa;
 	border-top: 1px solid #ddd;
 	padding: 3em 0;
+	position: relative;
 }
 
 
@@ -362,16 +375,48 @@ aside .mod {
 /* Img
 ========================================================================== */
 .img-container {
-	height: 400px;
+	background-color: #000;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+	position: relative;
+	xpadding-top: 25%;
+	@media screen and (min-width: $break-medium) {
+		height: 400px;
+		padding-top: 0;
+		background-size: auto;
+	}
+	
 
 }
 .img-fifty {
-	background: #ffffff;
-	position: absolute;
-	left: 0px;
-	width: 50%;
-	height: 100%;
-	top: -85px;
+	visibility: hidden;
+	@media screen and (min-width: $break-medium) {
+		background: #ffffff;
+		position: absolute;
+		left: 0;
+		width: 71%;
+		height: 115%;
+		top: 0;
+		visibility: visible;
+	}
+	
+}
+.img-fifty-top {
+	visibility: hidden;
+	@media screen and (min-width: $break-medium) {
+		background: #ffffff;
+		position: absolute;
+		left: 0;
+		width: 50%;
+		height: 85px;
+		bottom: 0;
+		visibility: visible;
+	}
+}
+.news .img-fifty {
+	top: 0;
 }
 
 
