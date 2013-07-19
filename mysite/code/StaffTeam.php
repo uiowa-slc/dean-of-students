@@ -8,9 +8,13 @@ class StaffTeam extends DataObject {
 	);
 
 	public static $many_many = array(
-		"StaffPages" => "StaffPage"
+		"StaffPages" => "StaffPage",
+		"StaffHolderPages" => "StaffHolderPage"
 	);
 	
+	public static $belongs_many_many = array(
+		
+	);
 	
 	public static $summary_fields = array( 
 	  'Name' => 'Name',

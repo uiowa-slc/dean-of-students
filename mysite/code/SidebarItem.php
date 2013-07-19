@@ -6,7 +6,8 @@
 			"Title" => "Text",
 			"Content" => "HTMLText",
 			"UseExternalLink" => "Boolean",
-			"ExternalLink" => "Text"
+			"ExternalLink" => "Text",
+			"ShowHeading" => "Boolean"
 			
 		);
 		
@@ -21,6 +22,10 @@
 		
 		);
 		
+		public static $defaults = array(
+			"ShowHeading" => 1,
+		);
+		
 		
 		public static $summary_fields = array (
 			"Title",
@@ -32,7 +37,10 @@
 		function getCMSFields() { 
 			$fields = new FieldList(); 
 			
+			
+
 			$fields->push( new TextField( 'Title', 'Title' ));
+			$fields->push( new CheckboxField( 'ShowHeading', 'Show the default heading above' ));
 			//$fields->push( new TextField( 'SortOrder', 'SortOrder' ));
 			$fields->push( new TreeDropdownField("AssociatedPageID", "Link to this page", "SiteTree"));
 			$fields->push( new CheckboxField( 'UseExternalLink', 'Use an external link instead (below)' ));

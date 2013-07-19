@@ -57,3 +57,5 @@ HtmlEditorConfig::get('cms')->setOption('paste_remove_styles_if_webkit','true');
 HtmlEditorConfig::get('cms')->setOption('paste_strip_class_attributes','true');
 GD::set_default_quality(80);
 ShortcodeParser::get()->register('blogfeed',array('Page_Controller','BlogFeedHandler'));
+ShortcodeParser::get()->register('spotlight',array('Page_Controller','StaffSpotlightHandler'));
+Object::add_extension("BlogEntry","BlogFieldExtension");

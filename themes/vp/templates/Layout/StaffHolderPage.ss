@@ -11,7 +11,7 @@
             <section class="staff-content">
             	$Form
             	$Content
-            	<% loop StaffTeams %>
+            	<% loop Teams %>
                         
             	     <h2 class="staff-title">$Title</h2>
 
@@ -22,6 +22,11 @@
                                     <a href="$Link" class="staff-link">
                                           
                                           <img src="$Photo.SetWidth(350).URL" alt="$FirstName $LastName" class="staff-img">
+                                    </a>
+                                    <% else %>
+                                    <a href="$Link" class="staff-link">
+                                          
+                                          <img src="{$ThemeDir}/images/dosl.png" alt="$FirstName $LastName" class="staff-img">
                                     </a>
                                     <% end_if %>
                                     <p class="staff-name">
