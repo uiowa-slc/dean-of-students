@@ -2,19 +2,24 @@
 class StaffHolderPage extends Page {
 
 	public static $db = array(
+		
 	);
 
 	public static $has_one = array(
 	
 	);
 
-	public static $has_many = array(
+	public static $belongs_many_many = array(
+		"Teams" => "StaffTeam"
 	);
 
 	public static $allowed_children = array("StaffPage");
 	
 	public function getCMSFields(){
 		$f = parent::getCMSFields();
+		
+		$f->addFieldToTab('Root.Main', new CheckboxSetField("Teams", 'Show the following staff teams on this page:', StaffTeam::get()->map('ID', 'Title')));
+		
 		//$f->removeByName("Content");
 		$gridFieldConfig = GridFieldConfig_RecordEditor::create();
 		$gridFieldConfig->addComponent(new GridFieldSortableRows('SortOrder'));

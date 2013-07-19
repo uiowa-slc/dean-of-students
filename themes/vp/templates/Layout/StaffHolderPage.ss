@@ -11,7 +11,7 @@
             <section class="staff-content">
             	$Form
             	$Content
-            	<% loop StaffTeams %>
+            	<% loop Teams %>
                         
             	     <h2 class="staff-title">$Title</h2>
 
