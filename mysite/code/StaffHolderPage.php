@@ -18,7 +18,7 @@ class StaffHolderPage extends Page {
 	public function getCMSFields(){
 		$f = parent::getCMSFields();
 		
-		$f->addFieldToTab('Root.Main', new CheckboxSetField("Teams", 'Show the following staff teams on this page:', StaffTeam::get()->map('ID', 'Title')));
+		$f->addFieldToTab('Root.Main', new CheckboxSetField("Teams", 'Show the following staff teams on this page:', StaffTeam::get()->map('ID', 'Title')), 'Content');
 		
 		//$f->removeByName("Content");
 		$gridFieldConfig = GridFieldConfig_RecordEditor::create();
@@ -26,7 +26,7 @@ class StaffHolderPage extends Page {
 		
 		
 		$gridField = new GridField("StaffTeam", "Staff Teams", StaffTeam::get(), $gridFieldConfig);
-		$f->addFieldToTab("Root.Main", $gridField); // add the grid field to a tab in the CMS	
+		$f->addFieldToTab("Root.Main", $gridField, "Content"); // add the grid field to a tab in the CMS	
 		return $f;
 	}
 	
