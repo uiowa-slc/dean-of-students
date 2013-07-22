@@ -14,6 +14,10 @@
                         <% end_control %>
                     </p>
                 <% end_if %>
+                
+                <% if $Image %>
+                    <img src="$Image.CroppedImage(765,512).URL" alt="">
+                <% end_if %>
 
                 $Content        
 
