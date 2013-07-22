@@ -65,13 +65,10 @@ body {
 		background: #fff;
 		border-right: 1px solid #ddd;
 		min-height: 1100px;
-		padding-right: 1.5em;
-		xpadding-bottom: 3em;
 		width: 72%;
 		position: relative;
 		margin-top: -85px;
-		padding-top: 2em;
-		
+		padding: 2em 1.5em 3em 1em;
 	}
 }
 .news .main-content {
@@ -83,7 +80,7 @@ body {
 		background: #fafafa;
 		border-left: 1px solid #ddd;
 		margin-left: -1px;
-		xpadding-bottom: 3em;
+		padding-bottom: 3em;
 		width: 28%;
 		padding-left: 0;
 
