@@ -21,7 +21,7 @@
                                     <% if $Photo %>
                                     <a href="$Link" class="staff-link">
                                           
-                                          <img src="$Photo.SetWidth(350).URL" alt="$FirstName $LastName" class="staff-img">
+                                          <img src="$Photo.CroppedImage(350,234).URL" alt="$FirstName $LastName" class="staff-img">
                                     </a>
                                     <% else %>
                                     <a href="$Link" class="staff-link">
