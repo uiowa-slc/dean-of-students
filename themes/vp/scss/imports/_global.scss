@@ -15,10 +15,20 @@ img { display: inline-block; -ms-interpolation-mode: bicubic; vertical-align: mi
 .clearfix:after { clear: both;}
 .clearfix { *zoom: 1;}
 
-.left {float: left;}
-.right{float: right;}
-img.left  {margin-right: 1em; margin-bottom: 1em;}
-img.right {margin-left: 1em; margin-bottom: 1em;}
+img.left {
+	@media screen and (min-width: $break-small) {
+		float: left;
+		margin-right: 1em;
+		margin-bottom: 1em;
+	}
+}
+img.right{
+	@media screen and (min-width: $break-small) {
+		float: right;
+		margin-left: 1em;
+		margin-bottom: 1em;
+	}
+}
 
 .text-left	  {text-align: left;}
 .text-right	  {text-align: right;}
