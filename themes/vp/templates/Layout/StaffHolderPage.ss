@@ -1,12 +1,5 @@
-<!-- <div class="main-bg"></div> -->
-<% if $BackgroundImage %>
-      <div class="img-container" style="background: #000 url($BackgroundImage.URL) no-repeat center top;"></div>
-    <% else %>
-      <div class="img-container" style="background: #000 url({$ThemeDir}/images/img-test.jpg) no-repeat center top;"></div>
-<% end_if %>
 <div style="position: relative;">
-      <!-- <div class="img-fifty"></div> -->
-      <section class="container content-wrapper clearfix">
+      <section class="container content-wrapper clearfix staff">
             <!-- $Breadcrumbs -->
             <section class="staff-content">
             	$Form

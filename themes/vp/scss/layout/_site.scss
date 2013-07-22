@@ -54,6 +54,9 @@ body {
 		margin-right: auto;
 	}
 }
+.content-wrapper.staff {
+	background-color: #fff;
+}
 .main-content, .sec-content {
 	@media screen and (min-width: $break-medium) {
 		float: left;
