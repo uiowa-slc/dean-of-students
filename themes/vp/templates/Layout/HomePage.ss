@@ -7,11 +7,25 @@
                 <% loop HomePageHeroFeatures %>
                 <div class="hero-article clearfix">
                     <% if $Image %>
-                        <a href="$AssociatedPage.Link"><img src="$Image.URL" alt=""></a>
+                    	<% if $UseExternalLink %>
+                    		<a href="$ExternalLink" target="_blank"><img src="$Image.URL" alt=""></a>
+                    	<% else %>
+                        	<a href="$AssociatedPage.Link"><img src="$Image.URL" alt=""></a>
+                        <% end_if %>
                     <% end_if %>
-                    <h3 class="hero-title"><a href="$AssociatedPage.Link">$Title</a></h3>
+                    <h3 class="hero-title">
+	                    <% if $UseExternalLink %>
+	                    	<a href="$ExternalLink" target="_blank">$Title</a>
+	                    <% else %>
+	                    	<a href="$AssociatedPage.Link">$Title</a>
+	                    <% end_if %>
+                    </h3>
                     <div class="hero-content">$Content</div>
-                    <a href="$AssociatedPage.Link" class="hero-link">Read More</a>
+                    <% if $UseExternalLink %>
+                    	<a href="$ExternalLink" target="_blank" class="hero-link">Read More</a>
+                    <% else %>
+                    	<a href="$AssociatedPage.Link" class="hero-link">Read More</a>
+                    <% end_if %>
                 </div>
               <% end_loop %>
 
