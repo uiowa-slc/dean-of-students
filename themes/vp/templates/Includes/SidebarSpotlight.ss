@@ -1,4 +1,5 @@
 <div class="mod photo">
+	<div>
 	<% with BlogPage %>
 		<a href="$Link">
 		    <h3>$Title</h3>
@@ -7,5 +8,7 @@
 		    <% end_if %>
 		</a>
 	<% end_with %>
-	$SidebarContent
+	</div>
+	
+	<p>$SidebarContent</p>
 </div>
