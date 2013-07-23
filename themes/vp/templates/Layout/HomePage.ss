@@ -33,7 +33,7 @@
 	          </div>
          <% end_if %>
 	        <div class="hero-text">
-                <h2 class="blocktext">Furthering student success by creating and promoting inclusive and educationally purposeful services and activities within and beyond the classroom.</h2>
+                <h2 class="blocktext">The Division of Student Life fosters student success by creating and promoting inclusive educationally purposeful services and activities within and beyond the classroom.</h2>
                 <ul>
                     <li><a href="/vp-for-student-life/about/">Meet Tom</a></li>
                     <li><a href="/vp-for-student-life/staff/">Staff</a></li>
