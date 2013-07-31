@@ -1,5 +1,5 @@
-<div class="mod photo">
-	<div>
+
+	<div class="faces">
 	<% with BlogPage %>
 		<a href="$Link">
 		    <h3>$Title</h3>
