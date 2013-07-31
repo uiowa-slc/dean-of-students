@@ -181,7 +181,7 @@ aside .mod {
 	}
 }
 
-/* Photo Module */
+/* Photo + Faces Module */
 .mod.photo {
 	padding-top: 22px;
 }
@@ -202,6 +202,13 @@ aside .mod {
 	left: 0;
 	z-index: 30;
 }
+
+/* Faces Module Addendum */
+.faces h3  {
+	bottom: 20%;
+	
+}
+
 
 /* Justify Grid */
 .grid-justify {
