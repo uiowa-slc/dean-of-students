@@ -31,5 +31,11 @@ class StaffTeam extends DataObject {
 		return $f;
 		
      }
+     
+     public function SortedStaffPages(){
+	     $staffPages = $this->StaffPages()->sort('Sort');
+	     return $staffPages;
+	     
+     }
 
 }

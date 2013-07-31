@@ -9,7 +9,7 @@
             	     <h2 class="staff-title">$Title</h2>
 
                         <ul class="staff-list">
-                        <% loop $StaffPages %>
+                        <% loop $SortedStaffPages %>
                               <li>
                                     <% if $Photo %>
                                     <a href="$Link" class="staff-link">

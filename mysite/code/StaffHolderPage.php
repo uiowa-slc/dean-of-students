@@ -13,7 +13,7 @@ class StaffHolderPage extends Page {
 		"Teams" => "StaffTeam"
 	);
 
-	public static $allowed_children = array("StaffPage");
+	public static $allowed_children = array("StaffPage", "VirtualPage");
 	
 	public function getCMSFields(){
 		$f = parent::getCMSFields();
