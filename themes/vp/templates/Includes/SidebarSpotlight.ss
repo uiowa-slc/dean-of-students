@@ -1,10 +1,13 @@
 
-	<div class="faces">
+<div class="faces">
 	<% with BlogPage %>
 		<a href="$Link">
-		    <h3>$Title</h3>
+		    
 		    <% if $Image %>
-		    	<img src="$Image.SetWidth(279).URL" alt="$Title - Image">
+		    	<div class="faces-image-container">
+		    		<h3>$Title</h3>
+		    		<img src="$Image.SetWidth(279).URL" alt="$Title - Image">
+		    	</div>
 		    <% end_if %>
 		</a>
 	<% end_with %>
