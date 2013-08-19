@@ -4,12 +4,19 @@
 
 class BlogFieldExtension extends DataExtension {
 
+	static $db = array(
+     	'StoryBy' => 'Text',
+        'StoryByEmail' => 'Text',
+        'StoryByTitle' => 'Text',
+        'StoryByDept' => 'Text',
+        'PhotosBy' => 'Text',
+        'PhotosByEmail' => 'Text',	
+	
+	);
+
     static $has_one = array(
         'Image' => 'Image',
-        'StoryBy' => 'TextField',
-        'StoryByEmail' => 'TextField',
-        'PhotosBy' => 'TextField',
-        'PhotosByEmail' => 'TextField',
+  
     );
     
     public function getCMSFields() {
@@ -22,9 +29,10 @@ class BlogFieldExtension extends DataExtension {
     public function updateCMSFields(FieldList $fields) {
       $fields->addFieldToTab("Root.Main", new UploadField('Image', 'Main Image'), 'Content');
       $fields->addFieldToTab("Root.Main", new TextField('StoryBy', 'Story author'), 'Content');
-      $fields->addFieldToTab("Root.Main", new UploadField('StoryByEmail', 'Author email address'), 'Content');
-      $fields->addFieldToTab("Root.Main", new UploadField('PhotosBy', 'Photos or video by'), 'Content');
-      $fields->addFieldToTab("Root.Main", new UploadField('PhotosByEmail', 'Photographer email address'), 'Content');
+      $fields->addFieldToTab("Root.Main", new TextField('StoryByEmail', 'Author email address'), 'Content');
+      $fields->addFieldToTab("Root.Main", new TextField('StoryByTitle', 'Author posiiton title'), 'Content');
+      $fields->addFieldToTab("Root.Main", new TextField('StoryByDept', 'Author department title'), 'Content');$fields->addFieldToTab("Root.Main", new TextField('PhotosBy', 'Photos or video by'), 'Content');
+      $fields->addFieldToTab("Root.Main", new TextField('PhotosByEmail', 'Photographer email address'), 'Content');
       $fields->removeByName("Author");
 	  
       if($this->owner->ClassName == "BlogEntry"){

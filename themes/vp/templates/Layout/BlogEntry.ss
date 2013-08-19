@@ -8,10 +8,16 @@
                     <img src="$Image.CroppedImage(765,512).URL" alt="">
                 <% end_if %>
                 	<h1 class="postTitle">$Title</h1>
+                <% if $StoryBy %>
+                	<p>
+						Story by <a href="mailto:$StoryByEmail">$StoryBy</a> <% if $StoryByTitle %> // $StoryByTitle <% end_if %> <% if $StoryByDept %> - $StoryByDept <% end_if %>
+                	</p>
+			    <% end_if %>
                 	                	
 	                $Content  
                 
                     <% if TagsCollection %>
+                    <br />
                     <p class="tags">
                          <% _t('TAGS', 'Tags:') %> 
                         <% control TagsCollection %>
