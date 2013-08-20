@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+<!--[if IE 9]><html class="ie9"> <![endif]-->
+<!--[if IE 8]><html class="ie8"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
 <head>
 	<% base_tag %>
 	<meta charset="utf-8">
