@@ -1,17 +1,12 @@
 <% if $BackgroundImage %>
-    	<div class="img-container" style="background-image: url($BackgroundImage.URL);">
-    		<div class="img-fifty-top"></div>
-    	</div>
-    <% else %>
-    	<div class="img-container" style="background-image: url({$ThemeDir}/images/img-test.jpg);">
-    		<div class="img-fifty-top"></div>
-    	</div>
-    <% end_if %>
-<div style="background: #fafafa;position: relative;">
-	<div class="img-fifty"></div>
-	<section class="container content-wrapper clearfix">
-	    <!-- $Breadcrumbs -->
-	    <section class="main-content">
+	<div class="img-container" style="background-image: url($BackgroundImage.URL);">
+		<div class="img-fifty-top"></div>
+	</div>
+<% end_if %>
+<div class="gradient">
+	<div class="container clearfix">
+		<div class="white-cover"></div>
+	    <section class="main-content <% if $BackgroundImage %>margin-top<% end_if %>">
 			<% if SelectedTag %>
 				<h1>Self-Help/$SelectedTag</h1>
 			<% else %>
@@ -29,7 +24,6 @@
 			<% include BlogPagination %>
 	    </section>
 	    <section class="sec-content">
-	    	
 	    	<% with $SearchForm %>
 	    	 <form $FormAttributes>
 	            <label>Search</label>
@@ -38,10 +32,9 @@
 	        </form>
 	        <% end_with %>
 
-	    	
 	    	<% include BlogSideBar %>
 	    </section>
-	</section>
+	</div>
 </div>
 <%-- <% include TopicsAndNews %> --%>
         

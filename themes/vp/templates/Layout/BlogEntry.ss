@@ -1,8 +1,12 @@
-<div style="background: #fafafa;position: relative;" class="news">
-    <div class="img-fifty"></div>
-    <section class="container content-wrapper clearfix">
-        <!-- $Breadcrumbs -->
-        <section class="main-content">
+<% if $BackgroundImage %>
+    <div class="img-container" style="background-image: url($BackgroundImage.URL);">
+        <div class="img-fifty-top"></div>
+    </div>
+<% end_if %>
+<div class="gradient">
+    <div class="container clearfix">
+        <div class="white-cover"></div>
+        <section class="main-content <% if $BackgroundImage %>margin-top<% end_if %>">
             <article>    
                 <% if $Image %>
                     <img src="$Image.CroppedImage(765,512).URL" alt="">
@@ -33,7 +37,7 @@
             <%-- include SideNav --%>
             <% include BlogSideBar %>
         </section>
-    </section>
+    </div>
 </div>
 
 <%-- <% include TopicsAndNews %> --%>

@@ -1,6 +1,6 @@
 <div class="gradient">
       <section class="container clearfix">
-            <section class="main-content">
+            <section class="main-content <% if $BackgroundImage %>margin-top<% end_if %>">
                   <div class="white-cover"></div>
             	<h1>$Title</h1>
             	<% if $Photo %>

@@ -1,9 +1,6 @@
-<!-- <div class="main-bg"></div> -->
-<div class="img-container" style="background: #000 url({$ThemeDir}/images/img-test.jpg) no-repeat center top;"></div>
-<div style="background: #fafafa;position: relative;">
-    <div class="img-fifty"></div>
-	<section class="container content-wrapper clearfix">
-	    <!-- $Breadcrumbs -->
+<div class="gradient">
+	<div class="container clearfix">
+		<div class="white-cover"></div>
 	    <section class="main-content">
 	    	<h1>$Title</h1>
 	    	<% if $Query %>
@@ -61,6 +58,6 @@
 	    <section class="sec-content">
 	    	<% include SideNav %>
 	    </section>
-	</section>
+	</div>
 </div>
 <%-- <% include TopicsAndNews %> --%>
