@@ -2,8 +2,6 @@
 *.scssc
 html/*
 .DS_Store
-assets/Uploads/_resampled/
-assets/_resampled/
 dashboard/
 vendor/
 cms/
