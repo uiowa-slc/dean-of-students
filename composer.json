@@ -3,13 +3,20 @@
 	"description": "The SilverStripe Framework Installer",
 	"require": {
 		"php": ">=5.3.2",
-		"silverstripe/cms": "3.0.*@stable",
-		"silverstripe/framework": "3.0.*@stable",
-		"silverstripe-themes/simple": "*"
+		"silverstripe/cms": "3.1.x-dev",
+		"silverstripe/framework": "3.1.x-dev",
+		"silverstripe-themes/simple": "*",
+		"undefinedoffset/sortablegridfield": "*",
+		"unclecheese/betterbuttons": "*",
+		"silverstripe/dashboard": "*",
+		"unclecheese/eventcalendar": "*",
+		"colymba/gridfield-bulk-editing-tools": "*",
+		"simonwelsh/gridfieldrelationhandler": "*",
+		"silverstripe/blog": "*",
+		"silverstripe/widgets": "*",
+		"silverstripe/userforms": "*",
+		"silverstripe/recaptcha": "*"
 	},
-	"require-dev": {
-		"silverstripe/compass": "*",
-		"silverstripe/docsviewer": "*"
-	},
+
 	"minimum-stability": "dev"
 }
