@@ -166,9 +166,6 @@ body {
 	line-height: 1.4;
 	position: relative;
 }
-.mod li {
-	margin-bottom: 1em;
-}
 .mod h3 {
 	@include rem(21);
 	margin-bottom: .8em;
