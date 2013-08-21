@@ -1,26 +1,26 @@
 <?php
 class StaffTeam extends DataObject {
 
-	public static $db = array(
+	private static $db = array(
 		"Name" => "Text",
 		"SortOrder" => "Int"
 	
 	);
 
-	public static $many_many = array(
+	private static $many_many = array(
 		"StaffPages" => "StaffPage",
 		"StaffHolderPages" => "StaffHolderPage"
 	);
 	
-	public static $belongs_many_many = array(
+	private static $belongs_many_many = array(
 		
 	);
 	
-	public static $summary_fields = array( 
+	private static $summary_fields = array( 
 	  'Name' => 'Name',
    );
    
-   public static $default_sort = array(
+   private static $default_sort = array(
    		"SortOrder"
    );
    

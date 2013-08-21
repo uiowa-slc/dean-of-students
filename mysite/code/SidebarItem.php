@@ -2,7 +2,7 @@
 
 	class SidebarItem extends DataObject {
 		
-		public static $db = array(
+		private static $db = array(
 			"Title" => "Text",
 			"Content" => "HTMLText",
 			"UseExternalLink" => "Boolean",
@@ -11,23 +11,23 @@
 			
 		);
 		
-		public static $has_one = array (
+		private static $has_one = array (
 			"Image" => "Image",
 			"AssociatedPage" => "SiteTree",
 		);
 		
 		
-		public static $belongs_many_many = array (
+		private static $belongs_many_many = array (
 			"Pages" => "Page"
 		
 		);
 		
-		public static $defaults = array(
+		private static $defaults = array(
 			"ShowHeading" => 1,
 		);
 		
 		
-		public static $summary_fields = array (
+		private static $summary_fields = array (
 			"Title",
 		//	'SortOrder'
 	

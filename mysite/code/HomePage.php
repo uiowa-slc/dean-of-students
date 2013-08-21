@@ -1,15 +1,15 @@
 <?php
 class HomePage extends Page {
 
-	public static $db = array(
+	private static $db = array(
 
 	);
 
-	public static $has_one = array(
+	private static $has_one = array(
 
 	);
 
-	public static $has_many = array(
+	private static $has_many = array(
 	);
 
 	public function getCMSFields(){
@@ -56,7 +56,7 @@ class HomePage_Controller extends Page_Controller {
 	 *
 	 * @var array
 	 */
-	public static $allowed_actions = array (
+	private static $allowed_actions = array (
 	);
 
 	public function init() {

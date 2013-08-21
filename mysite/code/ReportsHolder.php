@@ -1,21 +1,21 @@
 <?php
 class ReportsHolder extends BlogHolder {
 
-	public static $db = array(
+	private static $db = array(
 	);
 
-	public static $has_one = array(
+	private static $has_one = array(
 	
 	);
 
-	public static $has_many = array(
+	private static $has_many = array(
 	);
 	
 	static $singular_name = 'Report Holder';
 	
 	static $plural_name = 'Report Holders';
 
-	public static $allowed_children = array("ReportPage");
+	private static $allowed_children = array("ReportPage");
 	
 	public function getCMSFields(){
 		$f = parent::getCMSFields();
@@ -46,7 +46,7 @@ class ReportsHolder_Controller extends BlogHolder_Controller {
 	 *
 	 * @var array
 	 */
-	public static $allowed_actions = array (
+	private static $allowed_actions = array (
 	);
 
 	public function init() {
