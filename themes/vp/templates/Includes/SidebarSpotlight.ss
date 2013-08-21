@@ -11,7 +11,7 @@
 		    <% end_if %>
 		</a>
 	<% end_with %>
-	</div>
+</div>
 	
 	<p>$SidebarContent</p>
-</div>
+
