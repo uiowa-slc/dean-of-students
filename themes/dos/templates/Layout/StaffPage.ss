@@ -4,12 +4,27 @@
             <section class="main-content <% if $BackgroundImage %>margin-top<% end_if %>">
             	<h1>$Title</h1>
             	<% if $Photo %>
-            		<img src="$Photo.CroppedImage(765,512).URL" alt="$FirstName $LastName">
+            		<img src="$Photo.URL" alt="$FirstName $LastName">
             	<% end_if %>
-            	$Content
+                  <h2>$Position</h2>
+                  <ul>
+                        <li>Email: <a href="mailto:$EmailAddress">$EmailAddress</a></li>
+                        <li>Phone: $Phone</li>
+                  <% if $DepartmentName %>
+                        <li>
+                        <% if $DepartmentURL %>
+                              <a href="$DepartmentURL">$DepartmentName</a>
+                        <% else %>
+                              $DepartmentName
+                        <% end_if %>
+                        </li>
+                  <% end_if %>
+                  </ul>
+                  
+                  $Content
             </section>
             <section class="sec-content">
-            	<% include SideNav %>
+            	<% include SideNav %>  
             </section>
       </section>
 </div>

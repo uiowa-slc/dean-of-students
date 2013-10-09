@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<!--[if IE 9]><html class="ie9"> <![endif]-->
-<!--[if IE 8]><html class="ie8"> <![endif]-->
-<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+<!--[if IE 9]><html class="ie9" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="ie8" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
 <head>
+		<!-- deployment test -->
 	<% base_tag %>
 	<meta charset="utf-8">
 	
@@ -18,7 +19,7 @@
 		<script src="{$ThemeDir}/js/vendor/respond.min.js"></script>
 
 	<![endif]-->
-	<script type="text/javascript" src="//use.typekit.net/ivn3muh.js"></script>
+	<script type="text/javascript" src="//use.typekit.net/xwj3fgc.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 
@@ -37,16 +38,13 @@
 	<script src="{$ThemeDir}/js/main-ck.js"></script>
 	<script type="text/javascript" src="{$BaseHref}division-bar/js/division-bar.js"></script>
 
-	<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	ga('create', 'UA-426753-47', 'uiowa.edu');
-	ga('send', 'pageview');
-
-	</script>
-
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-426753-52', 'uiowa.edu');
+  ga('send', 'pageview');
+</script>
 </body>
 </html>
