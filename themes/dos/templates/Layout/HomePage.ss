@@ -33,7 +33,7 @@
 	          </div>
          <% end_if %>
 	        <div class="hero-text">
-                <h2 class="blocktext">The Division of Student Life fosters student success by creating and promoting inclusive educationally purposeful services and activities within and beyond the classroom.</h2>
+                <h2 class="blocktext">Engaging students, supporting positive community behavior, and enriching the college experience through educationally-purposeful activities, service, and community building.</h2>
                 <ul>
                     <li><a href="about/">Meet Tom</a></li>
                     <li><a href="staff/">Staff</a></li>
