@@ -3,8 +3,9 @@
 	"description": "The SilverStripe Framework Installer",
 	"require": {
 		"php": ">=5.3.2",
-		"silverstripe/cms": "3.1.x-dev",
-		"silverstripe/framework": "3.1.x-dev",
+		"silverstripe/cms": "3.1.1",
+		"silverstripe/framework": "3.1.1",
+		"silverstripe/installer": "*",
 		"silverstripe-themes/simple": "*",
 		"undefinedoffset/sortablegridfield": "*",
 		"unclecheese/betterbuttons": "*",
@@ -15,8 +16,30 @@
 		"silverstripe/blog": "*",
 		"silverstripe/widgets": "*",
 		"silverstripe/userforms": "*",
-		"silverstripe/recaptcha": "*"
+		"silverstripe/recaptcha": "*",
+		"simplepie/simplepie": "*",
+		"silverstripe/googlesitemaps": "*",
+		"silverstripe/timepickerfield": "*",
+		"md/division-project": "dev-master"
 	},
+	"config": {
+		"process-timeout": 600	
+	},
+	"minimum-stability": "dev",
+	
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/division-project"
+      
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/division-bar"
 
-	"minimum-stability": "dev"
+        }
+    ]
+
 }
+
+
