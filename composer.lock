@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "0f1f88e3d844c502c88303138aa218f8",
+    "hash": "58d79ace047b043e6e392d265ba7e275",
     "packages": [
         {
             "name": "colymba/gridfield-bulk-editing-tools",
@@ -158,12 +158,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "d5e24743e656f28c7c8c1427835791462cc1bdc5"
+                "reference": "cd871c384667e36893f94364cf3c0bf9479c8cc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/d5e24743e656f28c7c8c1427835791462cc1bdc5",
-                "reference": "d5e24743e656f28c7c8c1427835791462cc1bdc5",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/cd871c384667e36893f94364cf3c0bf9479c8cc3",
+                "reference": "cd871c384667e36893f94364cf3c0bf9479c8cc3",
                 "shasum": ""
             },
             "require": {
@@ -181,7 +181,6 @@
                 "silverstripe/timepickerfield": "*",
                 "silverstripe/userforms": "*",
                 "silverstripe/widgets": "*",
-                "simonwelsh/gridfieldrelationhandler": "*",
                 "simplepie/simplepie": "*",
                 "unclecheese/betterbuttons": "*",
                 "unclecheese/eventcalendar": "*",
@@ -198,7 +197,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2013-10-21 21:36:51"
+            "time": "2013-10-23 15:19:28"
         },
         {
             "name": "silverstripe-themes/simple",
@@ -637,43 +636,6 @@
             "time": "2013-10-16 01:49:05"
         },
         {
-            "name": "simonwelsh/gridfieldrelationhandler",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/simonwelsh/silverstripe-GridFieldRelationHandler.git",
-                "reference": "561e035cfb2177ff2471f160592d6f7513283a5c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/simonwelsh/silverstripe-GridFieldRelationHandler/zipball/561e035cfb2177ff2471f160592d6f7513283a5c",
-                "reference": "561e035cfb2177ff2471f160592d6f7513283a5c",
-                "shasum": ""
-            },
-            "require": {
-                "silverstripe/framework": "~3.0"
-            },
-            "type": "silverstripe-module",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Simon Welsh",
-                    "email": "simon@simon.geek.nz",
-                    "homepage": "http://simon.geek.nz/"
-                }
-            ],
-            "description": "This module provides two GridField components that aid in managing relationships within SilverStripe.",
-            "keywords": [
-                "component",
-                "gridfield",
-                "silverstripe"
-            ],
-            "time": "2013-07-15 04:41:53"
-        },
-        {
             "name": "simplepie/simplepie",
             "version": "dev-master",
             "source": {
@@ -813,12 +775,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/UndefinedOffset/SortableGridField.git",
-                "reference": "56b496509f5d029aba9700f8b66324b5135686f3"
+                "reference": "e3895cc5efeb1ab76bfefb48fb3e8803ba8b38e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/56b496509f5d029aba9700f8b66324b5135686f3",
-                "reference": "56b496509f5d029aba9700f8b66324b5135686f3",
+                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/e3895cc5efeb1ab76bfefb48fb3e8803ba8b38e6",
+                "reference": "e3895cc5efeb1ab76bfefb48fb3e8803ba8b38e6",
                 "shasum": ""
             },
             "require": {
@@ -845,7 +807,7 @@
                 "gridfield",
                 "silverstripe"
             ],
-            "time": "2013-10-10 12:40:29"
+            "time": "2013-10-22 13:36:08"
         }
     ],
     "packages-dev": [
