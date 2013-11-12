@@ -6,7 +6,7 @@
 <div class="gradient">
 	<div class="container clearfix">
 		<div class="white-cover"></div>
-	    <section class="main-content <% if $BackgroundImage %>margin-top<% end_if %>">
+	    <section class="main-content policy <% if $BackgroundImage %>margin-top<% end_if %>">
 	    	$Form
 	    	$Content
 	    </section>
