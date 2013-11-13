@@ -1,6 +1,11 @@
 /* site.css */
 
 
+.policy form{
+	margin-left: 15px;
+}
+
+
 
 .policy ol li {
 	list-style-type:upper-roman;
