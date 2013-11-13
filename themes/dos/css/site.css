@@ -2,13 +2,17 @@
 
 
 
-ol li {
+.policy ol li {
 	list-style-type:upper-roman;
 	font-size:  1.75rem;
 }
 
-ol>ol li{
+.policy ol>ol li{
 	list-style-type:upper-alpha;
 	font-size: 1rem;
 }
 
+.policy ol>ol>ol li {
+	list-style-type:lower-alpha;
+	
+}
