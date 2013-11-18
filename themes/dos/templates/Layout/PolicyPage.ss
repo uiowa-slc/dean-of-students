@@ -10,7 +10,7 @@
                 <% if $Image %>
                     <img src="$Image.CroppedImage(765,512).URL" alt="">
                 <% end_if %>
-                <p class="return-link"><a href="../">Back to Policies</a></p>
+                <p class="return-link"><a href="policies/">Back to Policies</a></p>
                 	<br>
                 	<h1 class="postTitle">$Title</h1>
                 	
