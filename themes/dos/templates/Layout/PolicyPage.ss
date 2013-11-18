@@ -12,6 +12,7 @@
                 <% end_if %>
                 	<h1 class="postTitle">$Title</h1>
                 	<p class="return-link"><a href="../">Back to Policies</a></p>
+                	<br>
                 <% if $StoryBy %>
                 	<p>
 						Story by <a href="mailto:$StoryByEmail">$StoryBy</a> <% if $StoryByTitle %> // $StoryByTitle <% end_if %> <% if $StoryByDept %> - $StoryByDept <% end_if %>
