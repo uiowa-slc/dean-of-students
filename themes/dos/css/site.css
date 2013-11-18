@@ -23,7 +23,6 @@
 }
 
 .return-link {
-	position: relative;
-	right: 0;
-	clear: both;
+	float: right !important;
+	clear: both !important;
 }
