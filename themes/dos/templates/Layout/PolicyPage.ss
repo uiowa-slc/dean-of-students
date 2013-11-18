@@ -11,7 +11,7 @@
                     <img src="$Image.CroppedImage(765,512).URL" alt="">
                 <% end_if %>
                 	<h1 class="postTitle">$Title</h1>
-                	<section><p class="return-link"><a href="../">Back to Policies</a></p></section>
+                	<section class="return-link"><p class="return-link"><a href="../">Back to Policies</a></p></section>
                 <% if $StoryBy %>
                 	<p>
 						Story by <a href="mailto:$StoryByEmail">$StoryBy</a> <% if $StoryByTitle %> // $StoryByTitle <% end_if %> <% if $StoryByDept %> - $StoryByDept <% end_if %>
