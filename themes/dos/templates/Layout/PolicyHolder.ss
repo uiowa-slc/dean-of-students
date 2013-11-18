@@ -9,7 +9,6 @@
 	    <section class="main-content policy <% if $BackgroundImage %>margin-top<% end_if %>">
 	    	$Form
 	    	$Content
-	    	hasdflj
 	    </section>
 	    <section class="sec-content hide-print">
 			<% with $SearchForm %>

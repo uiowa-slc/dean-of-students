@@ -6,6 +6,7 @@
 	    	<p><a href="../">Back to Policies</a></p>
 	    	$Content
 	    </section>
+	    <p><a href="../">Back to Policies</a></p>
 	    <section class="sec-content hide-print">
 	    	<% include SideNav %>
 	    </section>
