@@ -23,6 +23,6 @@
 }
 
 .return-link {
-	float:right;
+	right: 0;
 	clear: both;
 }
