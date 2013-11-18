@@ -24,4 +24,5 @@
 
 .return-link {
 	float:right;
+	clear: both;
 }
