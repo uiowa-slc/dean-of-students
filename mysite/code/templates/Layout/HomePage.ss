@@ -61,7 +61,14 @@
     </div>
 	<section class="home-highlights">
         <div class="container clearfix">
-	        <% loop HomePageFeatures.Limit(3) %>
+        	  <div class="module">
+	                
+	               <a class="twitter-timeline" height="444" href="https://twitter.com/IowaDOS" data-widget-id="408612036910673920">Tweets by @IowaDOS</a>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	                
+			  </div>
+	        <% loop HomePageFeatures.Limit(2) %>
 	            <div class="module">
 	                <div class="media">
 	                <% if $YouTubeEmbed %>
