@@ -27,8 +27,16 @@
 	clear: both !important;
 }
 
-.twitter-timeline {
-	margin: 0 auto; 
-	min-width: 100%;
+.module.twitter {
+	border: none;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	-ms-box-shadow: none;
+	background: none;
+}
 
+.twitter-timeline {
+	min-width: 100%;
+	display: block;
 }

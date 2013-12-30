@@ -1,4 +1,25 @@
-<div class="hero" style="background-image: url('{$ThemeDir}/images/hero-image.jpg');">
+<style>
+.hero {
+  border-bottom: 5px solid #ffce39;
+  position: relative;
+  padding: 2em 0;
+  background-color: #FFF;
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .hero {
+    background: black url({$ThemeDir}/images/hero-image-md.jpg) no-repeat center top;
+    padding: 4em 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    background: black url({$ThemeDir}/images/hero-image.jpg) no-repeat center top;
+    padding: 0;
+    height: 665px;
+  }
+}
+</style>
+<div class="hero">
         <div class="container clearfix">
 
         <% if HomePageHeroFeatures.limit(2) %>
@@ -40,14 +61,14 @@
     </div>
 	<section class="home-highlights">
         <div class="container clearfix">
-        	  <div class="module">
-	                <div class="media">
-	               <a class="twitter-timeline" href="https://twitter.com/IowaDOS" data-widget-id="408612036910673920">Tweets by @IowaDOS</a>
+        	  <div class="module twitter">
+	                
+	               <a class="twitter-timeline" height="444" href="https://twitter.com/IowaDOS" data-widget-id="408612036910673920">Tweets by @IowaDOS</a>
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-	                </div>
+	                
 			  </div>
-	        <% loop HomePageFeatures.Limit(0) %>
+	        <% loop HomePageFeatures.Limit(2) %>
 	            <div class="module">
 	                <div class="media">
 	                <% if $YouTubeEmbed %>
