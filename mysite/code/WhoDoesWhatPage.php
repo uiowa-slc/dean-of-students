@@ -1,5 +1,5 @@
 <?php
-class WhoDoesWhatPage_Controller() extends BlogEntry {
+class WhoDoesWhatPage extends BlogEntry {
 
 	private static $db = array(
 		"OfficeName" => "Text",

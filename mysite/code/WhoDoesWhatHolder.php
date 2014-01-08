@@ -11,11 +11,11 @@ class WhoDoesWhatHolder extends BlogHolder {
 	private static $has_many = array(
 	);
 	
-	static $singular_name = 'Report Holder';
+	private static $singular_name = 'Who Does What Holder';
 	
-	static $plural_name = 'Report Holders';
+	private static $plural_name = 'Who Does What Holders';
 
-	private static $allowed_children = array("ReportPage");
+	private static $allowed_children = array("WhoDoesWhatPage");
 	
 	public function getCMSFields(){
 		$f = parent::getCMSFields();
