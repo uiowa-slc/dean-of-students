@@ -3,11 +3,11 @@ class WhoDoesWhatPage extends BlogEntry {
 
 	private static $db = array(
 		"OfficeName" => "Text",
-		"WhatTheyDo" => "Text",
 		"OfficeLocation" => "Text",
 		"PhoneNumber" => "Varchar",
 		"EmailAddress" => "Text",
 		"Website" => "Text",
+		"AdditionalInfo" => "Text"
 	);
 
 	private static $has_one = array(
@@ -31,7 +31,17 @@ class WhoDoesWhatPage extends BlogEntry {
 		$fields->addFieldToTab( 'Root.Main', new TextField("PhoneNumber", "Phone Number"));
 		$fields->addFieldToTab( 'Root.Main', new TextField("EmailAddress", "Email Address"));
 		$fields->addFieldToTab( 'Root.Main', new TextField("Website", "Website"));
+		$fields->addFieldToTab( 'Root.Main', new TextField("AdditionalInfo", "Additional Info"));
 		
+		$fields->removeByName('Content');
+	    $fields->removeByName('StoryBy');
+	    $fields->removeByName('StoryByEmail');
+		$fields->removeByName('StoryByTitle');
+		$fields->removeByName('StoryByDept');
+		$fields->removeByName('PhotosBy');
+		$fields->removeByName('ExternalURL');
+		$fields->removeByName('PhotosByEmail');
+		$fields->removeByName('BackgroundImage');		
 		
 		
 		//$f->removeByName("Content");
