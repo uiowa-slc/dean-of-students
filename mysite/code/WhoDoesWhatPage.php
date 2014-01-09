@@ -7,7 +7,7 @@ class WhoDoesWhatPage extends BlogEntry {
 		"PhoneNumber" => "Varchar",
 		"EmailAddress" => "Text",
 		"Website" => "Text",
-		"AdditionalInfo" => "HTMLtext",
+		"AdditionalInfo" => "HTMLText",
 		
 	);
 
