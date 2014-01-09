@@ -7,7 +7,8 @@ class WhoDoesWhatPage extends BlogEntry {
 		"PhoneNumber" => "Varchar",
 		"EmailAddress" => "Text",
 		"Website" => "Text",
-		"AdditionalInfo" => "Text"
+		"AdditionalInfo" => "HTMLtext",
+		
 	);
 
 	private static $has_one = array(
@@ -26,12 +27,12 @@ class WhoDoesWhatPage extends BlogEntry {
 		$fields = parent::getCMSFields();
 		
 		$fields->addFieldToTab( 'Root.Main', new TextField("OfficeName", "Office Name"));
-		$fields->addFieldToTab( 'Root.Main', new TextField("WhatTheyDo", "What they do"));
 		$fields->addFieldToTab( 'Root.Main', new TextField("OfficeLocation", "Office Location"));
 		$fields->addFieldToTab( 'Root.Main', new TextField("PhoneNumber", "Phone Number"));
 		$fields->addFieldToTab( 'Root.Main', new TextField("EmailAddress", "Email Address"));
 		$fields->addFieldToTab( 'Root.Main', new TextField("Website", "Website"));
-		$fields->addFieldToTab( 'Root.Main', new TextField("AdditionalInfo", "Additional Info"));
+		$fields->addFieldToTab( 'Root.Main', new HTMLEditorField("AdditionalInfo", "Additional Info"));
+
 		
 		$fields->removeByName('Content');
 	    $fields->removeByName('StoryBy');
