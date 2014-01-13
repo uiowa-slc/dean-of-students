@@ -7,34 +7,59 @@
 	<div class="container clearfix">
 		<div class="white-cover"></div>
 	    <section class="main-content <% if $BackgroundImage %>margin-top<% end_if %>">
-        <h1><a href="$Link">$Title</a></h1>
+        <% if not selectedTag %><h1><a href="$Link">$Title</a></h1><% end_if %>
 				<% if SelectedTag %>
-					<div class="selectedTag">
-						<em>
-						<% _t('VIEWINGTAGGED', 'Viewing entries tagged with') %> '$SelectedTag' <a href="$Link">View all news.</a>
-						</em>
+					<div class="who-does-what-selected-tag">
+						<h2>
+						<% _t('VIEWINGTAGGED', 'Departments tagged with') %> '$SelectedTag' 
+						<br>
+						<a href="$Link">View All Departments</a>
+						</h2>
 					</div>
-				<% else_if SelectedDate %>
-					<div class="selectedTag">
-						<em>
-						<% _t('VIEWINGPOSTEDIN', 'Viewing entries posted in') %> $SelectedNiceDate <a href="$Link">View all news.</a>
-						</em>
-					</div>
-				<% end_if %>
-				
+				<% end_if %>				
 				<% if BlogEntries %>
-					<% loop BlogEntries %>
-						<% include BlogSummary %>
-					<% end_loop %>
+					<% loop BlogEntries %>		
+						<section class="who-does-what-section blogSummary">
+						  <div class="grid grid-pad">
+							<div class="who-does-what col-1-2">
+							<h3>
+								$MenuTitle
+							</h3>
+								<% if $OfficeName %><p><span>Office Name:</span> $OfficeName</p><% end_if %>
+								<% if $OfficeLocation %><p><span>Location:</span> $OfficeLocation</p><% end_if %>
+								<% if $PhoneNumber %><p><span>Phone Number:</span> $PhoneNumber</p><% end_if %>
+								<% if $EmailAddress %><p><span>Email:</span> $EmailAddress </p><% end_if %>
+								<% if $Website %><p><a href="$Website">Visit Website</a></p><% end_if %>
+							</div>						
+							<div class="who-does-what col-1-2">
+								<% if $AdditionalInfo %>
+								<h4>Additional Information:</h4><p> $AdditionalInfo </p>
+								<% end_if %>
+							</div>
+						 </div>	
+						<% if TagsCollection %>
+						    <div class="who-does-what-section-tags">
+							<p>
+								Tags:
+								<% loop TagsCollection %>
+									<a href="$Link" title="View all posts tagged '$Tag'" rel="tag">$Tag</a><% if not Last %>,<% end_if %>
+								<% end_loop %>
+							</p>
+							</div>
+						<% end_if %>
+					   </section>
+					<hr>	
+					<% end_loop %> 
 				<% else %>
-					<p><% _t('NOENTRIES', 'There are no blog entries with this tag.') %></p>
+					<p><% _t('NOENTRIES', 'There are no departments with this tag.') %></p>
 				<% end_if %>
-				
 				<% include BlogPagination %>
         </section>
         <section class="sec-content hide-print">
-        	<%-- include SideNav --%>
-        	<% include BlogSideBar %>
+        	<% include SideNav %>
+        	<div id="sidebar-tags">
+        	$SideBarView
+        	</div>
         </section>
     </div>
 </div>

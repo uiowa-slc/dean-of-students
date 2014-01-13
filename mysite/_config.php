@@ -9,7 +9,7 @@ $databaseConfig = array(
 	"server" => 'localhost',
 	"username" => 'root',
 	"password" => 'omega',
-	"database" => 'dos',
+	"database" => 'dos2',
 	"path" => '',
 );
 

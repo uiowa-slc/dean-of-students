@@ -5,8 +5,6 @@
 	margin-left: 15px;
 }
 
-
-
 .policy ol li {
 	list-style-type:upper-roman;
 	font-size:  1.75rem;
@@ -39,4 +37,74 @@
 .twitter-timeline {
 	min-width: 100%;
 	display: block;
+}
+
+.who-does-what-section p span {
+	font-weight: bold;
+}
+
+.who-does-what-section-tags{
+	display: block;
+	clear: both;
+	padding-top: 20px;
+}
+
+.who-does-what {
+	word-wrap:break-word; 
+	max-height: 200px; 
+	overflow-y: auto;
+}
+
+.who-does-what h3, h4 {
+	margin: 0 0 10px 0;
+	color: #222222;
+}
+
+.who-does-what h4 {
+	padding-top: 7px;
+}
+
+.who-does-what p {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar-tags nav ul {
+	padding-left: 0;
+}
+
+#sidebar-tags nav ul li {
+	background-color: #f8f6f3;
+	padding: 0;
+	margin: 0;
+	display: list-item;
+}
+
+#sidebar-tags nav ul li a {
+	border-bottom: 1px solid #ddd;
+	color: #333;
+	display: block;
+	padding: 2px 0 2px 15px;
+	background-color: #f8f6f3;
+	margin: 0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+#sidebar-tags nav ul li a:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+#sidebar-tags nav ul li a span {
+	display: none;
+}
+
+#sidebar-tags h3 {
+	margin-left: 10px;
+}
+
+.who-does-what-selected-tag a {
+	font-size: 1.25rem;
 }
