@@ -21,10 +21,10 @@
             </article>
         </section>
         
-        <section class="sec-content hide-print">
+        <aside class="sec-content hide-print">
             <%-- include SideNav --%>
             <% include BlogSideBar %>
-        </section>
+        </aside>
     </section>
 
     <% include TopicsAndNews %>

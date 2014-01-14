@@ -55,12 +55,13 @@
 				<% end_if %>
 				<% include BlogPagination %>
         </section>
-        <section class="sec-content hide-print">
+        <aside class="sec-content hide-print">
+        	<% include SideBarSearch %>
         	<% include SideNav %>
         	<div id="sidebar-tags">
         	$SideBarView
         	</div>
-        </section>
+        </aside>
     </div>
 </div>
 <%-- <% include TopicsAndNews %> --%>

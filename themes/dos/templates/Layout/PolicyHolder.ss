@@ -10,16 +10,9 @@
 	    	$Form
 	    	$Content
 	    </section>
-	    <section class="sec-content hide-print">
-			<% with $SearchForm %>
-	    	 <form $FormAttributes>
-	            <label style="display: none;">Search</label>
-	            <input type="search" placeholder="Search Policies" results="5" name="Search" class="">
-	            <input type="submit" class="">
-	        </form>
-	        <% end_with %>
+	    <aside class="sec-content hide-print">
 			<% include BlogSideBar %>
-	    </section>
+	    </aside>
 	</div>
 </div>
 <%-- <% include TopicsAndNews %> --%>
