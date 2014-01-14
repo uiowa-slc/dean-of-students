@@ -10,9 +10,9 @@
 	    	$Form
 	    	$Content
 	    </section>
-	    <aside class="sec-content hide-print">
+	    <section class="sec-content hide-print">
 			<% include BlogSideBar %>
-	    </aside>
+	    </section>
 	</div>
 </div>
 <%-- <% include TopicsAndNews %> --%>
