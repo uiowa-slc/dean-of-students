@@ -7,20 +7,21 @@
 	<div class="container clearfix">
 		<div class="white-cover"></div>
 	    <section class="main-content <% if $BackgroundImage %>margin-top<% end_if %>">
-        <% if not selectedTag %><h1><a href="$Link">$Title</a></h1><% end_if %>
+        <h1>$Title</h1>
 				<% if SelectedTag %>
+					<p><a href="$Link">View All Departments</a></p>	
 					<div class="who-does-what-selected-tag">
 						<h2>
-						<% _t('VIEWINGTAGGED', 'Departments tagged with') %> '$SelectedTag' 
-						<br>
-						<a href="$Link">View All Departments</a>
-						</h2>
+						<% _t('VIEWINGTAGGED', 'Departments tagged with') %> '$SelectedTag': </h2>
+
+						
 					</div>
+					<hr />
 				<% end_if %>				
-				<% if BlogEntries %>
-					<% loop BlogEntries %>		
+				<% if $BlogEntries %>
+					<% loop $BlogEntries.Sort(Title) %>		
 						<section class="who-does-what-section blogSummary">
-						  <div class="grid grid-pad">
+						  <div class="colgroup">
 							<div class="who-does-what col-1-2">
 							<h3>
 								$MenuTitle
@@ -31,11 +32,12 @@
 								<% if $EmailAddress %><p><span>Email:</span> $EmailAddress </p><% end_if %>
 								<% if $Website %><p><a href="$Website">Visit Website</a></p><% end_if %>
 							</div>						
-							<div class="who-does-what col-1-2">
+							<div class="who-does-what additional-info col-1-2">
 								<% if $AdditionalInfo %>
-								<h4>Additional Information:</h4><p> $AdditionalInfo </p>
+								<p> $AdditionalInfo </p>
 								<% end_if %>
 							</div>
+							<img src="{$ThemeDir}/images/additional-info-fade.png" class="additional-info-fade" />
 						 </div>	
 						<% if TagsCollection %>
 						    <div class="who-does-what-section-tags">
@@ -53,7 +55,6 @@
 				<% else %>
 					<p><% _t('NOENTRIES', 'There are no departments with this tag.') %></p>
 				<% end_if %>
-				<% include BlogPagination %>
         </section>
         <aside class="sec-content hide-print">
         	<% include SideBarSearch %>
