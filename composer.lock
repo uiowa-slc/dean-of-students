@@ -161,12 +161,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "ce3d5d4448c16b114b073e43bafae7e9c4b110d4"
+                "reference": "1b16d10c4c86f22e0049b12961990fc916f3fb1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/ce3d5d4448c16b114b073e43bafae7e9c4b110d4",
-                "reference": "ce3d5d4448c16b114b073e43bafae7e9c4b110d4",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/1b16d10c4c86f22e0049b12961990fc916f3fb1b",
+                "reference": "1b16d10c4c86f22e0049b12961990fc916f3fb1b",
                 "shasum": ""
             },
             "require": {
@@ -200,7 +200,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2014-01-14 15:59:29"
+            "time": "2014-01-14 18:10:26"
         },
         {
             "name": "silverstripe-themes/simple",
