@@ -10,10 +10,8 @@
                 <% if $Image %>
                     <img src="$Image.CroppedImage(765,512).URL" alt="">
                 <% end_if %>
-                <p class="return-link"><a href="policies/">Back to Policies</a></p>
-                	<br>
-                	<h1 class="postTitle">$Title</h1>
-                	
+                	<h1>$Title</h1>
+                	<p><a href="policies/">View All Policies</a></p>
                 <% if $StoryBy %>
                 	<p>
 						Story by <a href="mailto:$StoryByEmail">$StoryBy</a> <% if $StoryByTitle %> // $StoryByTitle <% end_if %> <% if $StoryByDept %> - $StoryByDept <% end_if %>
@@ -23,7 +21,6 @@
 	                $Content  
                 
                     <% if TagsCollection %>
-                    <br />
                     <p class="tags">
                          <% _t('TAGS', 'Tags:') %> 
                         <% loop TagsCollection %>
