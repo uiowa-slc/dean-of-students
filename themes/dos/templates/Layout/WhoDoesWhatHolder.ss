@@ -20,7 +20,7 @@
 				<% end_if %>				
 				<% if $BlogEntries %>
 					<% loop $BlogEntries.Sort(Title) %>		
-						<section class="who-does-what-section blogSummary">
+						<section class="who-does-what-section blogSummary" id="{$URLSegment}">
 						  <div class="colgroup">
 							<div class="who-does-what col-1-2">
 							<h3>
