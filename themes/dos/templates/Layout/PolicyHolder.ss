@@ -8,7 +8,21 @@
 		<div class="white-cover"></div>
 	    <section class="main-content policy <% if $BackgroundImage %>margin-top<% end_if %>">
 	    	$Form
-	    	$Content
+
+    		<% if SelectedTag %>
+				<h3><% _t('BlogHolder_ss.VIEWINGTAGGED', 'Viewing entries tagged with') %> '$SelectedTag'</h3>
+
+				<% if BlogEntries %>
+					<% loop BlogEntries %>
+						<% include BlogSummary %>
+					<% end_loop %>
+				<% else %>
+					<h2><% _t('BlogHolder_ss.NOENTRIES', 'There are no blog entries') %></h2>
+				<% end_if %>	
+			<% else %>			
+				$Content
+			<% end_if %>
+	    	
 	    </section>
 	    <section class="sec-content hide-print">
 			<% include BlogSideBar %>
