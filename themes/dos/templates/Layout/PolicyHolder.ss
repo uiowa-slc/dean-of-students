@@ -11,7 +11,7 @@
 
     		<% if SelectedTag %>
 				<h3><% _t('BlogHolder_ss.VIEWINGTAGGED', 'Viewing entries tagged with') %> '$SelectedTag'</h3>
-
+				<p><a href="$Link">View all entries</a></p>
 				<% if BlogEntries %>
 					<% loop BlogEntries %>
 						<% include BlogSummary %>
