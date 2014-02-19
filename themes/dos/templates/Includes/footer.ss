@@ -25,7 +25,9 @@
 			</div>
 			<div class="col-1-4 hide-print">
 				<h4>Dean of Students</h4>
-				<p>Engaging students, supporting positive community behavior, and enriching the college experience. Gifts to the Vice President for Student Life Development Fund allow us to continue and enhance our efforts to prepare students for a successful life in school and beyond.</p>
+				<p>Engaging students, supporting positive community behavior, and enriching the college experience.</p>
+				<h4>Support Student Life</h4>
+				<p>Gifts to the Vice President for Student Life Development Fund allow us to continue and enhance our efforts to prepare students for a successful life in school and beyond.</p>
 				<a href="https://www.givetoiowa.org/GiveToIowa/WebObjects/GiveToIowa.woa/wa/goTo?area=studentlife" class="appt-btn">Give Online Now</a>
 			</div>
         </div>
