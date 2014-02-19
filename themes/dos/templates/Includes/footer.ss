@@ -3,9 +3,11 @@
         <div class="colgroup">
 			<div class="col-1-2">
 				<a href="http://studentlife.uiowa.edu" class="hide-print"><img src="division-project/images/dosl-uiowa.png" alt="Division Of Student Life" style="margin-top: -20px;"></a><br>
-				<p>The Division of Student Life fosters student success by creating and promoting inclusive educationally purposeful services and activities within and beyond the classroom.</p>
-				<p>249 Iowa Memorial Union, Iowa City, IA 52242<br>
-					Phone: 319-335-3557</p>
+				<p>Engaging students, supporting positive community behavior, and enriching the college experience.</p>
+				<p>Office of the Dean of Students</p>
+				<p>135 Iowa Memorial Union, Iowa City, IA 52242<br>
+					Phone: 319-335-1162</p>
+				<p>Email: <a href="mailto:dos@uiowa.edu">dos@uiowa.edu</a></p>
 			</div>
 			<div class="col-1-4 hide-print">
 				<div class="colgroup">
