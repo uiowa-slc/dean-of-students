@@ -3,15 +3,15 @@
 
 <div class="gradient">
     <div class="container clearfix">
+       
         <div class="white-cover"></div>
         <section class="main-content <% if $BackgroundImage %>margin-top<% end_if %>">
-        
+             $Breadcrumbs
             <article>    
                 <% if $Image %>
                     <img src="$Image.CroppedImage(765,512).URL" alt="">
                 <% end_if %>
                 	<h1>$Title</h1>
-                	<p><a href="policies/">View All Policies</a></p>
                 <% if $StoryBy %>
                 	<p>
 						Story by <a href="mailto:$StoryByEmail">$StoryBy</a> <% if $StoryByTitle %> // $StoryByTitle <% end_if %> <% if $StoryByDept %> - $StoryByDept <% end_if %>
@@ -37,7 +37,16 @@
 
 
             <% include BlogSideBar %>
-            <% include BlogEntrySideNews %>
+            <nav class="sec-nav">
+                <ul class="first-level">
+                    <li><a href="policies/">Policies Index</a></li>
+                </ul>
+            </nav>
+            <div class="policy mod">
+                <% with $Page("policies") %>
+                    $Policies
+                <% end_with %>
+            </div>
         </section>
     </div>
 </div>

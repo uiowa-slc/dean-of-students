@@ -1,6 +1,5 @@
 /* site.css */
 
-
 .policy form{
 	margin-left: 15px;
 }
@@ -18,6 +17,15 @@
 .policy ol>ol>ol li {
 	list-style-type:lower-alpha;
 	
+}
+
+/* Policies in the sidebar */
+.policy.mod>ol {
+	padding-left: 2em;
+}
+
+.policy.mod>ol>ol {
+	margin-left: 0.5em;
 }
 
 .return-link {

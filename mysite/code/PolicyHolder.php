@@ -2,6 +2,7 @@
 class PolicyHolder extends BlogHolder {
 
 	private static $db = array(
+		"Policies" => "HTMLText"
 	);
 
 	private static $has_one = array(
@@ -26,6 +27,7 @@ class PolicyHolder extends BlogHolder {
 		
 		/*$gridField = new GridField("StaffTeam", "Staff Teams", StaffTeam::get(), GridFieldConfig_RecordEditor::create());
 		$f->addFieldToTab("Root.Main", $gridField); // add the grid field to a tab in the CMS	*/
+		$f->addFieldToTab("Root.Main", new HTMLEditorField("Policies", "Policies"), "Metadata");
 		return $f;
 	}
 }
