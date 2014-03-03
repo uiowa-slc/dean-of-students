@@ -3,16 +3,7 @@
 global $project;
 $project = 'mysite';
 
-global $databaseConfig;
-$databaseConfig = array(
-	"type" => 'MySQLDatabase',
-	"server" => 'localhost',
-	"username" => 'root',
-	"password" => 'omega',
-	"database" => 'dos2',
-	"path" => '',
-);
-
+require_once("conf/ConfigureFromEnv.php");
 MySQLDatabase::set_connection_charset('utf8');
 
 // Set the current theme. More themes can be downloaded from
