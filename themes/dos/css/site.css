@@ -137,3 +137,10 @@ img.additional-info-fade {
 .who-does-what-selected-tag a {
 	font-size: 1.25rem;
 }
+
+.policies_list li a[href^="http"] {
+	background-image: url(/dean-of-students/themes/dos/images/external_link.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	padding-right: 15px;
+}
