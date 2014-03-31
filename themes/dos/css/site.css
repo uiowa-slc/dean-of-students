@@ -144,3 +144,18 @@ img.additional-info-fade {
 	background-repeat: no-repeat;
 	padding-right: 15px;
 }
+/* escape button */
+
+#exit {
+	background: url('/dean-of-students/themes/dos/images/exit.gif') top;
+	position: fixed;
+	width:65px;
+	height: 196px;
+	top:45%;
+	z-index: 101;
+}
+
+#exit:hover {
+	background-position: bottom; 
+	cursor: pointer;
+}

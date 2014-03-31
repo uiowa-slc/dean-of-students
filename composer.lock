@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "c74a930ef0cb2e36c9f0c119eb920b82513c2e46"
+                "reference": "5457f08809983114aebd0a95dfa9e58a50bf560a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/c74a930ef0cb2e36c9f0c119eb920b82513c2e46",
-                "reference": "c74a930ef0cb2e36c9f0c119eb920b82513c2e46",
+                "url": "https://api.github.com/repos/composer/installers/zipball/5457f08809983114aebd0a95dfa9e58a50bf560a",
+                "reference": "5457f08809983114aebd0a95dfa9e58a50bf560a",
                 "shasum": ""
             },
             "replace": {
@@ -129,7 +129,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-03-21 15:33:48"
+            "time": "2014-03-26 23:15:27"
         },
         {
             "name": "md/division-bar",
@@ -252,12 +252,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "1230276f6f499888a03fa463961cb16033a7a747"
+                "reference": "067003a6c313267cc61ebce1240f906d695c75b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/1230276f6f499888a03fa463961cb16033a7a747",
-                "reference": "1230276f6f499888a03fa463961cb16033a7a747",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/067003a6c313267cc61ebce1240f906d695c75b3",
+                "reference": "067003a6c313267cc61ebce1240f906d695c75b3",
                 "shasum": ""
             },
             "require": {
@@ -285,7 +285,7 @@
                 "blog",
                 "silverstripe"
             ],
-            "time": "2014-03-12 21:23:24"
+            "time": "2014-03-22 10:49:11"
         },
         {
             "name": "silverstripe/cms",
@@ -584,12 +584,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "6937d65a07a7c1d3c61287933086d33c8fd30a4c"
+                "reference": "d8295c2a27539b7d807dfd8113e13b8b57391797"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/6937d65a07a7c1d3c61287933086d33c8fd30a4c",
-                "reference": "6937d65a07a7c1d3c61287933086d33c8fd30a4c",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/d8295c2a27539b7d807dfd8113e13b8b57391797",
+                "reference": "d8295c2a27539b7d807dfd8113e13b8b57391797",
                 "shasum": ""
             },
             "require": {
@@ -613,7 +613,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2014-03-17 09:34:10"
+            "time": "2014-03-31 16:17:38"
         },
         {
             "name": "silverstripe/widgets",

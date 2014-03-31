@@ -1,3 +1,8 @@
+<% if InSection("assessment")%>
+	<a onclick="location.replace('http://www.google.com'); return false;">
+		<div id="exit"></div>
+	</a>
+<% end_if %>
 <footer class="footer clearfix" role="contentinfo">
     <div class="container">
         <div class="colgroup">
