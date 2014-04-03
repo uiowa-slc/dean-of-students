@@ -1,7 +1,5 @@
 <% if InSection("assistance")%>
-	<a onclick="location.replace('http://www.google.com'); return false;">
-		<div id="exit"></div>
-	</a>
+	<a id="exit" href="http://weather.com"></a>
 <% end_if %>
 <footer class="footer clearfix" role="contentinfo">
     <div class="container">
