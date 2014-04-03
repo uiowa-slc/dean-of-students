@@ -1,4 +1,4 @@
-<% if InSection("assessment")%>
+<% if InSection("assistance")%>
 	<a onclick="location.replace('http://www.google.com'); return false;">
 		<div id="exit"></div>
 	</a>
