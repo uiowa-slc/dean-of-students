@@ -19,6 +19,16 @@
 	
 }
 
+.policyYear {
+	padding: 3px;
+	background: #f8f6f3;
+	border: none;
+
+	font-style: italic;
+	margin: 0.3em 0;
+    font-size: 0.9em;
+}
+
 /* Policies in the sidebar */
 .policy.mod>ol {
 	padding-left: 2em;

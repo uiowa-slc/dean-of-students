@@ -11,6 +11,9 @@
                 <% if $Image %>
                     <img src="$Image.CroppedImage(765,512).URL" alt="">
                 <% end_if %>
+                <% if $Parent.PolicyYear %>
+                	<p class="policyYear">Note: These policies are from the $Parent.PolicyYear academic year. <a href="policies/">Click here for current policies.</a> </p>
+                <% end_if %> 
                 	<h1>$Title</h1>
                 <% if $StoryBy %>
                 	<p>
