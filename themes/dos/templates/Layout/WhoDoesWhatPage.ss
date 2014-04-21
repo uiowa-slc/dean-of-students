@@ -28,6 +28,3 @@
     </section>
 
     <% include TopicsAndNews %>
-    
-
-

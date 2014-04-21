@@ -9,7 +9,7 @@
              $Breadcrumbs("20", "false", "false", "true")
             <article>    
                 <% if $Image %>
-                    <img src="$Image.CroppedImage(765,512).URL" alt="">
+                    <img src="$Image.CroppedImage(765,512).URL" alt="$Title">
                 <% end_if %>
                 <% with $Parent %>
                     <% if $PolicyYear %>

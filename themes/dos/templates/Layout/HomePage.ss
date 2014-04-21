@@ -29,9 +29,9 @@
                 <div class="hero-article clearfix">
                     <% if $Image %>
                     	<% if $UseExternalLink %>
-                    		<a href="$ExternalLink" target="_blank"><img src="$Image.URL" alt=""></a>
+                    		<a href="$ExternalLink" target="_blank"><img src="$Image.URL" alt="External Link Thumbnail"></a>
                     	<% else %>
-                        	<a href="$AssociatedPage.Link"><img src="$Image.URL" alt=""></a>
+                        	<a href="$AssociatedPage.Link"><img src="$Image.URL" alt="$AssociatedPage thumbnail"></a>
                         <% end_if %>
                     <% end_if %>
                     <h3 class="hero-title">
