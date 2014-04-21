@@ -7,6 +7,9 @@
 	<div class="container clearfix">
 		<div class="white-cover"></div>
 	    <section class="main-content policy <% if $BackgroundImage %>margin-top<% end_if %>">
+	    	<% if $PolicyYear %>
+	    		<% include PolicyArchiveNav %>
+	    	<% end_if %>
 	    	$Form
     		<% if SelectedTag %>
 				<h3><% _t('BlogHolder_ss.VIEWINGTAGGED', 'Viewing policies tagged with') %> '$SelectedTag'</h3>

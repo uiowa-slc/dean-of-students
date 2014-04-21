@@ -17,13 +17,16 @@ class PolicyPage extends BlogEntry {
 	
 	public function getCMSFields(){
 		$f = parent::getCMSFields();
-		//$f->removeByName("Content");
-		//$gridFieldConfig = GridFieldConfig_RecordEditor::create();
-		//$gridFieldConfig->addComponent(new GridFieldSortableRows('SortOrder'));
-		
-		
-		/*$gridField = new GridField("StaffTeam", "Staff Teams", StaffTeam::get(), GridFieldConfig_RecordEditor::create());
-		$f->addFieldToTab("Root.Main", $gridField); // add the grid field to a tab in the CMS	*/
+
+		$f->removeByName("StoryBy");
+		$f->removeByName("StoryByEmail");
+		$f->removeByName("StoryByTitle");
+		$f->removeByName("StoryByDept");
+		$f->removeByName("PhotosBy");
+		$f->removeByName("PhotosByEmail");
+		$f->removeByName("ExternalURL");
+		$f->removeByName("Image");
+
 		return $f;
 	}
 }

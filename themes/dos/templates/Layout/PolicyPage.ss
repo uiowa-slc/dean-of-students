@@ -6,14 +6,16 @@
        
         <div class="white-cover"></div>
         <section class="main-content <% if $BackgroundImage %>margin-top<% end_if %>">
-             $Breadcrumbs
+             $Breadcrumbs("20", "false", "false", "true")
             <article>    
                 <% if $Image %>
                     <img src="$Image.CroppedImage(765,512).URL" alt="">
                 <% end_if %>
-                <% if $Parent.PolicyYear %>
-                	<p class="policyYear">Note: These policies are from the $Parent.PolicyYear academic year. <a href="policies/">Click here for current policies.</a> </p>
-                <% end_if %> 
+                <% with $Parent %>
+                    <% if $PolicyYear %>
+                         <% include PolicyArchiveNav %>
+                    <% end_if %>
+                <% end_with %>
                 	<h1>$Title</h1>
                 <% if $StoryBy %>
                 	<p>
@@ -46,7 +48,10 @@
                 </ul>
             </nav>
             <div class="policy mod">
-                <% with $Page("policies") %>
+                <% with $Parent %>
+                    <% if $PolicyYear %>
+                         <% include PolicyArchiveNav %>
+                    <% end_if %>
                     $Policies
                 <% end_with %>
             </div>
