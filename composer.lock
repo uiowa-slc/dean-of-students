@@ -169,12 +169,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "168a55ef8cbfcc5e5c6fbf17a51c6e3978ba2544"
+                "reference": "02e4bc23c4ef3cb785bf89abb3eab350a5d60f5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/168a55ef8cbfcc5e5c6fbf17a51c6e3978ba2544",
-                "reference": "168a55ef8cbfcc5e5c6fbf17a51c6e3978ba2544",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/02e4bc23c4ef3cb785bf89abb3eab350a5d60f5d",
+                "reference": "02e4bc23c4ef3cb785bf89abb3eab350a5d60f5d",
                 "shasum": ""
             },
             "require": {
@@ -188,6 +188,7 @@
                 "silverstripe/framework": "3.1.4",
                 "silverstripe/googlesitemaps": "*",
                 "silverstripe/installer": "*",
+                "silverstripe/mathspamprotection": "*",
                 "silverstripe/recaptcha": "*",
                 "silverstripe/timepickerfield": "*",
                 "silverstripe/userforms": "*",
@@ -208,7 +209,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2014-04-18 18:43:00"
+            "time": "2014-04-21 20:10:15"
         },
         {
             "name": "silverstripe-themes/simple",
@@ -462,6 +463,40 @@
                 "silverstripe"
             ],
             "time": "2014-01-28 04:41:57"
+        },
+        {
+            "name": "silverstripe/mathspamprotection",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe/silverstripe-mathspamprotection.git",
+                "reference": "0e916101e2435eea23a43d34027c154fd90fe544"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-mathspamprotection/zipball/0e916101e2435eea23a43d34027c154fd90fe544",
+                "reference": "0e916101e2435eea23a43d34027c154fd90fe544",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/spamprotection": "dev-master"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Will Rossiter",
+                    "email": "will@fullscreen.io",
+                    "homepage": "http://wilr.github.com"
+                }
+            ],
+            "description": "This module provides a simple math protection mechanism for prevent spam from your forms.Includes an EditableMathSpamField to integrate with the UserForms module.",
+            "keywords": [
+                "mathspamprotection",
+                "silverstripe",
+                "spamprotection"
+            ],
+            "time": "2014-04-03 21:31:04"
         },
         {
             "name": "silverstripe/recaptcha",
