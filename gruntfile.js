@@ -1,40 +1,47 @@
 module.exports = function(grunt) {
-
+  //base theme directory set here
+  var themeDir =  'themes/dos'
   // Project configuration.
   grunt.initConfig({
-    /*
-    *   base theme directory set here
-    */
-    var themeDir = themeDir + ''
-
+    
     pkg: grunt.file.readJSON('package.json'),
-
-    concat: {
-      dist: {
-        src: [
-          themeDir + '/bower_components/jquery/jquery.js',
-          themeDir + '/bower_components/magnific-popup/dist/jquery.magnific-popup.js',
-          themeDir + '/bower_components/sass-bootstrap-compass/dist/js/sass-bootstrap.min.js',
-          'division-bar/js/division-bar.js',
-          themeDir + '/js/*.js'
-        ],
-        dest: themeDir + '/js/build/main.js'
-      }
-    },
-
-    uglify: {
-      build: {
-        src: [t77'/js/build/main.js'],
-        dest: themeDir + '/js/build/main.min.js'
-      }
-    },
+    
+    //compile the sass
 
     compass: {
       dist: {                   // Target
         options: {              // Target options
-          sassDir: themeDir + '/scss',
+          sassDir: [themeDir + '/scss', 'division-project/scss'],
           cssDir: themeDir + '/css',
           environment: 'production'
+        }
+      }
+    },
+
+    //concat all the files into the build folder
+
+    concat: {
+      css: {
+        src: [themeDir + '/css/*.css', 'division-project/css/*.css'],
+        dest: themeDir + '/build/css/master.css'
+      },
+      js:{
+        src: [themeDir + '/js/*.js', 'division-project/js/*.js'],
+        dest: themeDir + '/build/src/main_concat.js'
+      }
+    },
+
+    //minify those concated files
+    //toggle mangle to leave variable names intact
+
+    uglify: {
+      options: {
+        mangle: true
+      },
+      my_target:{
+        files:{
+        'themes/dos/build/js/main.min.js': ['themes/dos/build/src/main_concat.js'],
+        //'themes/dos/build/css/main.min.css': ['themes/dos/build/src/main_concat.css'] 
         }
       }
     },
@@ -78,6 +85,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-simple-watch');
 
   // Default task(s).
-  grunt.registerTask('default', ['concat', 'uglify', 'compass', 'imagemin', 'simple-watch']);
+  // Note: order of tasks is very important
+  grunt.registerTask('default', ['compass', 'concat', 'uglify', 'imagemin', 'simple-watch']);
 
 };
