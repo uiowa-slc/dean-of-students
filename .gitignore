@@ -4,6 +4,7 @@ html/*
 .DS_Store
 dashboard/
 vendor/
+node_modules/
 cms/
 blog/
 betterbuttons/
@@ -22,3 +23,4 @@ division-project/
 googlesitemaps/
 division-bar/
 assets/
+mathspamprotection/

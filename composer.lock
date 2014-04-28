@@ -169,12 +169,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "02e4bc23c4ef3cb785bf89abb3eab350a5d60f5d"
+                "reference": "3812e7c31365379b4ea69d79aca343ab39b59291"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/02e4bc23c4ef3cb785bf89abb3eab350a5d60f5d",
-                "reference": "02e4bc23c4ef3cb785bf89abb3eab350a5d60f5d",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/3812e7c31365379b4ea69d79aca343ab39b59291",
+                "reference": "3812e7c31365379b4ea69d79aca343ab39b59291",
                 "shasum": ""
             },
             "require": {
@@ -209,7 +209,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2014-04-21 20:10:15"
+            "time": "2014-04-25 15:03:13"
         },
         {
             "name": "silverstripe-themes/simple",
@@ -619,12 +619,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "d8295c2a27539b7d807dfd8113e13b8b57391797"
+                "reference": "b54e7fa4c6f8370b7d88643a70dc34b8ae03c47e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/d8295c2a27539b7d807dfd8113e13b8b57391797",
-                "reference": "d8295c2a27539b7d807dfd8113e13b8b57391797",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/b54e7fa4c6f8370b7d88643a70dc34b8ae03c47e",
+                "reference": "b54e7fa4c6f8370b7d88643a70dc34b8ae03c47e",
                 "shasum": ""
             },
             "require": {
@@ -648,7 +648,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2014-03-31 16:17:38"
+            "time": "2014-04-25 13:53:45"
         },
         {
             "name": "silverstripe/widgets",
@@ -783,12 +783,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/unclecheese/silverstripe-event-calendar.git",
-                "reference": "03d679f82c7999635ae003e6c269bf4ef0ed2958"
+                "reference": "f6d008d84a45295b0f7e19e4529748e214049a37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/unclecheese/silverstripe-event-calendar/zipball/03d679f82c7999635ae003e6c269bf4ef0ed2958",
-                "reference": "03d679f82c7999635ae003e6c269bf4ef0ed2958",
+                "url": "https://api.github.com/repos/unclecheese/silverstripe-event-calendar/zipball/f6d008d84a45295b0f7e19e4529748e214049a37",
+                "reference": "f6d008d84a45295b0f7e19e4529748e214049a37",
                 "shasum": ""
             },
             "require": {
@@ -818,7 +818,7 @@
                 "events",
                 "silverstripe"
             ],
-            "time": "2014-03-17 20:15:06"
+            "time": "2014-04-24 03:43:56"
         },
         {
             "name": "undefinedoffset/sortablegridfield",
