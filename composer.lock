@@ -169,12 +169,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "3812e7c31365379b4ea69d79aca343ab39b59291"
+                "reference": "9f78f58031da43b7d030cad54486da238d6b8a5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/3812e7c31365379b4ea69d79aca343ab39b59291",
-                "reference": "3812e7c31365379b4ea69d79aca343ab39b59291",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/9f78f58031da43b7d030cad54486da238d6b8a5a",
+                "reference": "9f78f58031da43b7d030cad54486da238d6b8a5a",
                 "shasum": ""
             },
             "require": {
@@ -209,7 +209,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2014-04-25 15:03:13"
+            "time": "2014-04-28 15:10:55"
         },
         {
             "name": "silverstripe-themes/simple",
@@ -692,12 +692,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/simplepie/simplepie.git",
-                "reference": "5f00e77b5feb96605cbcea4dcfb555e87c2fed24"
+                "reference": "9a9faaa0d563426cf6d897c169373c5b62f1b252"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simplepie/simplepie/zipball/5f00e77b5feb96605cbcea4dcfb555e87c2fed24",
-                "reference": "5f00e77b5feb96605cbcea4dcfb555e87c2fed24",
+                "url": "https://api.github.com/repos/simplepie/simplepie/zipball/9a9faaa0d563426cf6d897c169373c5b62f1b252",
+                "reference": "9a9faaa0d563426cf6d897c169373c5b62f1b252",
                 "shasum": ""
             },
             "require": {
@@ -738,7 +738,7 @@
                 "feeds",
                 "rss"
             ],
-            "time": "2013-10-24 06:37:55"
+            "time": "2014-04-28 12:50:39"
         },
         {
             "name": "unclecheese/betterbuttons",

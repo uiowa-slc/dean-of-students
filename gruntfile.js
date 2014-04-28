@@ -52,7 +52,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: themeDir + '/images/',
           src: ['**/*.{png,jpg,gif}'],
-          dest: themeDir + '/images/'
+          dest: themeDir + '/build/images/'
         }]
       }
     },
