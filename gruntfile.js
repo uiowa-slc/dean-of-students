@@ -23,7 +23,7 @@ module.exports = function(grunt) {
     concat: {
       css: {
         src: [themeDir + '/css/*.css', 'division-project/css/*.css'],
-        dest: themeDir + '/build/css/master.css'
+        dest: themeDir + '/css/master.css'
       },
       js:{
         src: [themeDir + '/js/*.js', 'division-project/js/*.js'],
@@ -40,8 +40,7 @@ module.exports = function(grunt) {
       },
       my_target:{
         files:{
-        'themes/dos/build/js/main.min.js': ['themes/dos/build/src/main_concat.js'],
-        //'themes/dos/build/css/main.min.css': ['themes/dos/build/src/main_concat.css'] 
+        'themes/dos/js/build.js': ['themes/dos/build/src/main_concat.js'],
         }
       }
     },
