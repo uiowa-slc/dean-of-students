@@ -3,8 +3,8 @@
 html/*
 .DS_Store
 dashboard/
-vendor/
 node_modules/
+vendor/
 cms/
 blog/
 betterbuttons/

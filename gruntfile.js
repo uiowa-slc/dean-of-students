@@ -1,9 +1,13 @@
 module.exports = function(grunt) {
-  //base theme directory set here
-  var themeDir =  'themes/dos'
+
+  var globalConfig = {
+    themeDir: 'themes/dos'
+  };
+
   // Project configuration.
   grunt.initConfig({
-    
+
+    globalConfig: globalConfig,
     pkg: grunt.file.readJSON('package.json'),
     
     //compile the sass
@@ -11,8 +15,8 @@ module.exports = function(grunt) {
     compass: {
       dist: {                   // Target
         options: {              // Target options
-          sassDir: [themeDir + '/scss', 'division-project/scss'],
-          cssDir: themeDir + '/css',
+          sassDir: ['<%=globalConfig.themeDir %>/scss', 'division-project/scss'],
+          cssDir: '<%=globalConfig.themeDir %>/css',
           environment: 'production'
         }
       }
@@ -22,12 +26,12 @@ module.exports = function(grunt) {
 
     concat: {
       css: {
-        src: [themeDir + '/css/*.css', 'division-project/css/*.css'],
-        dest: themeDir + '/build/css/master.css'
+        src: ['<%=globalConfig.themeDir %>/css/*.css', 'division-project/css/*.css'],
+        dest: '<%=globalConfig.themeDir %>/css/master.css'
       },
       js:{
-        src: [themeDir + '/js/*.js', 'division-project/js/*.js'],
-        dest: themeDir + '/build/src/main_concat.js'
+        src: ['<%=globalConfig.themeDir %>/js/*.js', 'division-project/js/*.js'],
+        dest: '<%=globalConfig.themeDir %>/build/src/main_concat.js'
       }
     },
 
@@ -40,8 +44,7 @@ module.exports = function(grunt) {
       },
       my_target:{
         files:{
-        'themes/dos/build/js/main.min.js': ['themes/dos/build/src/main_concat.js'],
-        //'themes/dos/build/css/main.min.css': ['themes/dos/build/src/main_concat.css'] 
+        '<%=globalConfig.themeDir %>/build/build.js': ['<%=globalConfig.themeDir %>/build/src/main_concat.js'],
         }
       }
     },
@@ -50,26 +53,26 @@ module.exports = function(grunt) {
       dynamic: {
         files: [{
           expand: true,
-          cwd: themeDir + '/images/',
+          cwd: '<%=globalConfig.themeDir %>/images/',
           src: ['**/*.{png,jpg,gif}'],
-          dest: themeDir + '/images/'
+          dest: '<%=globalConfig.themeDir %>/build/images/'
         }]
       }
     },
 
     watch: {
       scripts: {
-        files: ['js/*.js', 'js/**/*.js'],
+        files: ['<%=globalConfig.themeDir %>/js/*.js', '<%=globalConfig.themeDir %>/js/**/*.js'],
         tasks: ['concat', 'uglify'],
         options: {
-          spawn: false,
+          spawn: true,
         }
       },
       css: {
-        files: ['scss/*.scss', 'scss/**/*.scss'],
+        files: ['<%=globalConfig.themeDir %>/scss/*.scss', '<%=globalConfig.themeDir %>/scss/**/*.scss'],
         tasks: ['compass'],
         options: {
-          spawn: false,
+          spawn: true,
         }
       }
     },
