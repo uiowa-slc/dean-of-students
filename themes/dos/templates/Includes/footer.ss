@@ -5,12 +5,19 @@
     <div class="container">
         <div class="colgroup">
 			<div class="col-1-2">
-				<a href="http://studentlife.uiowa.edu" class="hide-print"><img src="division-project/images/dosl-uiowa.png" alt="Division Of Student Life" style="margin-top: -20px;"></a><br>
-				<p><br/></p>
-				<p>Office of the Dean of Students</p>
-				<p>135 Iowa Memorial Union, Iowa City, IA 52242<br>
-					Phone: 319-335-1162</p>
-				<p>Email: <a href="mailto:dos@uiowa.edu">dos@uiowa.edu</a></p>
+				<a href="http://studentlife.uiowa.edu" class="hide-print"><img src="division-project/images/dosl-uiowa.png" alt="Division Of Student Life" style="margin-top: -20px;"></a>
+				<% if $SiteConfig.GroupSummary %>
+					<p>$SiteConfig.GroupSummary</p>
+				<% else %>
+					<p>The Division of Student Life fosters student success by creating and promoting inclusive educationally purposeful services and activities within and beyond the classroom.</p>
+				<% end_if %>
+				<p>$SiteConfig.Address
+				<% if $SiteConfig.PhoneNumber %>
+					<br />$SiteConfig.PhoneNumber
+				<% end_if %>
+				<% if $SiteConfig.EmailAddress %>
+					<br />Email: <a href="mailto:{$EmailAddress}">$SiteConfig.EmailAddress</a>
+				<% end_if %>
 			</div>
 			<div class="col-1-4 hide-print">
 				<div class="colgroup">
@@ -31,8 +38,6 @@
 				</div>
 			</div>
 			<div class="col-1-4 hide-print">
-				<h4>Dean of Students</h4>
-				<p>Engaging students, supporting positive community behavior, and enriching the college experience through educationally-purposeful activities, service, and community building.</p>
 				<h4>Support Student Life</h4>
 				<p>Gifts to the Vice President for Student Life Development Fund allow us to continue and enhance our efforts to prepare students for a successful life in school and beyond.</p>
 				<a href="https://www.givetoiowa.org/GiveToIowa/WebObjects/GiveToIowa.woa/wa/goTo?area=studentlife" class="appt-btn">Give Online Now</a>
