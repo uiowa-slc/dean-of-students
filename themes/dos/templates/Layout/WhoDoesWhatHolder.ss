@@ -37,7 +37,6 @@
 								<p> $AdditionalInfo </p>
 								<% end_if %>
 							</div>
-							<img src="{$ThemeDir}/images/additional-info-fade.png" alt= "additional info"class="additional-info-fade" />
 						 </div>	
 						<% if TagsCollection %>
 						    <div class="who-does-what-section-tags">
