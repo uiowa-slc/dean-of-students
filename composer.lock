@@ -1,7 +1,8 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
     "hash": "4f25de017171b84b6fe4da651cc11fe1",
     "packages": [
@@ -175,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project.git",
-                "reference": "d08e140402b78f9f6fbdff2a5662a86cfe425229"
+                "reference": "46b13a70ab21518317d737ad33204e42c909aad0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/d08e140402b78f9f6fbdff2a5662a86cfe425229",
-                "reference": "d08e140402b78f9f6fbdff2a5662a86cfe425229",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/46b13a70ab21518317d737ad33204e42c909aad0",
+                "reference": "46b13a70ab21518317d737ad33204e42c909aad0",
                 "shasum": ""
             },
             "require": {
@@ -200,7 +201,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/issues"
             },
-            "time": "2014-07-25 15:54:23"
+            "time": "2014-07-25 20:08:27"
         },
         {
             "name": "md/division-project",
@@ -208,12 +209,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "6a93aaeb271f189a2e40e5fe24be1dd7518fb85c"
+                "reference": "536a21be938ade5dadd39f9d80e6bc5faf8c410a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/6a93aaeb271f189a2e40e5fe24be1dd7518fb85c",
-                "reference": "6a93aaeb271f189a2e40e5fe24be1dd7518fb85c",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/536a21be938ade5dadd39f9d80e6bc5faf8c410a",
+                "reference": "536a21be938ade5dadd39f9d80e6bc5faf8c410a",
                 "shasum": ""
             },
             "require": {
@@ -247,7 +248,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2014-07-25 19:53:55"
+            "time": "2014-07-28 20:14:42"
         },
         {
             "name": "rywa/silverstripe-foundation-forms",
@@ -655,12 +656,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "5568ee78751a8a9e09ebd18b238452da62502d64"
+                "reference": "42932ea47f7b28eab91d5f8199b64dc7a888d6e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/5568ee78751a8a9e09ebd18b238452da62502d64",
-                "reference": "5568ee78751a8a9e09ebd18b238452da62502d64",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/42932ea47f7b28eab91d5f8199b64dc7a888d6e6",
+                "reference": "42932ea47f7b28eab91d5f8199b64dc7a888d6e6",
                 "shasum": ""
             },
             "require": {
@@ -686,7 +687,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2014-07-25 02:53:13"
+            "time": "2014-07-27 08:51:23"
         },
         {
             "name": "silverstripe/widgets",
@@ -910,6 +911,7 @@
         "md/division-project": 20,
         "md/division-elearning-project": 20
     },
+    "prefer-stable": false,
     "platform": {
         "php": ">=5.3.2"
     },
