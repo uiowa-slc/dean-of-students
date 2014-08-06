@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b58367b1b07fc2f7e257bef07ac4514b",
+    "hash": "166c256ddf2781de0586cffd8cc72bd5",
     "packages": [
         {
             "name": "colymba/gridfield-bulk-editing-tools",
@@ -176,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project.git",
-                "reference": "697dbbd6481ed4d18aa95ebfa0bdfc1dec3420c8"
+                "reference": "a615cb0a9ddad0283f716e81730c7f7976015eb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/697dbbd6481ed4d18aa95ebfa0bdfc1dec3420c8",
-                "reference": "697dbbd6481ed4d18aa95ebfa0bdfc1dec3420c8",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/a615cb0a9ddad0283f716e81730c7f7976015eb3",
+                "reference": "a615cb0a9ddad0283f716e81730c7f7976015eb3",
                 "shasum": ""
             },
             "require": {
@@ -202,7 +202,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/issues"
             },
-            "time": "2014-08-04 16:50:41"
+            "time": "2014-08-06 16:54:40"
         },
         {
             "name": "md/division-project",
@@ -657,12 +657,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "42932ea47f7b28eab91d5f8199b64dc7a888d6e6"
+                "reference": "44eaf5432adbae1d29d3f94110b3949f12d83ace"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/42932ea47f7b28eab91d5f8199b64dc7a888d6e6",
-                "reference": "42932ea47f7b28eab91d5f8199b64dc7a888d6e6",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/44eaf5432adbae1d29d3f94110b3949f12d83ace",
+                "reference": "44eaf5432adbae1d29d3f94110b3949f12d83ace",
                 "shasum": ""
             },
             "require": {
@@ -688,7 +688,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2014-07-27 08:51:23"
+            "time": "2014-08-06 03:28:43"
         },
         {
             "name": "silverstripe/widgets",
@@ -696,12 +696,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-widgets.git",
-                "reference": "575654459c9869d7d15fec9ddba1db1c71493b54"
+                "reference": "8ee406675e40ab7c978939c5cdacd810494baabe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-widgets/zipball/575654459c9869d7d15fec9ddba1db1c71493b54",
-                "reference": "575654459c9869d7d15fec9ddba1db1c71493b54",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-widgets/zipball/8ee406675e40ab7c978939c5cdacd810494baabe",
+                "reference": "8ee406675e40ab7c978939c5cdacd810494baabe",
                 "shasum": ""
             },
             "require": {
@@ -713,9 +713,7 @@
             "authors": [
                 {
                     "name": "Ingo Schommer",
-                    "email": "ingo@silverstripe.com",
-                    "homepage": "http://chillu.com",
-                    "role": "tech-lead"
+                    "email": "ingo@silverstripe.com"
                 }
             ],
             "description": "Widgets are small pieces of functionality such as showing the latest Comments or Flickr Photos. They normally display on the sidebar of your website.",
@@ -724,7 +722,7 @@
                 "silverstripe",
                 "widgets"
             ],
-            "time": "2014-07-01 21:16:53"
+            "time": "2014-08-06 04:03:50"
         },
         {
             "name": "simplepie/simplepie",
@@ -866,12 +864,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/UndefinedOffset/SortableGridField.git",
-                "reference": "81886ed81acb492daca355b2be3bf5ef16a39d0f"
+                "reference": "86d08f97574d32ec553edc2eef4bfbc181ef14f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/81886ed81acb492daca355b2be3bf5ef16a39d0f",
-                "reference": "81886ed81acb492daca355b2be3bf5ef16a39d0f",
+                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/86d08f97574d32ec553edc2eef4bfbc181ef14f1",
+                "reference": "86d08f97574d32ec553edc2eef4bfbc181ef14f1",
                 "shasum": ""
             },
             "require": {
@@ -898,7 +896,7 @@
                 "gridfield",
                 "silverstripe"
             ],
-            "time": "2014-08-02 16:55:52"
+            "time": "2014-08-06 16:15:32"
         }
     ],
     "packages-dev": [
