@@ -3,8 +3,8 @@
 <% end_if %>
 <footer class="footer clearfix" role="contentinfo">
     <div class="container">
-        <div class="colgroup">
-			<div class="col-1-2">
+        <div class="row">
+			<div class="col-md-4">
 				<a href="http://studentlife.uiowa.edu" class="hide-print"><img src="division-project/images/dosl-uiowa.png" alt="Division Of Student Life" style="margin-top: -20px;"></a>
 				<% if $SiteConfig.GroupSummary %>
 					<p>$SiteConfig.GroupSummary</p>
@@ -19,7 +19,7 @@
 					<br />Email: <a href="mailto:{$EmailAddress}">$SiteConfig.EmailAddress</a>
 				<% end_if %>
 			</div>
-			<div class="col-1-4 hide-print">
+			<div class="col-md-4 hide-print">
 				<div class="colgroup">
 					<ul class="footer-nav">
 						<% if $SiteConfig.FacebookLink %>
@@ -37,7 +37,7 @@
 					
 				</div>
 			</div>
-			<div class="col-1-4 hide-print">
+			<div class="col-md-4 hide-print">
 				<h4>Support Student Life</h4>
 				<p>Gifts to the Vice President for Student Life Development Fund allow us to continue and enhance our efforts to prepare students for a successful life in school and beyond.</p>
 				<a href="https://www.givetoiowa.org/GiveToIowa/WebObjects/GiveToIowa.woa/wa/goTo?area=studentlife" class="appt-btn">Give Online Now</a>

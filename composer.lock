@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "9858818d592a9e5ec3fc90877c656004",
+    "hash": "166c256ddf2781de0586cffd8cc72bd5",
     "packages": [
         {
             "name": "colymba/gridfield-bulk-editing-tools",
@@ -170,17 +171,51 @@
             "time": "2014-06-18 14:30:05"
         },
         {
+            "name": "md/division-elearning-project",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project.git",
+                "reference": "a615cb0a9ddad0283f716e81730c7f7976015eb3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/a615cb0a9ddad0283f716e81730c7f7976015eb3",
+                "reference": "a615cb0a9ddad0283f716e81730c7f7976015eb3",
+                "shasum": ""
+            },
+            "require": {
+                "md/division-bar": "*",
+                "md/division-project": "dev-master",
+                "php": ">=5.3.2",
+                "rywa/silverstripe-foundation-forms": "dev-master",
+                "silverstripe/cms": "3.1.5",
+                "silverstripe/framework": "3.1.5",
+                "silverstripe/mathspamprotection": "dev-master",
+                "silverstripe/recaptcha": "*",
+                "silverstripe/spamprotection": "dev-master",
+                "silverstripe/userforms": "*"
+            },
+            "type": "silverstripe-module",
+            "description": "Themable module for an elearning project",
+            "support": {
+                "source": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/tree/master",
+                "issues": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/issues"
+            },
+            "time": "2014-08-06 16:54:40"
+        },
+        {
             "name": "md/division-project",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "6a93aaeb271f189a2e40e5fe24be1dd7518fb85c"
+                "reference": "536a21be938ade5dadd39f9d80e6bc5faf8c410a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/6a93aaeb271f189a2e40e5fe24be1dd7518fb85c",
-                "reference": "6a93aaeb271f189a2e40e5fe24be1dd7518fb85c",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/536a21be938ade5dadd39f9d80e6bc5faf8c410a",
+                "reference": "536a21be938ade5dadd39f9d80e6bc5faf8c410a",
                 "shasum": ""
             },
             "require": {
@@ -214,7 +249,47 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2014-07-25 19:53:55"
+            "time": "2014-07-28 20:14:42"
+        },
+        {
+            "name": "rywa/silverstripe-foundation-forms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ryanwachtl/silverstripe-foundation-forms.git",
+                "reference": "8e1daa4c89a0dd36f491b210fe8e9ca07674a94e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ryanwachtl/silverstripe-foundation-forms/zipball/8e1daa4c89a0dd36f491b210fe8e9ca07674a94e",
+                "reference": "8e1daa4c89a0dd36f491b210fe8e9ca07674a94e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "silverstripe/framework": ">=3.0"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "foundationforms"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT Open Source License"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan Wachtl",
+                    "homepage": "http://ryanwachtl.com"
+                }
+            ],
+            "description": "SilverStripe 3 Forms Compatible with Zurb Foundation Framework",
+            "keywords": [
+                "Forms",
+                "silverstripe",
+                "zurbfoundation"
+            ],
+            "time": "2014-08-01 02:02:34"
         },
         {
             "name": "silverstripe-themes/simple",
@@ -222,12 +297,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-themes/silverstripe-simple.git",
-                "reference": "84c1215f914b8c20f924202a2ace2812f28d6c0a"
+                "reference": "63c549e82fb8d530bb88a370a8b7c3d8c61ddd74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-themes/silverstripe-simple/zipball/84c1215f914b8c20f924202a2ace2812f28d6c0a",
-                "reference": "84c1215f914b8c20f924202a2ace2812f28d6c0a",
+                "url": "https://api.github.com/repos/silverstripe-themes/silverstripe-simple/zipball/63c549e82fb8d530bb88a370a8b7c3d8c61ddd74",
+                "reference": "63c549e82fb8d530bb88a370a8b7c3d8c61ddd74",
                 "shasum": ""
             },
             "require": {
@@ -250,7 +325,7 @@
                 "silverstripe",
                 "theme"
             ],
-            "time": "2013-10-15 22:16:12"
+            "time": "2014-07-30 04:30:14"
         },
         {
             "name": "silverstripe/blog",
@@ -582,12 +657,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "5568ee78751a8a9e09ebd18b238452da62502d64"
+                "reference": "44eaf5432adbae1d29d3f94110b3949f12d83ace"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/5568ee78751a8a9e09ebd18b238452da62502d64",
-                "reference": "5568ee78751a8a9e09ebd18b238452da62502d64",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/44eaf5432adbae1d29d3f94110b3949f12d83ace",
+                "reference": "44eaf5432adbae1d29d3f94110b3949f12d83ace",
                 "shasum": ""
             },
             "require": {
@@ -613,7 +688,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2014-07-25 02:53:13"
+            "time": "2014-08-06 03:28:43"
         },
         {
             "name": "silverstripe/widgets",
@@ -621,12 +696,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-widgets.git",
-                "reference": "575654459c9869d7d15fec9ddba1db1c71493b54"
+                "reference": "8ee406675e40ab7c978939c5cdacd810494baabe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-widgets/zipball/575654459c9869d7d15fec9ddba1db1c71493b54",
-                "reference": "575654459c9869d7d15fec9ddba1db1c71493b54",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-widgets/zipball/8ee406675e40ab7c978939c5cdacd810494baabe",
+                "reference": "8ee406675e40ab7c978939c5cdacd810494baabe",
                 "shasum": ""
             },
             "require": {
@@ -638,9 +713,7 @@
             "authors": [
                 {
                     "name": "Ingo Schommer",
-                    "email": "ingo@silverstripe.com",
-                    "homepage": "http://chillu.com",
-                    "role": "tech-lead"
+                    "email": "ingo@silverstripe.com"
                 }
             ],
             "description": "Widgets are small pieces of functionality such as showing the latest Comments or Flickr Photos. They normally display on the sidebar of your website.",
@@ -649,7 +722,7 @@
                 "silverstripe",
                 "widgets"
             ],
-            "time": "2014-07-01 21:16:53"
+            "time": "2014-08-06 04:03:50"
         },
         {
             "name": "simplepie/simplepie",
@@ -791,12 +864,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/UndefinedOffset/SortableGridField.git",
-                "reference": "3f1f5dbdb4cce4b7fb9056819caf895ee45f390d"
+                "reference": "86d08f97574d32ec553edc2eef4bfbc181ef14f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/3f1f5dbdb4cce4b7fb9056819caf895ee45f390d",
-                "reference": "3f1f5dbdb4cce4b7fb9056819caf895ee45f390d",
+                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/86d08f97574d32ec553edc2eef4bfbc181ef14f1",
+                "reference": "86d08f97574d32ec553edc2eef4bfbc181ef14f1",
                 "shasum": ""
             },
             "require": {
@@ -823,7 +896,7 @@
                 "gridfield",
                 "silverstripe"
             ],
-            "time": "2014-05-03 20:07:22"
+            "time": "2014-08-06 16:15:32"
         }
     ],
     "packages-dev": [
@@ -834,8 +907,10 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "md/division-project": 20
+        "md/division-project": 20,
+        "md/division-elearning-project": 20
     },
+    "prefer-stable": false,
     "platform": {
         "php": ">=5.3.2"
     },

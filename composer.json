@@ -3,7 +3,10 @@
 	"description": "The SilverStripe Framework Installer",
 	"require": {
 		"php": ">=5.3.2",
-		"md/division-project": "dev-master"
+		"md/division-project": "dev-master",
+		"md/division-elearning-project": "dev-master",
+        "unclecheese/betterbuttons" : "*",
+        "undefinedoffset/sortablegridfield" : "*"
 
 	},
 	"config": {
@@ -20,6 +23,11 @@
         {
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/division-bar"
+
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project"
 
         }
     ]
