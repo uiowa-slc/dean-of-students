@@ -4,7 +4,7 @@
 <footer class="footer clearfix" role="contentinfo">
     <div class="container">
         <div class="row">
-			<div class="col-md-4">
+			<div class="col-md-5">
 				<a href="http://studentlife.uiowa.edu" class="hide-print"><img src="division-project/images/dosl-uiowa.png" alt="Division Of Student Life" style="margin-top: -20px;"></a>
 				<% if $SiteConfig.GroupSummary %>
 					<p>$SiteConfig.GroupSummary</p>
@@ -19,7 +19,7 @@
 					<br />Email: <a href="mailto:{$EmailAddress}">$SiteConfig.EmailAddress</a>
 				<% end_if %>
 			</div>
-			<div class="col-md-4 hide-print">
+			<div class="col-md-3 hide-print">
 				<div class="colgroup">
 					<ul class="footer-nav">
 						<% if $SiteConfig.FacebookLink %>
