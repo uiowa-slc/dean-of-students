@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/colymba/GridFieldBulkEditingTools.git",
-                "reference": "7d749774914d8321aa7b568eee7329809c96d7a7"
+                "reference": "1906afcba4bbe0e56d7d99ff6d6a43b7e07507d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/7d749774914d8321aa7b568eee7329809c96d7a7",
-                "reference": "7d749774914d8321aa7b568eee7329809c96d7a7",
+                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/1906afcba4bbe0e56d7d99ff6d6a43b7e07507d7",
+                "reference": "1906afcba4bbe0e56d7d99ff6d6a43b7e07507d7",
                 "shasum": ""
             },
             "require": {
@@ -46,7 +46,7 @@
                 "gridfield bulk upload",
                 "silverstripe"
             ],
-            "time": "2014-07-24 11:29:03"
+            "time": "2014-08-08 15:34:11"
         },
         {
             "name": "composer/installers",
@@ -176,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project.git",
-                "reference": "2ce58835a9ffb16c379b1dac7684bae07c373313"
+                "reference": "d820728975b9dda9a022d7e374677c8556e8fa2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/2ce58835a9ffb16c379b1dac7684bae07c373313",
-                "reference": "2ce58835a9ffb16c379b1dac7684bae07c373313",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/d820728975b9dda9a022d7e374677c8556e8fa2d",
+                "reference": "d820728975b9dda9a022d7e374677c8556e8fa2d",
                 "shasum": ""
             },
             "require": {
@@ -203,7 +203,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/issues"
             },
-            "time": "2014-08-07 17:19:17"
+            "time": "2014-08-14 18:43:57"
         },
         {
             "name": "md/division-project",
@@ -471,12 +471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-labs/silverstripe-googlesitemaps.git",
-                "reference": "198a850f8dfb65751d0ae20c6576bc4fa2fd0608"
+                "reference": "27e79a4e0279d5a34a191c5f56e753f97324a643"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-googlesitemaps/zipball/198a850f8dfb65751d0ae20c6576bc4fa2fd0608",
-                "reference": "198a850f8dfb65751d0ae20c6576bc4fa2fd0608",
+                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-googlesitemaps/zipball/27e79a4e0279d5a34a191c5f56e753f97324a643",
+                "reference": "27e79a4e0279d5a34a191c5f56e753f97324a643",
                 "shasum": ""
             },
             "require": {
@@ -490,8 +490,7 @@
             "authors": [
                 {
                     "name": "Will Rossiter",
-                    "email": "will@fullscreen.io",
-                    "homepage": "http://wilr.github.com"
+                    "email": "will@fullscreen.io"
                 }
             ],
             "description": "SilverStripe support for the Google Sitemaps XML system, enabling Google and other search engines to see all urls on your site. This helps your SilverStripe website rank well in search engines, and to encourage the information on your site to be discovered by Google quickly.",
@@ -501,7 +500,7 @@
                 "seo",
                 "silverstripe"
             ],
-            "time": "2014-07-17 22:16:18"
+            "time": "2014-08-13 21:29:51"
         },
         {
             "name": "silverstripe/mathspamprotection",
@@ -658,12 +657,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "c3386b48b26fd8122af3da321aa8cb74238ec2b9"
+                "reference": "66a4d82d3aa8169855c953b0dfb33ea7ba314b19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/c3386b48b26fd8122af3da321aa8cb74238ec2b9",
-                "reference": "c3386b48b26fd8122af3da321aa8cb74238ec2b9",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/66a4d82d3aa8169855c953b0dfb33ea7ba314b19",
+                "reference": "66a4d82d3aa8169855c953b0dfb33ea7ba314b19",
                 "shasum": ""
             },
             "require": {
@@ -689,7 +688,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2014-08-07 00:26:06"
+            "time": "2014-08-12 08:05:47"
         },
         {
             "name": "silverstripe/widgets",
