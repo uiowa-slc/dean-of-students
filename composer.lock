@@ -176,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project.git",
-                "reference": "98b27ecba736d5b5bd121981d82f524fe54fe478"
+                "reference": "64acdd6633ef2d22fb101ad13e54aa0c6341c4e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/98b27ecba736d5b5bd121981d82f524fe54fe478",
-                "reference": "98b27ecba736d5b5bd121981d82f524fe54fe478",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/64acdd6633ef2d22fb101ad13e54aa0c6341c4e4",
+                "reference": "64acdd6633ef2d22fb101ad13e54aa0c6341c4e4",
                 "shasum": ""
             },
             "require": {
@@ -203,7 +203,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/issues"
             },
-            "time": "2014-08-18 21:00:27"
+            "time": "2014-08-19 17:57:34"
         },
         {
             "name": "md/division-project",
@@ -471,12 +471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-labs/silverstripe-googlesitemaps.git",
-                "reference": "27e79a4e0279d5a34a191c5f56e753f97324a643"
+                "reference": "e67f807f8a08884b4213d9c4cb74e692df824ef7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-googlesitemaps/zipball/27e79a4e0279d5a34a191c5f56e753f97324a643",
-                "reference": "27e79a4e0279d5a34a191c5f56e753f97324a643",
+                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-googlesitemaps/zipball/e67f807f8a08884b4213d9c4cb74e692df824ef7",
+                "reference": "e67f807f8a08884b4213d9c4cb74e692df824ef7",
                 "shasum": ""
             },
             "require": {
@@ -500,7 +500,7 @@
                 "seo",
                 "silverstripe"
             ],
-            "time": "2014-08-13 21:29:51"
+            "time": "2014-08-19 05:20:40"
         },
         {
             "name": "silverstripe/mathspamprotection",
