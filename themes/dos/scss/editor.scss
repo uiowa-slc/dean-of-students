@@ -25,8 +25,8 @@
 	line-height: 1.5;
 	@import "../../../division-project/scss/imports/_typography.scss";
 
-	@extend ol.policies-alternate;
-
-
+	ol.policies-alternate{
+		@extend ol.policies-alternate;
+	}
 }
 
