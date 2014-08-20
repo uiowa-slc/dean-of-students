@@ -5,6 +5,8 @@
 @import "../../../division-project/scss/imports/config";
 @import "../../../division-project/scss/imports/mixins";
 
+@import "imports/policies";
+
 /*-------------------------------------------
    	Fonts
 -------------------------------------------*/
@@ -23,10 +25,7 @@
 	line-height: 1.5;
 	@import "../../../division-project/scss/imports/_typography.scss";
 
-	.policies{
-
-		list-style-type: upper-alpha;
-	}
+	@extend ol.policies-alternate;
 
 
 }
