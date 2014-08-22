@@ -30,3 +30,14 @@ ol.policies-alternate ol{
 ol.policies-alternate ol ol{
 	list-style-type: lower-alpha;
 }
+
+ol.policies-alternate ol ol ol{
+	list-style-type: lower-roman;
+}
+ol.policies-alternate ol ol ol ol{
+	list-style-type: lower-alpha;
+}
+
+ol.policies-alternate ol ol ol ol ol{
+	list-style-type: decimal;
+}
