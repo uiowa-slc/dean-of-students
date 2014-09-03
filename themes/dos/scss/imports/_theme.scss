@@ -1,23 +1,4 @@
-/* site.css */
 
-.policy form{
-	margin-left: 15px;
-}
-
-.policy ol li {
-	list-style-type:upper-roman;
-	font-size:  1.75rem;
-}
-
-.policy ol>ol li{
-	list-style-type:upper-alpha;
-	font-size: 1rem;
-}
-
-.policy ol>ol>ol li {
-	list-style-type:lower-alpha;
-	
-}
 
 .policyYear {
 	padding: 3px;
@@ -157,12 +138,17 @@ img.additional-info-fade {
 /* escape button */
 
 #exit {
-	background: url('../images/exit.gif') top;
-	position: fixed;
-	width:65px;
-	height: 196px;
-	top:45%;
-	z-index: 101;
+	display: none;
+	@media (min-width: $break-large) { 
+		display: block;
+		background: url('../images/exit.gif') top;
+		position: fixed;
+		width:65px;
+		height: 196px;
+		top:45%;
+		z-index: 101;
+	}
+
 }
 
 #exit:hover {
