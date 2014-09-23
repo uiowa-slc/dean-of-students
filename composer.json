@@ -29,6 +29,11 @@
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project"
 
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events"
+
         }
     ]
 
