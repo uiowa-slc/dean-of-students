@@ -7,13 +7,21 @@
 }
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .hero {
+  <% if $BackgroundFeature %>
+    background: black url({$BackgroundFeature.Image.URL}) no-repeat center top;
+  <% else %>
     background: black url({$ThemeDir}/images/hero-image-md.jpg) no-repeat center top;
+  <% end_if %>
     padding: 4em 0;
   }
 }
 @media screen and (min-width: 768px) {
   .hero {
+  <% if $BackgroundFeature %>
+    background: black url({$BackgroundFeature.Image.URL}) no-repeat center top;
+  <% else %>
     background: black url({$ThemeDir}/images/hero-image.jpg) no-repeat center top;
+  <% end_if %>
     padding: 0;
     height: 665px;
   }
@@ -22,43 +30,22 @@
 <div class="hero">
         <div class="container clearfix">
 
-        <% if HomePageHeroFeatures.limit(2) %>
+        <% if HomePageHeroFeatures.Limit(2) %>
             <div class="hero-article-wrapper">
 
-                <% loop HomePageHeroFeatures %>
-                <div class="hero-article clearfix">
-                    <% if $Image %>
-                    	<% if $UseExternalLink %>
-                    		<a href="$ExternalLink" target="_blank"><img src="$Image.URL" alt="External Link Thumbnail"></a>
-                    	<% else %>
-                        	<a href="$AssociatedPage.Link"><img src="$Image.URL" alt="$AssociatedPage thumbnail"></a>
-                        <% end_if %>
-                    <% end_if %>
-                    <h3 class="hero-title">
-	                    <% if $UseExternalLink %>
-	                    	<a href="$ExternalLink" target="_blank">$Title</a>
-	                    <% else %>
-	                    	<a href="$AssociatedPage.Link">$Title</a>
-	                    <% end_if %>
-                    </h3>
-                    <div class="hero-content">$Content</div>
-                    <% if $UseExternalLink %>
-                    	<a href="$ExternalLink" target="_blank" class="hero-link">Read More</a>
-                    <% else %>
-                    	<a href="$AssociatedPage.Link" class="hero-link">Read More</a>
-                    <% end_if %>
-                </div>
+              <% loop HomePageHeroFeatures.Limit(2) %>
+                <% include HomePageHeroFeature %>
               <% end_loop %>
 
 
-	          </div>
+            </div>
          <% end_if %>
 
          <% include HomePageHeroText %>
 
         </div>
 
-    </div>
+  </div>
 	<section class="home-highlights">
         <div class="container clearfix">
         	  <div class="module twitter">
