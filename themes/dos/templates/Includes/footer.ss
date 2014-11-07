@@ -1,3 +1,4 @@
+
 <% if InSection("assistance")%>
 	<a id="exit" href="http://weather.com"></a>
 <% end_if %>
