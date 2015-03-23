@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4574b6585a29ceed4ffc648026c59b55",
+    "hash": "148e15c43804c26d1183f2a6c16e3324",
     "packages": [
         {
             "name": "colymba/gridfield-bulk-editing-tools",
@@ -149,12 +149,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonom/silverstripe-focuspoint.git",
-                "reference": "6769333e8789c6ab87a28e0a5d4c738bbb40cc90"
+                "reference": "cc6bfdac821f79280046814fb033a4c9766a0da8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonom/silverstripe-focuspoint/zipball/6769333e8789c6ab87a28e0a5d4c738bbb40cc90",
-                "reference": "6769333e8789c6ab87a28e0a5d4c738bbb40cc90",
+                "url": "https://api.github.com/repos/jonom/silverstripe-focuspoint/zipball/cc6bfdac821f79280046814fb033a4c9766a0da8",
+                "reference": "cc6bfdac821f79280046814fb033a4c9766a0da8",
                 "shasum": ""
             },
             "require": {
@@ -180,7 +180,7 @@
                 "image",
                 "silverstripe"
             ],
-            "time": "2014-12-18 04:05:56"
+            "time": "2015-03-23 19:08:48"
         },
         {
             "name": "md/ac-json-events",
@@ -252,17 +252,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project.git",
-                "reference": "8e6f6a009e39cf9e972af00fe0f14b615561ce34"
+                "reference": "3a0ca1f0d423699783163f32ac34a31fa696f4c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/8e6f6a009e39cf9e972af00fe0f14b615561ce34",
-                "reference": "8e6f6a009e39cf9e972af00fe0f14b615561ce34",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/3a0ca1f0d423699783163f32ac34a31fa696f4c8",
+                "reference": "3a0ca1f0d423699783163f32ac34a31fa696f4c8",
                 "shasum": ""
             },
             "require": {
                 "md/division-bar": "*",
-                "md/division-project": "dev-master",
+                "md/division-project": "2.0.*",
                 "php": ">=5.3.2",
                 "rywa/silverstripe-foundation-forms": "dev-master",
                 "silverstripe/cms": "3.1.*",
@@ -279,20 +279,20 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/issues"
             },
-            "time": "2015-03-23 17:54:13"
+            "time": "2015-03-23 19:40:49"
         },
         {
             "name": "md/division-project",
-            "version": "dev-master",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "50da7334184bbf7c118b325b6a8fddc51b4ae3b9"
+                "reference": "e3bd72d2a69970d337863ed7fc7d7160fac5d52e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/50da7334184bbf7c118b325b6a8fddc51b4ae3b9",
-                "reference": "50da7334184bbf7c118b325b6a8fddc51b4ae3b9",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/e3bd72d2a69970d337863ed7fc7d7160fac5d52e",
+                "reference": "e3bd72d2a69970d337863ed7fc7d7160fac5d52e",
                 "shasum": ""
             },
             "require": {
@@ -326,10 +326,10 @@
             "type": "silverstripe-module",
             "description": "The University of Iowa Division of Student Life Project Code and Theme",
             "support": {
-                "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0.1",
+                "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2015-03-23 17:47:41"
+            "time": "2015-03-23 19:03:10"
         },
         {
             "name": "md/rss-display",
@@ -1321,7 +1321,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "md/division-project": 20,
         "md/division-elearning-project": 20
     },
     "prefer-stable": false,
