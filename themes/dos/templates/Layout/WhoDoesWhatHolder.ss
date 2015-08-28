@@ -20,19 +20,17 @@
 				<% end_if %>				
 				<% if $BlogEntries %>
 					<% loop $BlogEntries.Sort(Title) %>		
-						<section class="who-does-what-section blogSummary" id="{$URLSegment}">
+						<section class="blogSummary">
+						<h3>$MenuTitle</h3>
 						  <div class="colgroup">
-							<div class="who-does-what col-1-2">
-							<h3>
-								$MenuTitle
-							</h3>
+							<div class="col-1-2">
 								<% if $OfficeName %><p><span>Office Name:</span> $OfficeName</p><% end_if %>
 								<% if $OfficeLocation %><p><span>Location:</span> $OfficeLocation</p><% end_if %>
 								<% if $PhoneNumber %><p><span>Phone Number:</span> $PhoneNumber</p><% end_if %>
 								<% if $EmailAddress %><p><span>Email:</span> $EmailAddress </p><% end_if %>
-								<% if $Website %><p><a href="$Website">Visit Website</a></p><% end_if %>
+								<% if $Website %><p><a href="$Website">Visit Website &rarr;</a></p><% end_if %>
 							</div>						
-							<div class="who-does-what additional-info col-1-2">
+							<div class="col-1-2">
 								<% if $AdditionalInfo %>
 								<p> $AdditionalInfo </p>
 								<% end_if %>
@@ -55,13 +53,10 @@
 					<p><% _t('NOENTRIES', 'There are no departments with this tag.') %></p>
 				<% end_if %>
         </section>
-        <aside class="sec-content hide-print">
-        	<% include SideBarSearch %>
-        	<% include SideNav %>
-        	<div id="sidebar-tags">
-        	$SideBarView
-        	</div>
-        </aside>
+        <section class="sec-content hide-print">
+        	<%-- include SideNav --%>
+        	<% include BlogSideBar %>
+        </section>
     </div>
 </div>
 <%-- <% include TopicsAndNews %> --%>
