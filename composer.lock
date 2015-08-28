@@ -287,12 +287,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "7474bb9491bbd73f881f50c5e5c8cf9f6a9da566"
+                "reference": "cbbc597b41d3b185e2d21fbe5fca5b46559c34c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/7474bb9491bbd73f881f50c5e5c8cf9f6a9da566",
-                "reference": "7474bb9491bbd73f881f50c5e5c8cf9f6a9da566",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/cbbc597b41d3b185e2d21fbe5fca5b46559c34c2",
+                "reference": "cbbc597b41d3b185e2d21fbe5fca5b46559c34c2",
                 "shasum": ""
             },
             "require": {
@@ -330,7 +330,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2015-08-24 17:37:14"
+            "time": "2015-08-28 17:17:09"
         },
         {
             "name": "md/rss-display",
@@ -521,16 +521,16 @@
         },
         {
             "name": "silverstripe-australia/gridfieldextensions",
-            "version": "1.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-australia/silverstripe-gridfieldextensions.git",
-                "reference": "302f7c0dc1ca929d7aa001453eaa16491afd4d5b"
+                "reference": "48b0a1f3fca0f548744e6cd12b7754de323054d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-australia/silverstripe-gridfieldextensions/zipball/302f7c0dc1ca929d7aa001453eaa16491afd4d5b",
-                "reference": "302f7c0dc1ca929d7aa001453eaa16491afd4d5b",
+                "url": "https://api.github.com/repos/silverstripe-australia/silverstripe-gridfieldextensions/zipball/48b0a1f3fca0f548744e6cd12b7754de323054d3",
+                "reference": "48b0a1f3fca0f548744e6cd12b7754de323054d3",
                 "shasum": ""
             },
             "require": {
@@ -542,6 +542,9 @@
             "type": "silverstripe-module",
             "extra": {
                 "installer-name": "gridfieldextensions",
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                },
                 "screenshots": [
                     "docs/en/_images/editable-rows.png",
                     "docs/en/_images/add-existing-search.png"
@@ -567,7 +570,7 @@
                 "gridfield",
                 "silverstripe"
             ],
-            "time": "2015-03-04 01:28:24"
+            "time": "2015-08-11 05:01:37"
         },
         {
             "name": "silverstripe-themes/simple",
@@ -851,45 +854,6 @@
             "time": "2014-12-11 10:38:25"
         },
         {
-            "name": "silverstripe/segment-field",
-            "version": "1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/assertchris/silverstripe-segment-field.git",
-                "reference": "0b1445307bac488ddc35d624564f4300e8080029"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/assertchris/silverstripe-segment-field/zipball/0b1445307bac488ddc35d624564f4300e8080029",
-                "reference": "0b1445307bac488ddc35d624564f4300e8080029",
-                "shasum": ""
-            },
-            "require": {
-                "silverstripe/cms": "^3.1",
-                "silverstripe/framework": "^3.1"
-            },
-            "require-dev": {
-                "mockery/mockery": "^0.9",
-                "phpunit/phpunit": "^3.7"
-            },
-            "type": "silverstripe-module",
-            "autoload": {
-                "psr-4": {
-                    "SilverStripe\\Forms\\": "code"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "A reusable approach to segment-generating fields",
-            "keywords": [
-                "segment",
-                "silverstripe"
-            ],
-            "time": "2015-08-18 04:44:43"
-        },
-        {
             "name": "silverstripe/spamprotection",
             "version": "dev-master",
             "source": {
@@ -1058,23 +1022,21 @@
         },
         {
             "name": "silverstripe/userforms",
-            "version": "dev-master",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "c4a95d59dc1dee2b5d8f69ae4414f693e7f0a6dd"
+                "reference": "4b6201da45a9016fe7e84070362adf47e0366daf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/c4a95d59dc1dee2b5d8f69ae4414f693e7f0a6dd",
-                "reference": "c4a95d59dc1dee2b5d8f69ae4414f693e7f0a6dd",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/4b6201da45a9016fe7e84070362adf47e0366daf",
+                "reference": "4b6201da45a9016fe7e84070362adf47e0366daf",
                 "shasum": ""
             },
             "require": {
-                "silverstripe-australia/gridfieldextensions": "1.1.0",
                 "silverstripe/cms": ">=3.1.0",
-                "silverstripe/framework": ">=3.1.0",
-                "silverstripe/segment-field": "^1.0"
+                "silverstripe/framework": ">=3.1.0"
             },
             "suggest": {
                 "colymba/gridfield-bulk-editing-tools": "Allows for bulk management of form submissions"
@@ -1082,7 +1044,7 @@
             "type": "silverstripe-module",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-master": "2.0.x-dev"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1100,7 +1062,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2015-08-28 03:15:37"
+            "time": "2015-07-20 14:56:48"
         },
         {
             "name": "silverstripe/widgets",
