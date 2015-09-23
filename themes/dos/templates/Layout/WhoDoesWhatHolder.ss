@@ -9,20 +9,21 @@
 	    <section class="main-content <% if $BackgroundImage %>margin-top<% end_if %>">
 	    $Breadcrumbs
         <h1>$Title</h1>
-				<% if SelectedTag %>
-					<p><a href="$Link">View All Departments</a></p>	
-					<div class="who-does-what-selected-tag">
-						<h2>
-						<% _t('VIEWINGTAGGED', 'Departments tagged with') %> '$SelectedTag': </h2>
 
+				<% if CurrentTag %>
 						
+					<div class="who-does-what-selected-tag">
+						<p>
+						<% _t('VIEWINGTAGGED', 'Departments tagged with') %> '$CurrentTag.Title': </p>
+
+						<p><a href="$Link">View All Departments &rarr;</a></p>
 					</div>
 					<hr />
 				<% end_if %>				
-				<% if $BlogPosts %>
-					<% loop $BlogPosts.Sort(Title) %>		
+				<% if $PaginatedList %>
+					<% loop $PaginatedList.Sort(Title) %>		
 						<section class="blogSummary">
-						<h3>$MenuTitle</h3>
+						<h2>$MenuTitle</h2>
 						  <div class="colgroup">
 							<div class="col-1-2">
 								<% if $OfficeName %><p><span>Office Name:</span> $OfficeName</p><% end_if %>
@@ -53,6 +54,9 @@
 				<% else %>
 					<p><% _t('NOENTRIES', 'There are no departments with this tag.') %></p>
 				<% end_if %>
+				<% with $PaginatedList %>
+					<% include Pagination %>
+				<% end_with %>
         </section>
         <section class="sec-content hide-print">
         	<%-- include SideNav --%>
