@@ -7,6 +7,7 @@
 	<div class="container clearfix">
 		<div class="white-cover"></div>
 	    <section class="main-content <% if $BackgroundImage %>margin-top<% end_if %>">
+	    $Breadcrumbs
         <h1>$Title</h1>
 				<% if SelectedTag %>
 					<p><a href="$Link">View All Departments</a></p>	
@@ -18,8 +19,8 @@
 					</div>
 					<hr />
 				<% end_if %>				
-				<% if $BlogEntries %>
-					<% loop $BlogEntries.Sort(Title) %>		
+				<% if $BlogPosts %>
+					<% loop $BlogPosts.Sort(Title) %>		
 						<section class="blogSummary">
 						<h3>$MenuTitle</h3>
 						  <div class="colgroup">
@@ -36,12 +37,12 @@
 								<% end_if %>
 							</div>
 						 </div>	
-						<% if TagsCollection %>
+						<% if Tags %>
 						    <div class="who-does-what-section-tags">
 							<p>
 								Tags:
-								<% loop TagsCollection %>
-									<a href="$Link" title="View all posts tagged '$Tag'" rel="tag">$Tag</a><% if not Last %>,<% end_if %>
+								<% loop Tags %>
+									<a href="$Link" title="View all posts tagged '$Tag'" rel="tag">$Title</a><% if not Last %>,<% end_if %>
 								<% end_loop %>
 							</p>
 							</div>

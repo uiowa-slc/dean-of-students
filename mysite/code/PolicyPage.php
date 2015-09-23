@@ -1,21 +1,21 @@
 <?php
-class PolicyPage extends BlogEntry {
+class PolicyPage extends Page {
 
 	private static $db = array(
 	);
 
 	private static $has_one = array(
-	
+
 	);
 
 	private static $has_many = array(
 	);
-	
+
 	static $singular_name = 'Policy';
-	
+
 	static $plural_name = 'Policies';
-	
-	public function getCMSFields(){
+
+	public function getCMSFields() {
 		$f = parent::getCMSFields();
 
 		$f->removeByName("StoryBy");
@@ -30,7 +30,7 @@ class PolicyPage extends BlogEntry {
 		return $f;
 	}
 }
-class PolicyPage_Controller extends BlogEntry_Controller {
+class PolicyPage_Controller extends Page_Controller {
 
 	/**
 	 * An array of actions that can be accessed via a request. Each array element should be an action name, and the
@@ -47,7 +47,7 @@ class PolicyPage_Controller extends BlogEntry_Controller {
 	 *
 	 * @var array
 	 */
-	private static $allowed_actions = array (
+	private static $allowed_actions = array(
 	);
 
 	public function init() {
