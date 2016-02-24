@@ -296,12 +296,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project.git",
-                "reference": "b2a15370707a68f734f43808d50a89acb7f4dfc5"
+                "reference": "ebcb19f8171878386aeab16bccb4d8ba75a3ed57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/b2a15370707a68f734f43808d50a89acb7f4dfc5",
-                "reference": "b2a15370707a68f734f43808d50a89acb7f4dfc5",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/ebcb19f8171878386aeab16bccb4d8ba75a3ed57",
+                "reference": "ebcb19f8171878386aeab16bccb4d8ba75a3ed57",
                 "shasum": ""
             },
             "require": {
@@ -315,7 +315,7 @@
                 "silverstripe/recaptcha": "*",
                 "silverstripe/spamprotection": "dev-master",
                 "silverstripe/userforms": "*",
-                "unclecheese/bootstrap-forms": "*"
+                "unclecheese/bootstrap-forms": "1.1.9"
             },
             "type": "silverstripe-module",
             "description": "Themable module for an elearning project",
@@ -323,7 +323,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/issues"
             },
-            "time": "2016-02-24 21:48:45"
+            "time": "2016-02-24 22:14:07"
         },
         {
             "name": "md/division-project",
@@ -1389,16 +1389,16 @@
         },
         {
             "name": "unclecheese/bootstrap-forms",
-            "version": "dev-master",
+            "version": "1.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/unclecheese/silverstripe-bootstrap-forms.git",
-                "reference": "1460a7dc0a54bc5634e6dfcdd7214262609866a3"
+                "reference": "2c62387a06e8cd0a65925457dd1da6e03f5c9d3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/unclecheese/silverstripe-bootstrap-forms/zipball/1460a7dc0a54bc5634e6dfcdd7214262609866a3",
-                "reference": "1460a7dc0a54bc5634e6dfcdd7214262609866a3",
+                "url": "https://api.github.com/repos/unclecheese/silverstripe-bootstrap-forms/zipball/2c62387a06e8cd0a65925457dd1da6e03f5c9d3c",
+                "reference": "2c62387a06e8cd0a65925457dd1da6e03f5c9d3c",
                 "shasum": ""
             },
             "require": {
@@ -1426,7 +1426,7 @@
                 "silverstripe",
                 "twitter"
             ],
-            "time": "2016-01-25 21:36:57"
+            "time": "2015-10-20 22:47:05"
         },
         {
             "name": "unclecheese/eventcalendar",
