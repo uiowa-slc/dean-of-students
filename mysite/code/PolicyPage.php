@@ -11,9 +11,9 @@ class PolicyPage extends Page {
 	private static $has_many = array(
 	);
 
-	static $singular_name = 'Policy';
+	private static $singular_name = 'Policy';
 
-	static $plural_name = 'Policies';
+	private static $plural_name = 'Policies';
 
 	public function getCMSFields() {
 		$f = parent::getCMSFields();
@@ -28,6 +28,14 @@ class PolicyPage extends Page {
 		$f->removeByName("Image");
 
 		return $f;
+	}
+
+	public function PreventSearchEngineIndex() {
+		$parent = $this->Parent();
+
+		if ($parent->PolicyYear) {
+			return true;
+		}
 	}
 }
 class PolicyPage_Controller extends Page_Controller {
