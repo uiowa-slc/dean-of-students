@@ -1,21 +1,17 @@
-
-
 .policyYear {
-	padding: 3px;
-	background: #f8f6f3;
+	padding: 6px;
+	background: #d9edff;
 	border: none;
-
 	font-style: italic;
 	margin: 0.3em 0;
-    font-size: 0.9em;
 }
 
 /* Policies in the sidebar */
-.policy.mod>ol {
+.policy.mod > ol {
 	padding-left: 2em;
 }
 
-.policy.mod>ol>ol {
+.policy.mod > ol > ol {
 	margin-left: 0.5em;
 }
 
@@ -37,29 +33,29 @@
 	min-width: 100%;
 	display: block;
 }
-.who-does-what-section .colgroup{
-	position: relative;
 
+.who-does-what-section .colgroup {
+	position: relative;
 }
+
 .who-does-what-section p span {
 	font-weight: bold;
 }
 
-.who-does-what-section-tags{
+.who-does-what-section-tags {
 	display: block;
 	clear: both;
-
 	margin-top: 20px;
 }
 
-.who-does-what-section-tags p{
+.who-does-what-section-tags p {
 	margin: 0;
 	padding: 0;
 }
 
 .who-does-what {
-	word-wrap:break-word; 
-	max-height: 200px; 
+	word-wrap: break-word;
+	max-height: 200px;
 	overflow-y: auto;
 }
 
@@ -79,7 +75,6 @@
 
 .who-does-what.additional-info {
 	padding-bottom: 40px;
-
 }
 
 img.additional-info-fade {
@@ -139,19 +134,19 @@ img.additional-info-fade {
 
 #exit {
 	display: none;
-	@media (min-width: $break-large) { 
+
+	@media (min-width: $break-large) {
 		display: block;
-		background: url('../images/exit.gif') top;
+		background: url("../images/exit.gif") top;
 		position: fixed;
-		width:40px;
+		width: 40px;
 		height: 196px;
-		top:45%;
+		top: 45%;
 		z-index: 101;
 	}
-
 }
 
 #exit:hover {
-	background-position: bottom; 
+	background-position: bottom;
 	cursor: pointer;
 }
