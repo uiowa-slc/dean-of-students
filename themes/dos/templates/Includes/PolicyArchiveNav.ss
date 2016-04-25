@@ -1,3 +1,2 @@
 
-<p class="policyYear"> Note: These policies are from the <strong>$PolicyYear academic year</strong>. Some policies that reside on other websites have not been archived.</p>
- <p><a href="policies/" class="btn">View current policies &rarr;</a></p>
+<p class="policyYear"> Note: These policies are from the <strong>$PolicyYear academic year</strong>. Some policies that reside on other websites have not been archived. <br /><a href="policies/" class="btn">View current policies &rarr;</a></p>
