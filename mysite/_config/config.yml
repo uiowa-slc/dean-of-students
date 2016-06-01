@@ -1,0 +1,3 @@
+StaffPage:
+  extensions:
+    - StaffPageExtension
