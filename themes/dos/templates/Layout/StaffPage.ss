@@ -7,7 +7,7 @@
             		<img src="<% include PlaceholderLargeSrc %>" data-src="$Photo.ScaleWidth(760).URL" alt="$FirstName $LastName">
             	<% end_if %>
                   <h2>$Position</h2>
-                  <% if $SecondaryTitle %><h2>$SecondaryTitle</h2><% end_if %>
+                  <% if $SecondaryTitle %><h2 class="secondary-title">$SecondaryTitle</h2><% end_if %>
                   <ul>
                         <% if $EmailAddress %><li>Email: <a href="mailto:$EmailAddress">$EmailAddress</a></li><% end_if %>
                         <% if $Phone %><li>Phone: $Phone</li><% end_if %>
