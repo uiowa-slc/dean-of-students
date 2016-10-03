@@ -161,12 +161,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/johngrogg/ics-parser.git",
+                "url": "https://github.com/u01jmg3/ics-parser.git",
                 "reference": "fe46d0d6d89066679594b101812590ad8517a635"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johngrogg/ics-parser/zipball/fe46d0d6d89066679594b101812590ad8517a635",
+                "url": "https://api.github.com/repos/u01jmg3/ics-parser/zipball/fe46d0d6d89066679594b101812590ad8517a635",
                 "reference": "fe46d0d6d89066679594b101812590ad8517a635",
                 "shasum": ""
             },
@@ -359,12 +359,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project.git",
-                "reference": "2d9400dd10983dc8fb6f9400bb4c2547d8c52b39"
+                "reference": "09ddd3df876de340d4ca022a1002681ce1bda1a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/2d9400dd10983dc8fb6f9400bb4c2547d8c52b39",
-                "reference": "2d9400dd10983dc8fb6f9400bb4c2547d8c52b39",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/09ddd3df876de340d4ca022a1002681ce1bda1a3",
+                "reference": "09ddd3df876de340d4ca022a1002681ce1bda1a3",
                 "shasum": ""
             },
             "require": {
@@ -386,7 +386,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/issues"
             },
-            "time": "2016-08-30 15:45:35"
+            "time": "2016-10-03 16:08:09"
         },
         {
             "name": "md/division-project",
@@ -873,12 +873,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe-labs/silverstripe-googlesitemaps.git",
+                "url": "https://github.com/wilr/silverstripe-googlesitemaps.git",
                 "reference": "bb7fbb8308e5d0c5bd39d557e1d1df7397044df3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-googlesitemaps/zipball/bb7fbb8308e5d0c5bd39d557e1d1df7397044df3",
+                "url": "https://api.github.com/repos/wilr/silverstripe-googlesitemaps/zipball/bb7fbb8308e5d0c5bd39d557e1d1df7397044df3",
                 "reference": "bb7fbb8308e5d0c5bd39d557e1d1df7397044df3",
                 "shasum": ""
             },
@@ -1244,12 +1244,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe-labs/silverstripe-staticpublisher.git",
+                "url": "https://github.com/silverstripe/silverstripe-staticpublisher.git",
                 "reference": "d417b6e8694cfda11ecf665277c5d5e04737a49b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-staticpublisher/zipball/d417b6e8694cfda11ecf665277c5d5e04737a49b",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-staticpublisher/zipball/d417b6e8694cfda11ecf665277c5d5e04737a49b",
                 "reference": "d417b6e8694cfda11ecf665277c5d5e04737a49b",
                 "shasum": ""
             },
