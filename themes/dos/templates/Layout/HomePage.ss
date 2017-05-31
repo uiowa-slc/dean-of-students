@@ -56,21 +56,7 @@
 	                
 			  </div>
 	        <% loop HomePageFeatures.Limit(2) %>
-	            <div class="module">
-	                <div class="media">
-	                <% if $YouTubeEmbed %>
-	                	$YouTubeEmbed
-	                <% else %>
-	                    <a href="$AssociatedPage.Link">
-	                        <img src="$Image.CroppedImage(350,197).URL" alt="$Title">
-	                    </a>
-	                <% end_if %>
-	                </div>
-	                <div class="inner">
-	                    <h3><a href="$AssociatedPage.Link">$Title</a></h3>
-	                    	$Content
-	                </div>
-	            </div>
+	            $forTemplate
 	         <% end_loop %>
          </div><!-- end .container -->
     </section>
