@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca0618baa5d55e73757ec46851ed90ed",
+    "content-hash": "816870abd0b3256e33aaeeb5dd8ff66d",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -85,16 +85,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.4.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b"
+                "reference": "33decf7c820e379bcc0c9cc9231ad0b6f00baacc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
-                "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
+                "url": "https://api.github.com/repos/composer/installers/zipball/33decf7c820e379bcc0c9cc9231ad0b6f00baacc",
+                "reference": "33decf7c820e379bcc0c9cc9231ad0b6f00baacc",
                 "shasum": ""
             },
             "require": {
@@ -177,15 +177,18 @@
                 "lavalite",
                 "lithium",
                 "magento",
+                "majima",
                 "mako",
                 "mediawiki",
                 "modulework",
+                "modx",
                 "moodle",
                 "osclass",
                 "phpbb",
                 "piwik",
                 "ppi",
                 "puppet",
+                "pxcms",
                 "reindex",
                 "roundcube",
                 "shopware",
@@ -198,7 +201,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-08-09T07:53:48+00:00"
+            "time": "2017-10-19 08:12:54"
         },
         {
             "name": "embed/embed",
@@ -533,6 +536,73 @@
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-analytics/issues"
             },
             "time": "2017-09-21 14:37:39"
+        },
+        {
+            "name": "md/division-bar",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/StudentLifeMarketingAndDesign/division-bar.git",
+                "reference": "22913ca8e3e4398f3042a4c076da682f7d2550b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-bar/zipball/22913ca8e3e4398f3042a4c076da682f7d2550b7",
+                "reference": "22913ca8e3e4398f3042a4c076da682f7d2550b7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "silverstripe/cms": "3.*",
+                "silverstripe/framework": "3.*"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                }
+            },
+            "description": "The University of Iowa Division of Student Life Bar",
+            "support": {
+                "source": "https://github.com/StudentLifeMarketingAndDesign/division-bar/tree/master",
+                "issues": "https://github.com/StudentLifeMarketingAndDesign/division-bar/issues"
+            },
+            "time": "2016-10-14 20:47:47"
+        },
+        {
+            "name": "md/division-elearning-project",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project.git",
+                "reference": "09ddd3df876de340d4ca022a1002681ce1bda1a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/09ddd3df876de340d4ca022a1002681ce1bda1a3",
+                "reference": "09ddd3df876de340d4ca022a1002681ce1bda1a3",
+                "shasum": ""
+            },
+            "require": {
+                "md/division-bar": "*",
+                "md/division-project": "*",
+                "php": ">=5.3.2",
+                "rywa/silverstripe-foundation-forms": "1.0.x",
+                "silverstripe/cms": "3.*",
+                "silverstripe/framework": "3.*",
+                "silverstripe/mathspamprotection": "*",
+                "silverstripe/recaptcha": "*",
+                "silverstripe/spamprotection": "*",
+                "silverstripe/userforms": "*",
+                "unclecheese/bootstrap-forms": "1.1.9"
+            },
+            "type": "silverstripe-module",
+            "description": "Themable module for an elearning project",
+            "support": {
+                "source": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/tree/master",
+                "issues": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/issues"
+            },
+            "time": "2016-10-03 16:08:09"
         },
         {
             "name": "md/division-project",
@@ -925,6 +995,52 @@
                 "column"
             ],
             "time": "2015-03-20T22:07:39+00:00"
+        },
+        {
+            "name": "rywa/silverstripe-foundation-forms",
+            "version": "1.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ryanwachtl/silverstripe-foundation-forms.git",
+                "reference": "e2f80285ae3ec42026b339efd8e4b05fcb970c6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ryanwachtl/silverstripe-foundation-forms/zipball/e2f80285ae3ec42026b339efd8e4b05fcb970c6d",
+                "reference": "e2f80285ae3ec42026b339efd8e4b05fcb970c6d",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "foundationforms",
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT Open Source License"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan Wachtl",
+                    "email": "ryan@beyondusability.pro",
+                    "homepage": "http://beyondusability.pro",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Add Foundation framework forms compatibility to SilverStripe 3",
+            "keywords": [
+                "Forms",
+                "foundation",
+                "silverstripe",
+                "zurb foundation"
+            ],
+            "time": "2016-02-04 19:17:22"
         },
         {
             "name": "sheadawson/quickaddnew",
@@ -1616,6 +1732,44 @@
             ],
             "abandoned": "symbiote/silverstripe-queuedjobs",
             "time": "2017-06-30 11:06:23"
+        },
+        {
+            "name": "silverstripe/recaptcha",
+            "version": "2.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chillu/silverstripe-recaptcha.git",
+                "reference": "9fdbfedcc2fddc6e4d106a3dcdc3e3365eed2ff0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chillu/silverstripe-recaptcha/zipball/9fdbfedcc2fddc6e4d106a3dcdc3e3365eed2ff0",
+                "reference": "9fdbfedcc2fddc6e4d106a3dcdc3e3365eed2ff0",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1",
+                "silverstripe/spamprotection": "*"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Ingo Schommer",
+                    "email": "ingo@silverstripe.com"
+                }
+            ],
+            "description": "Provides a form field which allows form to validate for non-bot submissions by giving them a challenge to decrypt an image.",
+            "keywords": [
+                "silverstripe",
+                "spamprotection"
+            ],
+            "time": "2016-10-12 18:53:14"
         },
         {
             "name": "silverstripe/reports",
@@ -2312,6 +2466,47 @@
             "time": "2017-01-20 08:51:05"
         },
         {
+            "name": "unclecheese/bootstrap-forms",
+            "version": "1.1.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/unclecheese/silverstripe-bootstrap-forms.git",
+                "reference": "2c62387a06e8cd0a65925457dd1da6e03f5c9d3c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/unclecheese/silverstripe-bootstrap-forms/zipball/2c62387a06e8cd0a65925457dd1da6e03f5c9d3c",
+                "reference": "2c62387a06e8cd0a65925457dd1da6e03f5c9d3c",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/cms": "3.*",
+                "silverstripe/framework": "3.*"
+            },
+            "replace": {
+                "silverstripe/bootstrap-forms": "*"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Uncle Cheese",
+                    "email": "unclecheese@leftandmain.com"
+                }
+            ],
+            "description": "Allows you to create forms in SilverStripe that are compatible with Twitter Bootstrap.",
+            "keywords": [
+                "Forms",
+                "bootstrap",
+                "silverstripe",
+                "twitter"
+            ],
+            "time": "2015-10-20T22:47:05+00:00"
+        },
+        {
             "name": "unclecheese/display-logic",
             "version": "1.5.0",
             "source": {
@@ -2806,7 +3001,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "md/division-elearning-project": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
