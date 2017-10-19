@@ -1,23 +1,27 @@
 {
-	"name": "silverstripe/installer",
-	"description": "The SilverStripe Framework Installer",
-	"require": {
-		"php": ">=5.3.2",
-		"md/division-project": "1.3.x",
-		"md/division-elearning-project": "dev-master",
-        "unclecheese/betterbuttons" : "*",
-        "undefinedoffset/sortablegridfield" : "*"
+    "name": "silverstripe/installer",
+    "description": "The SilverStripe Framework Installer",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+        "md/division-project": "2.0.x",
+        "md/division-elearning-project": "dev-master"
 
-	},
-	"config": {
-		"process-timeout": 600	
-	},
-	"minimum-stability": "dev",
-	
+    },
+    "config": {
+        "process-timeout": 600  
+    },
+    
+    
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/division-project"
+      
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/division-analytics"
       
         },
         {
@@ -38,13 +42,21 @@
         {
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/rss-display"
+
         },
         {
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-flickr"
+
+        },
+        {
+             "type": "vcs",
+             "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-activedirectory"
+        },
+        {
+             "type": "vcs",
+             "url": "https://github.com/StudentLifeMarketingAndDesign/fbpagefeed"
         }
     ]
 
 }
-
-
