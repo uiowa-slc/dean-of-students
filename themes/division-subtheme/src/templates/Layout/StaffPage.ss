@@ -21,7 +21,7 @@ $Header
 						<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="dp-lazy" data-original="$Photo.ScaleWidth(945).URL" width="945" height="$Photo.ScaleWidth(945).Height" alt="" role="presentation" class="staffpage__img">
 					<% end_if %>
 					<h2>$Position</h2>
-                 	<% if $SecondaryTitle %><p class="secondary-title">$SecondaryTitle</p><% end_if %>
+                 	<% if $SecondaryTitle %><em><p class="secondary-title">$SecondaryTitle</p></em><% end_if %>
 					<ul>
 						<% if $EmailAddress %><li><strong>Email:</strong> <a href="mailto:$EmailAddress">$EmailAddress</a></li><% end_if %>
 						<% if $Phone %><li><strong>Phone:</strong> $Phone</li><% end_if %>

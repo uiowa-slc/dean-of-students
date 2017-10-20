@@ -24,7 +24,7 @@ $BlockArea(BeforeContent)
 		<% if $MainImage %>
 			<img class="main-content__main-img" src="$MainImage.ScaleMaxWidth(500).URL" alt="" role="presentation"/>
 		<% end_if %>
-		<div class="main-content__text">
+		<div class="main-content__text policy">
 			<% if $PolicyYear %>
 	    		<% include PolicyArchiveNav %>
 	    	<% end_if %>
