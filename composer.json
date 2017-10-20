@@ -5,7 +5,7 @@
     "require": {
         "php": ">=5.3.2",
         "md/division-project": "2.0.x",
-        "md/division-elearning-project": "dev-master"
+        "md/division-elearning-project": "dp-2.0.x"
 
     },
     "config": {

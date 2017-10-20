@@ -18,8 +18,4 @@ class StaffPageExtension extends DataExtension {
 
 	}
 
-	public function FullTitle(){
-		return $this->owner->Position.",".$this->owner->SecondaryTitle;
-	}
-
 }
