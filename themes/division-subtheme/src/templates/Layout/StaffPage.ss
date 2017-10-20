@@ -20,8 +20,7 @@ $Header
 					<% if $Photo %>
 						<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="dp-lazy" data-original="$Photo.ScaleWidth(945).URL" width="945" height="$Photo.ScaleWidth(945).Height" alt="" role="presentation" class="staffpage__img">
 					<% end_if %>
-					<h2>$Position
-                 	<% if $SecondaryTitle %>, $SecondaryTitle<% end_if %></h2>
+					<h2>{$Position}<% if $SecondaryTitle %>, $SecondaryTitle<% end_if %></h2>
 					<ul>
 						<% if $EmailAddress %><li><strong>Email:</strong> <a href="mailto:$EmailAddress">$EmailAddress</a></li><% end_if %>
 						<% if $Phone %><li><strong>Phone:</strong> $Phone</li><% end_if %>
