@@ -5,7 +5,7 @@
     "require": {
         "php": ">=5.3.2",
         "md/division-project": "2.0.x",
-        "md/division-elearning-project": "dp-2.0.x"
+        "md/division-elearning-project": "dev-dp-2.0.x"
 
     },
     "config": {
@@ -17,6 +17,11 @@
         {
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/division-project"
+      
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-amp"
       
         },
         {
