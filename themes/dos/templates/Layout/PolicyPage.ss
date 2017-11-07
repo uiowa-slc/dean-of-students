@@ -62,6 +62,12 @@ $BlockArea(BeforeContent)
         <% if $SideBarView %>
             $SideBarView
         <% end_if %>
+        <% with $Parent %>
+            <% if $PolicyYear %>
+                 <% include PolicyArchiveNav %>
+            <% end_if %>
+            $Policies
+        <% end_with %>   
         $BlockArea(Sidebar)
     </aside>
 </div>

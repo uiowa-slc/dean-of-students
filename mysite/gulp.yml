@@ -56,7 +56,7 @@ PATHS:
     - "src/scripts/lib/foundation/foundation.tabs.js"
     # - "src/scripts/lib/foundation/foundation.toggler.js"
     # - "src/scripts/lib/foundation/foundation.tooltip.js"
-
+    - "../division-elearning-project/lib/mediaelement/mediaelement.min.js"
     # Division Project Scripts:
     - "src/scripts/lib/*.js"
     # - "src/scripts/!(app).js"

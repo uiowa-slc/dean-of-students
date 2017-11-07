@@ -897,25 +897,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project.git",
-                "reference": "1a2459f49625d11725d95d845c53531aaf1cb17f"
+                "reference": "5fbecfddd26618dbacc457e26ff29cc1cdcb9b0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/1a2459f49625d11725d95d845c53531aaf1cb17f",
-                "reference": "1a2459f49625d11725d95d845c53531aaf1cb17f",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/5fbecfddd26618dbacc457e26ff29cc1cdcb9b0d",
+                "reference": "5fbecfddd26618dbacc457e26ff29cc1cdcb9b0d",
                 "shasum": ""
             },
             "require": {
                 "md/division-project": "*",
                 "php": ">=5.3.2",
-                "rywa/silverstripe-foundation-forms": "1.0.x",
                 "silverstripe/cms": "3.*",
                 "silverstripe/framework": "3.*",
                 "silverstripe/mathspamprotection": "*",
                 "silverstripe/recaptcha": "*",
                 "silverstripe/spamprotection": "*",
-                "silverstripe/userforms": "*",
-                "unclecheese/bootstrap-forms": "1.1.9"
+                "silverstripe/userforms": "*"
             },
             "type": "silverstripe-module",
             "description": "Themable module for an elearning project",
@@ -923,7 +921,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/tree/dp-2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/issues"
             },
-            "time": "2017-11-01 18:12:43"
+            "time": "2017-11-07 22:07:48"
         },
         {
             "name": "md/division-project",
@@ -931,12 +929,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "b2ae2f607bf297cd7a9fb170f5356062cf7cac7b"
+                "reference": "afde2feb715ef20c64aecc9f84dd74976c8cba10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/b2ae2f607bf297cd7a9fb170f5356062cf7cac7b",
-                "reference": "b2ae2f607bf297cd7a9fb170f5356062cf7cac7b",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/afde2feb715ef20c64aecc9f84dd74976c8cba10",
+                "reference": "afde2feb715ef20c64aecc9f84dd74976c8cba10",
                 "shasum": ""
             },
             "require": {
@@ -987,7 +985,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2017-10-31 16:18:44"
+            "time": "2017-11-07 16:47:02"
         },
         {
             "name": "md/rss-display",
@@ -1216,19 +1214,20 @@
         },
         {
             "name": "onelogin/php-saml",
-            "version": "2.11.0",
+            "version": "v2.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/onelogin/php-saml.git",
-                "reference": "818d6ee07e3797fd7e4006bff01bd2abc295cb65"
+                "reference": "9416fa739cff88ffcc472967cec048a774b97e0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/onelogin/php-saml/zipball/818d6ee07e3797fd7e4006bff01bd2abc295cb65",
-                "reference": "818d6ee07e3797fd7e4006bff01bd2abc295cb65",
+                "url": "https://api.github.com/repos/onelogin/php-saml/zipball/9416fa739cff88ffcc472967cec048a774b97e0f",
+                "reference": "9416fa739cff88ffcc472967cec048a774b97e0f",
                 "shasum": ""
             },
             "require": {
+                "ext-curl": "*",
                 "ext-dom": "*",
                 "ext-mcrypt": "*",
                 "ext-openssl": "*",
@@ -1243,9 +1242,7 @@
                 "squizlabs/php_codesniffer": "2.9.0"
             },
             "suggest": {
-                "ext-gettext": "Install gettext and php5-gettext libs to handle translations",
-                "ext-mcrypt": "Install mcrypt and php5-mcrypt libs in order to support encryption",
-                "lib-openssl": "Install openssl lib in order to handle with x509 certs (require to support sign and encryption)"
+                "ext-gettext": "Install gettext and php5-gettext libs to handle translations"
             },
             "type": "library",
             "autoload": {
@@ -1260,13 +1257,13 @@
                 "MIT"
             ],
             "description": "OneLogin PHP SAML Toolkit",
-            "homepage": "https://onelogin.zendesk.com/hc/en-us/sections/200245634-SAML-Toolkits",
+            "homepage": "https://developers.onelogin.com/saml/php",
             "keywords": [
                 "SAML2",
                 "onelogin",
                 "saml"
             ],
-            "time": "2017-07-21T20:16:31+00:00"
+            "time": "2017-11-06T17:44:03+00:00"
         },
         {
             "name": "plato-creative/silverstripe-typekit",
@@ -1452,52 +1449,6 @@
                 "column"
             ],
             "time": "2015-03-20T22:07:39+00:00"
-        },
-        {
-            "name": "rywa/silverstripe-foundation-forms",
-            "version": "1.0.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ryanwachtl/silverstripe-foundation-forms.git",
-                "reference": "e2f80285ae3ec42026b339efd8e4b05fcb970c6d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ryanwachtl/silverstripe-foundation-forms/zipball/e2f80285ae3ec42026b339efd8e4b05fcb970c6d",
-                "reference": "e2f80285ae3ec42026b339efd8e4b05fcb970c6d",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "*",
-                "silverstripe/framework": "~3.1"
-            },
-            "type": "silverstripe-module",
-            "extra": {
-                "installer-name": "foundationforms",
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT Open Source License"
-            ],
-            "authors": [
-                {
-                    "name": "Ryan Wachtl",
-                    "email": "ryan@beyondusability.pro",
-                    "homepage": "http://beyondusability.pro",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Add Foundation framework forms compatibility to SilverStripe 3",
-            "keywords": [
-                "Forms",
-                "foundation",
-                "silverstripe",
-                "zurb foundation"
-            ],
-            "time": "2016-02-04 19:17:22"
         },
         {
             "name": "sabberworm/php-css-parser",
@@ -1930,12 +1881,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "f29b73f532a878ae370cfae1d0ac6fa264a821d8"
+                "reference": "ffc0ab7f3890e573e18147ed8b687e7214128fe2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/f29b73f532a878ae370cfae1d0ac6fa264a821d8",
-                "reference": "f29b73f532a878ae370cfae1d0ac6fa264a821d8",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/ffc0ab7f3890e573e18147ed8b687e7214128fe2",
+                "reference": "ffc0ab7f3890e573e18147ed8b687e7214128fe2",
                 "shasum": ""
             },
             "require": {
@@ -1975,7 +1926,7 @@
                 "news",
                 "silverstripe"
             ],
-            "time": "2017-09-28 03:46:58"
+            "time": "2017-11-03 02:35:11"
         },
         {
             "name": "silverstripe/cms",
@@ -2772,12 +2723,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/simplepie/simplepie.git",
-                "reference": "d5c7b4dffa8811fd21471108126100b6389184ca"
+                "reference": "3b389d866558a7d0891b4ec05a4394b9026e2334"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simplepie/simplepie/zipball/d5c7b4dffa8811fd21471108126100b6389184ca",
-                "reference": "d5c7b4dffa8811fd21471108126100b6389184ca",
+                "url": "https://api.github.com/repos/simplepie/simplepie/zipball/3b389d866558a7d0891b4ec05a4394b9026e2334",
+                "reference": "3b389d866558a7d0891b4ec05a4394b9026e2334",
                 "shasum": ""
             },
             "require": {
@@ -2824,7 +2775,7 @@
                 "feeds",
                 "rss"
             ],
-            "time": "2017-09-09 06:56:54"
+            "time": "2017-11-06 02:28:50"
         },
         {
             "name": "symbiote/silverstripe-addressable",
@@ -3017,47 +2968,6 @@
                 "silverstripe"
             ],
             "time": "2017-01-20 08:51:05"
-        },
-        {
-            "name": "unclecheese/bootstrap-forms",
-            "version": "1.1.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/unclecheese/silverstripe-bootstrap-forms.git",
-                "reference": "2c62387a06e8cd0a65925457dd1da6e03f5c9d3c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/unclecheese/silverstripe-bootstrap-forms/zipball/2c62387a06e8cd0a65925457dd1da6e03f5c9d3c",
-                "reference": "2c62387a06e8cd0a65925457dd1da6e03f5c9d3c",
-                "shasum": ""
-            },
-            "require": {
-                "silverstripe/cms": "3.*",
-                "silverstripe/framework": "3.*"
-            },
-            "replace": {
-                "silverstripe/bootstrap-forms": "*"
-            },
-            "type": "silverstripe-module",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Uncle Cheese",
-                    "email": "unclecheese@leftandmain.com"
-                }
-            ],
-            "description": "Allows you to create forms in SilverStripe that are compatible with Twitter Bootstrap.",
-            "keywords": [
-                "Forms",
-                "bootstrap",
-                "silverstripe",
-                "twitter"
-            ],
-            "time": "2015-10-20T22:47:05+00:00"
         },
         {
             "name": "unclecheese/display-logic",

@@ -17,7 +17,7 @@ $Header
 
     $BlockArea(BeforeContent)
 
-    <div class="row">
+    <div class="row column">
 
         <article role="main" class="main-content main-content--with-padding <% if $SiteConfig.ShowExitButton %>main-content--with-exit-button-padding<% end_if %> <% if $Children || $Menu(2) || $SidebarBlocks ||  $SidebarView.Widgets %>main-content--with-sidebar<% else %>main-content--full-width<% end_if %>">
             $BlockArea(BeforeContentConstrained)
@@ -33,7 +33,6 @@ $Header
                          <% include PolicyArchiveNav %>
                     <% end_if %>
                 <% end_with %>
-                    <h1>$Title</h1>
                 <% if $StoryBy %>
                     <p>
                         Story by <a href="mailto:$StoryByEmail">$StoryBy</a> <% if $StoryByTitle %> // $StoryByTitle <% end_if %> <% if $StoryByDept %> - $StoryByDept <% end_if %>
@@ -62,6 +61,14 @@ $Header
             <% if $SideBarView %>
                 $SideBarView
             <% end_if %>
+        <% with $Parent %>
+            <% if $PolicyYear %>
+                 <% include PolicyArchiveNav %>
+            <% end_if %>
+            <div class="policy">
+                $Policies
+            </div>
+        <% end_with %>
             $BlockArea(Sidebar)
         </aside>
     </div>
