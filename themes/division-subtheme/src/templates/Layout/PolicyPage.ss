@@ -57,10 +57,6 @@ $Header
             <% end_if %>
         </article>
         <aside class="sidebar">
-            <% include SideNav %>
-            <% if $SideBarView %>
-                $SideBarView
-            <% end_if %>
         <% with $Parent %>
             <div class="policy">
                 $Policies
