@@ -51,10 +51,6 @@ $BlockArea(BeforeContent)
 		<% end_if %>
 	</article>
 	<aside class="sidebar">
-		<% include SideNav %>
-		<% if $SideBarView %>
-			$SideBarView
-		<% end_if %>
 		$BlockArea(Sidebar)
 	</aside>
 </div>
