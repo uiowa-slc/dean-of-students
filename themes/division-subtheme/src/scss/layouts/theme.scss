@@ -17,20 +17,10 @@
 .policy ol > ol li {
 	list-style-type: upper-alpha;
 	font-size: 1rem;
-
-	a[target="_blank"]:after {
-		font-family: 'FontAwesome';
-		content: " \f08e";
-	}
 }
 
 .policy ol > ol > ol li {
 	list-style-type: lower-alpha;
-
-	a[target="_blank"]:after {
-		font-family: 'FontAwesome';
-		content: " \f08e";
-	}
 }
 
 ol.policies-alternate {
