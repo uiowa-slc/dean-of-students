@@ -90,6 +90,10 @@ class PolicyHolder_Controller extends Page_Controller {
 					$pages->push($siteTree);
 					//print_r($siteTree->Title.'is a page..<br />');
 				}else{
+
+					if(!strpos($parsedResult,'http')){
+						$parsedResult = Director::absoluteURL($parsedResult);
+					}
 					$tempPage = new Page();
 					$tempPage->Title = $resultValueTrimmed;
 					$tempPage->CanonicalLink = $parsedResult;
