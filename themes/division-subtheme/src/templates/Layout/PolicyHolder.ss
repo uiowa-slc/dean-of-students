@@ -28,7 +28,7 @@ $Header
 	            <% if $PolicyYear %>
 		    		<% include PolicyArchiveNav %>
 		    	<% end_if %>
-		    	 <p class="text-right"><a href="$Link("printable")" class="main-content__small-all-caps">Printable version</a></p>
+<%-- 		    	 <p class="text-right"><a href="$Link("printable")" class="main-content__small-all-caps">Printable version</a></p> --%>
                 $Content
 
                 $Policies
