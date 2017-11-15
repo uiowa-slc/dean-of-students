@@ -29,7 +29,9 @@ class PolicyPage extends Page {
 
 		return $f;
 	}
-
+	public function Breadcrumbs($maxDepth = 20, $unlinked = false, $stopAtPageType = false, $showHidden = true){
+		return parent::Breadcrumbs($maxDepth = 20, $unlinked = false, $stopAtPageType = false, $showHidden = true);
+	}	
 	public function PreventSearchEngineIndex() {
 		$parent = $this->Parent();
 

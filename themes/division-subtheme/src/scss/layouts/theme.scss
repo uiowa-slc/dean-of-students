@@ -4,6 +4,12 @@
 	margin-left: 15px;
 }
 
+.policy a[href^="http://"]:after{
+	@include fa-icon();
+	padding-left: 5px;
+	content: $fa-var-external-link;
+}
+
 .policy ol li {
 	list-style-type: upper-roman;
 	font-size: 1.75rem;
