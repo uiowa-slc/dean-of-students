@@ -1,3 +1,6 @@
 StaffPage:
   extensions:
     - StaffPageExtension
+PolicyHolder:
+  extensions:
+    - PolicyHolderExtension
