@@ -985,12 +985,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project.git",
-                "reference": "ee276eb77f59206f7252ebaa767b544c5837ad1b"
+                "reference": "0e69ad17c416c890d57d667d1b3a5084b85fdff3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/ee276eb77f59206f7252ebaa767b544c5837ad1b",
-                "reference": "ee276eb77f59206f7252ebaa767b544c5837ad1b",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/0e69ad17c416c890d57d667d1b3a5084b85fdff3",
+                "reference": "0e69ad17c416c890d57d667d1b3a5084b85fdff3",
                 "shasum": ""
             },
             "require": {
@@ -1009,7 +1009,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/tree/dp-2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/issues"
             },
-            "time": "2018-09-14T20:11:47+00:00"
+            "time": "2018-09-17T16:06:58+00:00"
         },
         {
             "name": "md/division-project",
@@ -1017,12 +1017,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "40155566ed0c6a5d4153005bcd644edc81fe5095"
+                "reference": "ecea4cc9004cb973492bd9e841fd8a83941dd8cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/40155566ed0c6a5d4153005bcd644edc81fe5095",
-                "reference": "40155566ed0c6a5d4153005bcd644edc81fe5095",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/ecea4cc9004cb973492bd9e841fd8a83941dd8cf",
+                "reference": "ecea4cc9004cb973492bd9e841fd8a83941dd8cf",
                 "shasum": ""
             },
             "require": {
@@ -1076,7 +1076,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2018-09-14T21:40:07+00:00"
+            "time": "2018-09-17T19:55:13+00:00"
         },
         {
             "name": "md/rss-display",
