@@ -318,12 +318,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "c7faf23816251ca3f35463c55f3178a9b60128fc"
+                "reference": "3ff39a4d6e7d7d70cbc8ec8182b41e2ebcd49871"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/c7faf23816251ca3f35463c55f3178a9b60128fc",
-                "reference": "c7faf23816251ca3f35463c55f3178a9b60128fc",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/3ff39a4d6e7d7d70cbc8ec8182b41e2ebcd49871",
+                "reference": "3ff39a4d6e7d7d70cbc8ec8182b41e2ebcd49871",
                 "shasum": ""
             },
             "require": {
@@ -375,7 +375,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2018-09-12T15:59:05+00:00"
+            "time": "2018-10-04T08:20:27+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -1017,12 +1017,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "ecea4cc9004cb973492bd9e841fd8a83941dd8cf"
+                "reference": "0beb84b0aa6ca16ae2190e22a1b6704c0ad19056"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/ecea4cc9004cb973492bd9e841fd8a83941dd8cf",
-                "reference": "ecea4cc9004cb973492bd9e841fd8a83941dd8cf",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/0beb84b0aa6ca16ae2190e22a1b6704c0ad19056",
+                "reference": "0beb84b0aa6ca16ae2190e22a1b6704c0ad19056",
                 "shasum": ""
             },
             "require": {
@@ -1076,7 +1076,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2018-09-17T19:55:13+00:00"
+            "time": "2018-10-04T15:20:45+00:00"
         },
         {
             "name": "md/rss-display",
@@ -1492,17 +1492,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PlatoCreative/silverstripe-typekit.git",
-                "reference": "ea65907304a807cf24e08748955c661044dbc4b1"
+                "reference": "4869cebfe01715bc414ea17b3a2f0302e14ecf9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PlatoCreative/silverstripe-typekit/zipball/ea65907304a807cf24e08748955c661044dbc4b1",
-                "reference": "ea65907304a807cf24e08748955c661044dbc4b1",
+                "url": "https://api.github.com/repos/PlatoCreative/silverstripe-typekit/zipball/4869cebfe01715bc414ea17b3a2f0302e14ecf9f",
+                "reference": "4869cebfe01715bc414ea17b3a2f0302e14ecf9f",
                 "shasum": ""
             },
             "require": {
-                "silverstripe/cms": "^3.5",
-                "silverstripe/framework": "^3.5"
+                "silverstripe/cms": "3.*",
+                "silverstripe/framework": "3.*"
             },
             "type": "silverstripe-module",
             "autoload": {
@@ -1531,7 +1531,7 @@
                 "typekit",
                 "typography"
             ],
-            "time": "2017-12-15T00:16:26+00:00"
+            "time": "2018-09-21T03:25:41+00:00"
         },
         {
             "name": "psr/http-message",
