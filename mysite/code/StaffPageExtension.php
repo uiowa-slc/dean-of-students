@@ -1,9 +1,13 @@
 <?php
 
+use SilverStripe\Forms\FieldList;
+use SilverStripe\Forms\TextField;
+use SilverStripe\ORM\DataExtension;
+
 class StaffPageExtension extends DataExtension {
 
 	private static $db = array(
-		'SecondaryTitle'       => 'Text',
+		'SecondaryTitle' => 'Text',
 	);
 
 	public function getCMSFields() {
