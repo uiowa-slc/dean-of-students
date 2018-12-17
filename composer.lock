@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6e9a722cc1f3b56961d2493e22682d92",
+    "content-hash": "9dad5a86a3708ee1c610ee06e94b1d34",
     "packages": [
         {
             "name": "bummzack/sortablefile",
@@ -1173,17 +1173,50 @@
             "time": "2018-08-17 20:20:52"
         },
         {
+            "name": "md/division-elearning-project",
+            "version": "dev-ss4.x",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project.git",
+                "reference": "cfa57cab69fd1794ddc05bc635343737bcd93ef3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/cfa57cab69fd1794ddc05bc635343737bcd93ef3",
+                "reference": "cfa57cab69fd1794ddc05bc635343737bcd93ef3",
+                "shasum": ""
+            },
+            "require": {
+                "md/division-project": "*",
+                "php": ">=5.5",
+                "silverstripe/framework": "4.2.1",
+                "silverstripe/mathspamprotection": "*",
+                "silverstripe/recaptcha": "*",
+                "silverstripe/recipe-cms": "*",
+                "silverstripe/recipe-plugin": "*",
+                "silverstripe/spamprotection": "3.*",
+                "silverstripe/userforms": "*"
+            },
+            "type": "silverstripe-vendormodule",
+            "description": "Themable module for an elearning project",
+            "support": {
+                "source": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/tree/ss4.x",
+                "issues": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/issues"
+            },
+            "time": "2018-12-05 19:59:52"
+        },
+        {
             "name": "md/division-project",
             "version": "dev-ss4.x",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "3e3e1373ed07acb79050327f307fb237138ce494"
+                "reference": "a0e7873f7e5fdf7edd51427ad695a49fc4732be2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/3e3e1373ed07acb79050327f307fb237138ce494",
-                "reference": "3e3e1373ed07acb79050327f307fb237138ce494",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/a0e7873f7e5fdf7edd51427ad695a49fc4732be2",
+                "reference": "a0e7873f7e5fdf7edd51427ad695a49fc4732be2",
                 "shasum": ""
             },
             "require": {
@@ -1230,7 +1263,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/ss4.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2018-12-04 15:33:35"
+            "time": "2018-12-05 18:47:17"
         },
         {
             "name": "md/saml",
@@ -2640,6 +2673,53 @@
                 "spamprotection"
             ],
             "time": "2018-06-28 21:15:27"
+        },
+        {
+            "name": "silverstripe/recaptcha",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chillu/silverstripe-recaptcha.git",
+                "reference": "6c839daaec6977cf3eb36c09663a68d88514ea15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chillu/silverstripe-recaptcha/zipball/6c839daaec6977cf3eb36c09663a68d88514ea15",
+                "reference": "6c839daaec6977cf3eb36c09663a68d88514ea15",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "^4.0",
+                "silverstripe/spamprotection": "~3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SilverLeague\\Recaptcha\\": "code/",
+                    "SilverLeague\\Recaptcha\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Ingo Schommer",
+                    "email": "ingo@silverstripe.com"
+                }
+            ],
+            "description": "Provides a form field which allows form to validate for non-bot submissions by giving them a challenge to decrypt an image.",
+            "keywords": [
+                "silverstripe",
+                "spamprotection"
+            ],
+            "time": "2018-01-12 02:33:37"
         },
         {
             "name": "silverstripe/recipe-cms",
@@ -5693,7 +5773,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "md/division-project": 20,
-        "silverstripe/mathspamprotection": 20
+        "md/division-elearning-project": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

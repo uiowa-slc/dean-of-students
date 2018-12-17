@@ -5,7 +5,7 @@
     "require": {
         "php": ">=5.6.0",
         "md/division-project": "dev-ss4.x",
-        "silverstripe/mathspamprotection": "dev-master"
+        "md/division-elearning-project": "dev-ss4.x"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
@@ -75,6 +75,11 @@
         {
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-blog"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project"
+
         },
         {
             "type": "vcs",
