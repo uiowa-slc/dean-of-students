@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6e9a722cc1f3b56961d2493e22682d92",
+    "content-hash": "885dea43e9f4a3533dffb7ed583f072f",
     "packages": [
         {
             "name": "bummzack/sortablefile",
@@ -119,7 +119,7 @@
                 "gridfield bulk upload",
                 "silverstripe"
             ],
-            "time": "2018-10-01 03:57:59"
+            "time": "2018-10-01T03:57:59+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -1143,7 +1143,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/tree/ss4.x-ui",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/issues"
             },
-            "time": "2018-10-22 17:49:15"
+            "time": "2018-10-22T17:49:15+00:00"
         },
         {
             "name": "md/division-analytics",
@@ -1170,7 +1170,40 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-analytics/tree/1.2.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-analytics/issues"
             },
-            "time": "2018-08-17 20:20:52"
+            "time": "2018-08-17T20:20:52+00:00"
+        },
+        {
+            "name": "md/division-elearning-project",
+            "version": "dev-ss4.x",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project.git",
+                "reference": "20dcbda6aae1495c2d12e3ae8b0e4bea49bd43a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/20dcbda6aae1495c2d12e3ae8b0e4bea49bd43a9",
+                "reference": "20dcbda6aae1495c2d12e3ae8b0e4bea49bd43a9",
+                "shasum": ""
+            },
+            "require": {
+                "md/division-project": "*",
+                "php": ">=5.5",
+                "silverstripe/framework": "4.2.1",
+                "silverstripe/mathspamprotection": "*",
+                "silverstripe/recaptcha": "*",
+                "silverstripe/recipe-cms": "*",
+                "silverstripe/recipe-plugin": "*",
+                "silverstripe/spamprotection": "3.*",
+                "silverstripe/userforms": "*"
+            },
+            "type": "silverstripe-vendormodule",
+            "description": "Themable module for an elearning project",
+            "support": {
+                "source": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/tree/ss4.x",
+                "issues": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/issues"
+            },
+            "time": "2018-12-17T16:15:34+00:00"
         },
         {
             "name": "md/division-project",
@@ -1178,12 +1211,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "3e3e1373ed07acb79050327f307fb237138ce494"
+                "reference": "bc23afd171add315ae092b8decdd0995fef92306"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/3e3e1373ed07acb79050327f307fb237138ce494",
-                "reference": "3e3e1373ed07acb79050327f307fb237138ce494",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/bc23afd171add315ae092b8decdd0995fef92306",
+                "reference": "bc23afd171add315ae092b8decdd0995fef92306",
                 "shasum": ""
             },
             "require": {
@@ -1230,7 +1263,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/ss4.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2018-12-04 15:33:35"
+            "time": "2018-12-20T17:19:59+00:00"
         },
         {
             "name": "md/saml",
@@ -1298,7 +1331,7 @@
             "support": {
                 "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-saml/tree/md"
             },
-            "time": "2018-08-22 20:27:51"
+            "time": "2018-08-22T20:27:51+00:00"
         },
         {
             "name": "md/silverstripe-maintenance-mode",
@@ -1362,7 +1395,7 @@
                 "issues": "http://github.com/dljoseph/silverstripe-maintenance-mode/issues",
                 "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-maintenance-mode/tree/master"
             },
-            "time": "2018-09-19 20:02:58"
+            "time": "2018-09-19T20:02:58+00:00"
         },
         {
             "name": "md/uiowa-bar",
@@ -1389,7 +1422,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar/tree/1.2.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar/issues"
             },
-            "time": "2018-07-05 17:48:54"
+            "time": "2018-07-05T17:48:54+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2064,16 +2097,16 @@
         },
         {
             "name": "silverstripe/blog",
-            "version": "3.2.1",
+            "version": "3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "991000dddf04b83a5a3885fcc310f01b8bc8fd88"
+                "reference": "9c10a86de8fe602bd19faa209d35a7924aef95b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/991000dddf04b83a5a3885fcc310f01b8bc8fd88",
-                "reference": "991000dddf04b83a5a3885fcc310f01b8bc8fd88",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/9c10a86de8fe602bd19faa209d35a7924aef95b2",
+                "reference": "9c10a86de8fe602bd19faa209d35a7924aef95b2",
                 "shasum": ""
             },
             "require": {
@@ -2123,7 +2156,7 @@
                 "news",
                 "silverstripe"
             ],
-            "time": "2018-07-09T21:35:13+00:00"
+            "time": "2018-12-12T14:52:37+00:00"
         },
         {
             "name": "silverstripe/campaign-admin",
@@ -2457,20 +2490,23 @@
         },
         {
             "name": "silverstripe/googlesitemaps",
-            "version": "2.1.2",
+            "version": "2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wilr/silverstripe-googlesitemaps.git",
-                "reference": "64ead69f4ea814c27d53756cbf8785b0bace22b1"
+                "reference": "4d131b06accbbd025089f1dd851c9c0564119d6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wilr/silverstripe-googlesitemaps/zipball/64ead69f4ea814c27d53756cbf8785b0bace22b1",
-                "reference": "64ead69f4ea814c27d53756cbf8785b0bace22b1",
+                "url": "https://api.github.com/repos/wilr/silverstripe-googlesitemaps/zipball/4d131b06accbbd025089f1dd851c9c0564119d6e",
+                "reference": "4d131b06accbbd025089f1dd851c9c0564119d6e",
                 "shasum": ""
             },
             "require": {
                 "silverstripe/framework": "^4"
+            },
+            "replace": {
+                "silverstripe/googlesitemaps": "*"
             },
             "require-dev": {
                 "phpunit/phpunit": "^5.7",
@@ -2509,7 +2545,7 @@
                 "seo",
                 "silverstripe"
             ],
-            "time": "2018-03-21T18:52:04+00:00"
+            "time": "2018-09-25T01:25:46+00:00"
         },
         {
             "name": "silverstripe/graphql",
@@ -2639,7 +2675,54 @@
                 "silverstripe",
                 "spamprotection"
             ],
-            "time": "2018-06-28 21:15:27"
+            "time": "2018-06-28T21:15:27+00:00"
+        },
+        {
+            "name": "silverstripe/recaptcha",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chillu/silverstripe-recaptcha.git",
+                "reference": "6c839daaec6977cf3eb36c09663a68d88514ea15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chillu/silverstripe-recaptcha/zipball/6c839daaec6977cf3eb36c09663a68d88514ea15",
+                "reference": "6c839daaec6977cf3eb36c09663a68d88514ea15",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "^4.0",
+                "silverstripe/spamprotection": "~3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SilverLeague\\Recaptcha\\": "code/",
+                    "SilverLeague\\Recaptcha\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Ingo Schommer",
+                    "email": "ingo@silverstripe.com"
+                }
+            ],
+            "description": "Provides a form field which allows form to validate for non-bot submissions by giving them a challenge to decrypt an image.",
+            "keywords": [
+                "silverstripe",
+                "spamprotection"
+            ],
+            "time": "2018-01-12T02:33:37+00:00"
         },
         {
             "name": "silverstripe/recipe-cms",
@@ -3453,16 +3536,16 @@
         },
         {
             "name": "symfony/cache",
-            "version": "v3.4.19",
+            "version": "v3.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "96d1fec87e98b9ee526b48ac011174b5ea8c61b1"
+                "reference": "d31c2a1b80029d885307db47405daeffafcda759"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/96d1fec87e98b9ee526b48ac011174b5ea8c61b1",
-                "reference": "96d1fec87e98b9ee526b48ac011174b5ea8c61b1",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/d31c2a1b80029d885307db47405daeffafcda759",
+                "reference": "d31c2a1b80029d885307db47405daeffafcda759",
                 "shasum": ""
             },
             "require": {
@@ -3519,11 +3602,11 @@
                 "caching",
                 "psr6"
             ],
-            "time": "2018-11-20T16:10:26+00:00"
+            "time": "2018-12-06T10:54:02+00:00"
         },
         {
             "name": "symfony/config",
-            "version": "v3.4.19",
+            "version": "v3.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
@@ -3587,7 +3670,7 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v3.4.19",
+            "version": "v3.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -3637,7 +3720,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.4.19",
+            "version": "v3.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -3859,7 +3942,7 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v2.8.48",
+            "version": "v2.8.49",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
@@ -3923,7 +4006,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.4.19",
+            "version": "v3.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
@@ -4038,7 +4121,7 @@
                 "logic",
                 "silverstripe"
             ],
-            "time": "2018-11-14 23:16:44"
+            "time": "2018-11-14T23:16:44+00:00"
         },
         {
             "name": "undefinedoffset/silverstripe-nocaptcha",
@@ -4096,16 +4179,16 @@
         },
         {
             "name": "undefinedoffset/sortablegridfield",
-            "version": "2.0.6",
+            "version": "2.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/UndefinedOffset/SortableGridField.git",
-                "reference": "504387d71179601f03bf682b76b69311b80d1ec9"
+                "reference": "aef0a8acc16f93c4c3ae9741b001d0f9f8d251cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/504387d71179601f03bf682b76b69311b80d1ec9",
-                "reference": "504387d71179601f03bf682b76b69311b80d1ec9",
+                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/aef0a8acc16f93c4c3ae9741b001d0f9f8d251cf",
+                "reference": "aef0a8acc16f93c4c3ae9741b001d0f9f8d251cf",
                 "shasum": ""
             },
             "require": {
@@ -4146,7 +4229,7 @@
                 "gridfield",
                 "silverstripe"
             ],
-            "time": "2018-07-04T17:06:01+00:00"
+            "time": "2018-12-13T18:38:11+00:00"
         },
         {
             "name": "webonyx/graphql-php",
@@ -5693,7 +5776,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "md/division-project": 20,
-        "silverstripe/mathspamprotection": 20
+        "silverstripe/mathspamprotection": 20,
+        "md/division-elearning-project": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
