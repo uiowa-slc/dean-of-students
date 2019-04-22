@@ -1178,12 +1178,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project.git",
-                "reference": "e15aafa286275131bfa5af43cfd240b16b724376"
+                "reference": "a702012c48434ff15ffaf93a36f26105366b0ac9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/e15aafa286275131bfa5af43cfd240b16b724376",
-                "reference": "e15aafa286275131bfa5af43cfd240b16b724376",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/a702012c48434ff15ffaf93a36f26105366b0ac9",
+                "reference": "a702012c48434ff15ffaf93a36f26105366b0ac9",
                 "shasum": ""
             },
             "require": {
@@ -1198,12 +1198,17 @@
                 "silverstripe/userforms": "*"
             },
             "type": "silverstripe-vendormodule",
+            "extra": {
+                "expose": [
+                    "js/"
+                ]
+            },
             "description": "Themable module for an elearning project",
             "support": {
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/tree/ss4.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/issues"
             },
-            "time": "2019-04-22T15:28:07+00:00"
+            "time": "2019-04-22T15:45:17+00:00"
         },
         {
             "name": "md/division-project",
