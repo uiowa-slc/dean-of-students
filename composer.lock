@@ -1178,12 +1178,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project.git",
-                "reference": "12d06804820e7ab53e25149b0f64b5b28d177c88"
+                "reference": "b7fcf2d21d4cac62e9d25e94704a77beea7e3614"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/12d06804820e7ab53e25149b0f64b5b28d177c88",
-                "reference": "12d06804820e7ab53e25149b0f64b5b28d177c88",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-elearning-project/zipball/b7fcf2d21d4cac62e9d25e94704a77beea7e3614",
+                "reference": "b7fcf2d21d4cac62e9d25e94704a77beea7e3614",
                 "shasum": ""
             },
             "require": {
@@ -1208,7 +1208,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/tree/ss4.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-elearning-project/issues"
             },
-            "time": "2019-04-24T20:27:54+00:00"
+            "time": "2019-04-25T18:44:34+00:00"
         },
         {
             "name": "md/division-project",
