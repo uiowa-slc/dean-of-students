@@ -1118,12 +1118,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events.git",
-                "reference": "6a8fc6b6c736edd6cbaef8976b6fbe275af69174"
+                "reference": "91a5760fee1a4114c8d9cf488e10eea99c388b8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/6a8fc6b6c736edd6cbaef8976b6fbe275af69174",
-                "reference": "6a8fc6b6c736edd6cbaef8976b6fbe275af69174",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/91a5760fee1a4114c8d9cf488e10eea99c388b8f",
+                "reference": "91a5760fee1a4114c8d9cf488e10eea99c388b8f",
                 "shasum": ""
             },
             "require": {
@@ -1132,18 +1132,12 @@
                 "silverstripe/framework": "4.*"
             },
             "type": "silverstripe-vendormodule",
-            "extra": {
-                "expose": [
-                    "js",
-                    "css"
-                ]
-            },
             "description": "After Class JSON Display Module",
             "support": {
                 "source": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/tree/ss4.x-ui",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/issues"
             },
-            "time": "2019-04-17T19:26:42+00:00"
+            "time": "2019-05-13T21:02:36+00:00"
         },
         {
             "name": "md/division-analytics",
@@ -1216,12 +1210,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "3185353cf50bfe69f3ebddad460588737f681b8e"
+                "reference": "8358ac7ee8ae1f99bde56ef67e3fbaff029e1db8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/3185353cf50bfe69f3ebddad460588737f681b8e",
-                "reference": "3185353cf50bfe69f3ebddad460588737f681b8e",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/8358ac7ee8ae1f99bde56ef67e3fbaff029e1db8",
+                "reference": "8358ac7ee8ae1f99bde56ef67e3fbaff029e1db8",
                 "shasum": ""
             },
             "require": {
@@ -1270,7 +1264,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/ss4.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2019-05-09T18:28:36+00:00"
+            "time": "2019-05-15T17:56:19+00:00"
         },
         {
             "name": "md/saml",
@@ -4349,21 +4343,21 @@
         },
         {
             "name": "zendframework/zend-authentication",
-            "version": "2.6.0",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-authentication.git",
-                "reference": "ebc9464c11a5203e5256439f1079a7d6efe89eec"
+                "reference": "1f379f6384fca34b3bfe94d953abd65e9e7ee746"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-authentication/zipball/ebc9464c11a5203e5256439f1079a7d6efe89eec",
-                "reference": "ebc9464c11a5203e5256439f1079a7d6efe89eec",
+                "url": "https://api.github.com/repos/zendframework/zend-authentication/zipball/1f379f6384fca34b3bfe94d953abd65e9e7ee746",
+                "reference": "1f379f6384fca34b3bfe94d953abd65e9e7ee746",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.6 || ^7.0",
-                "zendframework/zend-stdlib": "^2.7.7 || ^3.1"
+                "zendframework/zend-stdlib": "^3.2.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2",
@@ -4388,8 +4382,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6.x-dev",
-                    "dev-develop": "2.7.x-dev"
+                    "dev-master": "2.7.x-dev",
+                    "dev-develop": "2.8.x-dev"
                 }
             },
             "autoload": {
@@ -4407,7 +4401,7 @@
                 "ZendFramework",
                 "zf"
             ],
-            "time": "2018-04-12T21:09:22+00:00"
+            "time": "2019-05-14T18:06:07+00:00"
         },
         {
             "name": "zendframework/zend-eventmanager",
