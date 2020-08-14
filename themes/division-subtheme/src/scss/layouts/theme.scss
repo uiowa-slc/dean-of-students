@@ -83,3 +83,23 @@ ol.policies-alternate ol ol ol ol ol {
 	background: #eee;
 	padding: 5px;
 }
+
+/* Accordion List Styles */
+.accordion-content ul {
+    margin-left: 1.75rem;
+    & ul {
+        list-style: circle;
+        & ul {
+            list-style: square;
+        }
+    }
+}
+.accordion-content ol {
+    margin-left: 1.75rem;
+    & ol {
+        list-style: lower-alpha;
+        & ol {
+            list-style: lower-roman;
+        }
+    }
+}
