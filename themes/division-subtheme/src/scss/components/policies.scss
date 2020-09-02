@@ -1,54 +1,54 @@
 /* site.css */
 
 .policy form {
-	margin-left: 15px;
+    margin-left: 15px;
 }
 
-.policy a[href^="http://"]:after{
-	@include fa-icon();
-	padding-left: 5px;
-	content: $fa-var-external-link;
+.policy a[href^="http://"]:after {
+    @include fa-icon();
+    padding-left: 5px;
+    content: $fa-var-external-link;
 }
 
 .policy ol li {
-	list-style-type: upper-roman;
+    list-style-type: upper-roman;
 }
 
-.policy ol > ol li {
-	list-style-type: upper-alpha;
+.policy ol>ol li {
+    list-style-type: upper-alpha;
 }
 
-.policy ol > ol > ol li {
-	list-style-type: lower-alpha;
+.policy ol>ol>ol li {
+    list-style-type: lower-alpha;
 }
 
 ol.policies-alternate {
-	list-style-type: upper-alpha;
+    list-style-type: upper-alpha;
 }
 
 ol.policies-alternate ol {
-	list-style-type: decimal;
+    list-style-type: decimal;
 }
 
 ol.policies-alternate ol ol {
-	list-style-type: lower-alpha;
+    list-style-type: lower-alpha;
 }
 
 ol.policies-alternate ol ol ol {
-	list-style-type: lower-roman;
+    list-style-type: lower-roman;
 }
 
 ol.policies-alternate ol ol ol ol {
-	list-style-type: lower-alpha;
+    list-style-type: lower-alpha;
 }
 
 ol.policies-alternate ol ol ol ol ol {
-	list-style-type: decimal;
+    list-style-type: decimal;
 }
 
-.policy-archive-notice{
-	font-style: italic;
-	font-size: 13px;
-	background: #eee;
-	padding: 5px;
+.policy-archive-notice {
+    font-style: italic;
+    font-size: 13px;
+    background: #eee;
+    padding: 5px;
 }
