@@ -1,21 +1,28 @@
 /* site.css */
 
+
+
 .policy form {
     margin-left: 15px;
 }
 
-.policy a[href^="http://"]:after {
-    @include fa-icon();
-    padding-left: 5px;
-    content: $fa-var-external-link;
+.policy a[href^="http://"]:after,
+.policy a[href^="https://"]:after {
+    @include dos-icon;
+    content: "\f35d";
+
+
 }
+
 
 .policy ol li {
     list-style-type: upper-roman;
+
 }
 
 .policy ol>ol li {
     list-style-type: upper-alpha;
+
 }
 
 .policy ol>ol>ol li {
@@ -51,4 +58,29 @@ ol.policies-alternate ol ol ol ol ol {
     font-size: 13px;
     background: #eee;
     padding: 5px;
+}
+
+/* Accordion List Styles */
+.accordion-content ul {
+    margin-left: 1.75rem;
+
+    & ul {
+        list-style: circle;
+
+        & ul {
+            list-style: square;
+        }
+    }
+}
+
+.accordion-content ol {
+    margin-left: 1.75rem;
+
+    & ol {
+        list-style: lower-alpha;
+
+        & ol {
+            list-style: lower-roman;
+        }
+    }
 }
