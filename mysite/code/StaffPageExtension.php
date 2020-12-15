@@ -1,7 +1,6 @@
 <?php
 
 use SilverStripe\Forms\FieldList;
-use SilverStripe\Forms\TextField;
 use SilverStripe\ORM\DataExtension;
 
 class StaffPageExtension extends DataExtension {
@@ -17,8 +16,8 @@ class StaffPageExtension extends DataExtension {
 	}
 
 	public function updateCMSFields(FieldList $fields) {
-		$fields->renameField('Position','Title');
-		$fields->addFieldToTab('Root.Main', new TextField('SecondaryTitle'), 'EmailAddress');
+		$fields->renameField('Position', 'Title');
+		//$fields->addFieldToTab('Root.Main', new TextField('SecondaryTitle'), 'EmailAddress');
 
 	}
 
