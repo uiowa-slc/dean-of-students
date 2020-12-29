@@ -9,7 +9,6 @@
 
 
 .nav__item {
-    position: relative;
 
     /*link layout if there are 8 or more items (don't push it) */
     &:nth-last-child(n+9) .nav__link,
