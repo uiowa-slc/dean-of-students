@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0dc62cf3e62090ce434d7dcdcef5f40",
+    "content-hash": "b82a07b195dd69eafaf67e75920d830d",
     "packages": [
         {
             "name": "bramus/ansi-php",
@@ -1538,16 +1538,16 @@
         },
         {
             "name": "md/division-project",
-            "version": "dev-ss4.8e4",
+            "version": "3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "ac213f95d01e39e2c9297b59622ab500a2689d88"
+                "reference": "7b28205cc27e70bee28944655fdabaa82a645004"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/ac213f95d01e39e2c9297b59622ab500a2689d88",
-                "reference": "ac213f95d01e39e2c9297b59622ab500a2689d88",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/7b28205cc27e70bee28944655fdabaa82a645004",
+                "reference": "7b28205cc27e70bee28944655fdabaa82a645004",
                 "shasum": ""
             },
             "require": {
@@ -1594,10 +1594,10 @@
             },
             "description": "The University of Iowa Division of Student Life Project Code and Theme",
             "support": {
-                "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/ss4.8e4",
+                "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/3",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2021-08-20T15:01:24+00:00"
+            "time": "2021-08-20T16:56:05+00:00"
         },
         {
             "name": "md/saml",
@@ -7767,7 +7767,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "md/division-project": 20,
         "md/division-elearning-project": 20
     },
     "prefer-stable": true,
@@ -7776,5 +7775,5 @@
         "php": ">=5.6.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
