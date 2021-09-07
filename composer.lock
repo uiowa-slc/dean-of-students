@@ -1542,12 +1542,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "47be8784e826ab952b0c0ca252b61a87caed139c"
+                "reference": "4acd1e0997a692a92db6d378cc55eb7884a30cd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/47be8784e826ab952b0c0ca252b61a87caed139c",
-                "reference": "47be8784e826ab952b0c0ca252b61a87caed139c",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/4acd1e0997a692a92db6d378cc55eb7884a30cd3",
+                "reference": "4acd1e0997a692a92db6d378cc55eb7884a30cd3",
                 "shasum": ""
             },
             "require": {
@@ -1597,7 +1597,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/3",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2021-09-01T17:35:34+00:00"
+            "time": "2021-09-03T17:08:59+00:00"
         },
         {
             "name": "md/saml",
@@ -1738,12 +1738,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-migration-tools.git",
-                "reference": "e4b20eb33af2ca45ee0c1d81fe90a078b78e987f"
+                "reference": "3033d5ee6d273462f4d2cac5ca9faa1022f96b98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/silverstripe-migration-tools/zipball/e4b20eb33af2ca45ee0c1d81fe90a078b78e987f",
-                "reference": "e4b20eb33af2ca45ee0c1d81fe90a078b78e987f",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/silverstripe-migration-tools/zipball/3033d5ee6d273462f4d2cac5ca9faa1022f96b98",
+                "reference": "3033d5ee6d273462f4d2cac5ca9faa1022f96b98",
                 "shasum": ""
             },
             "require": {
@@ -1759,7 +1759,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-migration-tools/tree/main",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-migration-tools/issues"
             },
-            "time": "2021-08-04T15:57:18+00:00"
+            "time": "2021-09-02T14:01:25+00:00"
         },
         {
             "name": "md/uiowa-bar",
@@ -7736,6 +7736,7 @@
                 "issues": "https://github.com/sebastianbergmann/resource-operations/issues",
                 "source": "https://github.com/sebastianbergmann/resource-operations/tree/master"
             },
+            "abandoned": true,
             "time": "2015-07-28T20:34:47+00:00"
         },
         {
